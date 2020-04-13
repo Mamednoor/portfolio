@@ -9,11 +9,9 @@ import 'react-mdl/extra/material.js';
 import './index.css';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <BrowserRouter>
+  <BrowserRouter>
     <App />
-    </BrowserRouter>
-  </React.StrictMode>,
+  </BrowserRouter>,
   document.getElementById('root')
 );
 

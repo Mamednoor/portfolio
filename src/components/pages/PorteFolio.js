@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Dashboard extends Component {
+class PorteFolio extends Component {
     render() {
         return (
             <h1>hello some things about me</h1>
@@ -8,4 +8,4 @@ class Dashboard extends Component {
     }
 }
 
-export default Dashboard;
+export default PorteFolio;
