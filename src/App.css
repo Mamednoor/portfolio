@@ -3,49 +3,5 @@
 }
 
 body {
-  background: #667db6;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-}
-
-header {
-  background: #16222A;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  color: black;
-  padding: 0px;
-}
-
-.navlink {
-  padding: 30px;
-  margin: 0px;;
-}
-
-header  ul {
-  display: flex;
-  justify-content: center;
-  flex-wrap: nowrap;
-  padding: 30px;
-}
-
-header ul li {
-  justify-content: space-around;
-  text-decoration: none;
-  margin: auto 50px;
-  padding: auto 10px;
-  list-style: none;
-}
-
-.link {
-  color:white;
-  text-decoration: none;
-  font-size: 20px;
-}
-
-.linkaside {
-  color:black;
-  text-decoration: none;
-  font-size: 20px;
+  background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); 
 }
