@@ -12,16 +12,24 @@ Toggle = () => {
 }
 render() {
     return (
-    <header>
+    <header className="header-navlink">
         <div className="navBar">
-            <button onClick={this.Toggle}>
+            <button className="navlink-btn" onClick={this.Toggle}>
                 <FaAlignRight />
             </button>
             <ul className={this.state.toggle ? "links show-nav" : "links"}>
-                <Link to="/"><li className="link" href="/">Home</li></Link>
-                <Link to="/about"><li className="link" href="/about">Présentation</li></Link>
-                <Link to="/dashboard"><li className="link" href="/dashboard">Porte Folio</li></Link>
-                <Link to="/contact"><li className="link" href="/contact">Contact</li></Link>
+                <li className="link-li">
+                    <Link className="header-a" to="/">Home</Link>
+                </li>
+                <li className="link-li">
+                    <Link className="header-a" to="/about">Présentation</Link>
+                </li>
+                <li className="link-li">
+                    <Link className="header-a" to="/dashboard">Porte Folio</Link>
+                </li>
+                <li className="link-li">
+                    <Link className="header-a" to="/contact">Contact</Link>
+                </li>
             </ul>
         </div>
     </header>
