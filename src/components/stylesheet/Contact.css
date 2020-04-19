@@ -3,14 +3,14 @@ body {
     padding: 0px;
 }
 
-form {
+.contact-form {
     width: 70%;
     margin: auto;
 }
 
-input[type=text],
-textarea,
-input[type=email] {
+.contact-input[type=text],
+.contact-textarea,
+.contact-input[type=email] {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -23,14 +23,14 @@ input[type=email] {
     resize: vertical;
 }
 
-label {
+.contact-label {
     margin-right: 0px;
     margin-left: 0px;
     width: 100%;
 }
 
-input[type=submit] {
-    background-color: rgb(224, 55, 83);
+.contact-input[type=submit] {
+    background-color: rgb(23, 112, 230);
     color: white;
     padding: 12px 20px;
     border: none;
@@ -38,7 +38,7 @@ input[type=submit] {
     cursor: pointer;
 }
 
-input[type=submit]:hover {
+.contact-input[type=submit]:hover {
     background-color: rgba(86, 55, 224, 0.945);
 }
 
@@ -52,7 +52,7 @@ input[type=submit]:hover {
     margin: 0 auto;
 }
 
-h1 {
+.contact-hun {
     text-align: center;
     color: rgba(172, 172, 172, 0.548);
     width: 100%;

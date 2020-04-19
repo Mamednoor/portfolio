@@ -21,27 +21,30 @@ handleSubmit = event => {
 render() {
     const { changeSubmit, myChangeHandler } = this;
         return (
-            <div>
-                <h1>Formulaire de contact</h1>
-                <form>
-                    <label htmlfor="fname">Firstname</label>
+            <div className ="contact-div">
+                <h1 className="contact-hun">Formulaire de contact</h1>
+                <form className="contact-form">
+                    <label  htmlfor="fname" className="contact-label">Votre Nom et Prénom :</label>
                     <input
+                        className="contact-input"
                         type="text"
                         name="firstname"
-                        placeholder="First Name!"
+                        placeholder="Nom & Prénom"
                         value={changeSubmit}
                         onChange={myChangeHandler}
                     />
-                    <label htmlfor="sujet">Subjet</label>
+                    <label htmlfor="sujet" className="contact-label">Sujets :</label>
                     <input
+                        className="contact-input"
                         type="text"
                         name="subject"
-                        placeholder="Subject!"
+                        placeholder="Conseils, Demandes, Contacts, n'hésitez pas"
                         value={changeSubmit}
                         onChange={myChangeHandler}
                     />
-                    <label htmlfor="emailAddress">Email</label>
+                    <label htmlfor="emailAddress" className="contact-label">Email :</label>
                     <input
+                        className="contact-input"
                         id="emailAddress"
                         type="email"
                         placeholder="Email!"
@@ -49,9 +52,9 @@ render() {
                         value={changeSubmit}
                         onChange={myChangeHandler}
                     />
-                    <label htmlfor="subject">Message</label>
-                    <textarea name="textarea"></textarea>
-                    <input type="submit" value="Submit!" />
+                    <label htmlfor="subject" className="contact-label">Message :</label>
+                    <textarea className="contact-textarea" name="textarea"/>
+                    <input className="contact-input" type="submit" value="Envoyez" />
                 </form>
             </div>
         );
