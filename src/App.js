@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import NavLink from './components/pages/NavLink'
-import Main from './components/pages/Main'
 
+import NavLink from './components/shared/NavLink'
+import Main from './components/shared/Main'
 
 import './App.css';
 
@@ -11,7 +11,7 @@ class App extends Component {
     return (
       <div >
         <NavLink />
-        <Main/>
+        <Main />
       </div>
     )
 }

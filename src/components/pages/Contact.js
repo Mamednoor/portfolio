@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "../stylesheet/Contact.css";
+import SendBtnModal from "../shared/SendBtnModal";
 
 class Contact extends Component {
 state = {
@@ -54,8 +55,9 @@ render() {
                     />
                     <label htmlfor="subject" className="contact-label">Message :</label>
                     <textarea className="contact-textarea" name="textarea"/>
-                    <input className="contact-input" type="submit" value="Envoyez" />
+                    {/* <input className="contact-input" type="submit" value="Envoyez" /> */}
                 </form>
+                <SendBtnModal />
             </div>
         );
     }
