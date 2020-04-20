@@ -4,9 +4,8 @@
 }
 
 .navlink-btn {
-    margin-top: -8px;
+    margin-top: -13px;
     font-size: 30px;
-    margin-right: 30px;
     color: white;
     background: transparent;
     border: none;
@@ -19,7 +18,7 @@
     width: 100%;
     background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); 
     color: white;
-    padding: 10px;
+    padding: 20px;
 }
 
 .links {
@@ -30,7 +29,9 @@
 }
 
 .show-nav {
+    margin-bottom: 2px;
     height: 120px;
+    padding-left: 20px;
 }
 
 .header-navlink ul .link-li {

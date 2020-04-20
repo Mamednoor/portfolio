@@ -1,0 +1,31 @@
+.sndbtnmod-fulldiv {
+    display: flex;
+    justify-content: center;
+}
+
+.sndbtnmod-divun{
+    display: flex;
+    flex-direction: column;
+}
+
+.sndbtnmod-hun {
+    text-align: center;
+}
+
+.sndbtnmod-p {
+text-align: center;
+}
+
+.sndbtnmod-input {
+    background-color: rgb(23, 112, 230);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.sndbtnmod-input:hover {
+    background-color: rgba(86, 55, 224, 0.945);
+}

@@ -6,7 +6,9 @@ class Contact extends Component {
 state = {
     firstname: "",
     subject: "",
-    email: ""
+    email: "",
+    input: false,
+    
 };
 
 myChangeHandler = event => {
@@ -25,7 +27,7 @@ render() {
             <div className ="contact-div">
                 <h1 className="contact-hun">Formulaire de contact</h1>
                 <form className="contact-form">
-                    <label  htmlfor="fname" className="contact-label">Votre Nom et Prénom :</label>
+                    <label htmlfor="fname" className="contact-label">Votre Nom et Prénom :</label>
                     <input
                         className="contact-input"
                         type="text"
@@ -39,7 +41,7 @@ render() {
                         className="contact-input"
                         type="text"
                         name="subject"
-                        placeholder="Conseils, Demandes, Contacts, n'hésitez pas"
+                        placeholder="Conseils, Demandes, Contacts"
                         value={changeSubmit}
                         onChange={myChangeHandler}
                     />
@@ -48,14 +50,14 @@ render() {
                         className="contact-input"
                         id="emailAddress"
                         type="email"
-                        placeholder="Email!"
+                        placeholder="Exemple@exemple.com"
                         name="email"
                         value={changeSubmit}
                         onChange={myChangeHandler}
                     />
                     <label htmlfor="subject" className="contact-label">Message :</label>
                     <textarea className="contact-textarea" name="textarea"/>
-                    {/* <input className="contact-input" type="submit" value="Envoyez" /> */}
+                    <input className="contact-input" type="submit" value="Enregistrer"></input>
                 </form>
                 <SendBtnModal />
             </div>
