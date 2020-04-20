@@ -14,7 +14,11 @@ state = {
 myChangeHandler = event => {
     let change = event.target.name;
     let changeSubmit = event.target.value;
-    this.setState({ [change]: changeSubmit });
+    this.setState({ [change]: changeSubmit }, ()=>{
+        if(this.state.firstname.length > 0 && this.state.subject.length < 0 && this.state.email.length < 0){
+            this.setState({input: true})
+        }
+    });
 };
 
 handleSubmit = event => {
