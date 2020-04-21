@@ -1,52 +1,73 @@
 import React, { Component } from "react";
+import Modal from 'react-awesome-modal';
 import "../stylesheet/Contact.css";
-import SendBtnModal from "../shared/SendBtnModal";
+import '../stylesheet/SendBtnModal.css'
+
 
 class Contact extends Component {
 state = {
     firstname: "",
-    subject: "",
+    sujet: "",
     email: "",
+    message:"",
     input: false,
+    visible:false
     
 };
 
-myChangeHandler = event => {
-    let change = event.target.name;
-    let changeSubmit = event.target.value;
-    this.setState({ [change]: changeSubmit }, ()=>{
-        if(this.state.firstname.length > 0 && this.state.subject.length < 0 && this.state.email.length < 0){
-            this.setState({input: true})
-        }
-    });
-};
+
+openModal = () => {
+    this.setState({visible:true}, () => {
+            if(this.state.firstname.length > 0 && this.state.subject.length < 0 && this.state.email.length < 0){
+                this.setState({input: true})}
+})}
+
+closeModal = () => {
+    this.setState({
+        visible:false
+    })
+}
+
+myChangeHandler = (event) => {
+    this.setState({[event.target.id] : event.target.value.replace(/[.*+?^${}()|[]\]/g, "")},
+    // () => {
+    //     if(this.state.firstname.length > 0 && this.state.subject.length < 0 && this.state.email.length < 0)
+    //     {this.setState({input: true})}
+    // }
+    )
+}
 
 handleSubmit = event => {
     event.preventDefault();
+    console.log(this.state)
 };
 
 render() {
-    const { changeSubmit, myChangeHandler } = this;
+    const {myChangeHandler, handleSubmit } = this;
+    const {openModal, closeModal} = this
+    const{visible} = this.state
         return (
             <div className ="contact-div">
                 <h1 className="contact-hun">Formulaire de contact</h1>
-                <form className="contact-form">
-                    <label htmlfor="fname" className="contact-label">Votre Nom et Prénom :</label>
+                <form className="contact-form" onSubmit={handleSubmit}>
+                    <label htmlfor="firstname" className="contact-label">Votre Nom et Prénom :</label>
                     <input
                         className="contact-input"
                         type="text"
+			            id="firstname"
                         name="firstname"
                         placeholder="Nom & Prénom"
-                        value={changeSubmit}
+                        
                         onChange={myChangeHandler}
                     />
                     <label htmlfor="sujet" className="contact-label">Sujets :</label>
                     <input
                         className="contact-input"
                         type="text"
-                        name="subject"
+			            id="sujet"
+                        name="sujet"
                         placeholder="Conseils, Demandes, Contacts"
-                        value={changeSubmit}
+                        
                         onChange={myChangeHandler}
                     />
                     <label htmlfor="emailAddress" className="contact-label">Email :</label>
@@ -56,14 +77,26 @@ render() {
                         type="email"
                         placeholder="Exemple@exemple.com"
                         name="email"
-                        value={changeSubmit}
+                        
                         onChange={myChangeHandler}
                     />
-                    <label htmlfor="subject" className="contact-label">Message :</label>
-                    <textarea className="contact-textarea" name="textarea"/>
-                    <input className="contact-input" type="submit" value="Enregistrer"></input>
+                    <label htmlfor="message" className="contact-label">Message :</label>
+                    <textarea className="contact-textarea" type="text" name="textarea" id="message"/>
+                    <input className="contact-input" type="submit" value="Envoyez" onClick={() => openModal()} />
+                    <Modal
+                        visible={visible}
+                        width="400"
+                        height="300"
+                        effect="fadeInDown"
+                        onClickAway={() => closeModal()}
+                    >
+                        <div className="sndbtnmod-divun">
+                            <h1 className="sndbtnmod-hun">Message envoyé</h1>
+                            <p className="sndbtnmod-p">Merci d'avoir pris contact avec nous</p>
+                            <input className="sndbtnmod-input" type="submit" value="Close" onClick={() => closeModal()} />
+                        </div>
+                    </Modal>
                 </form>
-                <SendBtnModal />
             </div>
         );
     }
