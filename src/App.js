@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-
-import NavLink from './components/shared/NavLink'
-import Main from './components/shared/Main'
+import SignUpForm from './components/pages/SignUpForm'
 
 import './App.css';
 
@@ -10,8 +8,7 @@ class App extends Component {
   render () {
     return (
       <div >
-        <NavLink />
-        <Main />
+        <SignUpForm />
       </div>
     )
 }
