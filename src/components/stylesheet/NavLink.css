@@ -4,9 +4,9 @@
 }
 
 .navlink-btn {
-    margin-top: -13px;
+    margin-top: -10px;
     font-size: 30px;
-    color: white;
+    color: black;
     background: transparent;
     border: none;
     cursor: pointer;
@@ -16,9 +16,9 @@
 
 .navBar {
     width: 100%;
-    background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); 
-    color: white;
-    padding: 20px;
+    color: rgb(223, 215, 215);
+    padding: 5px;
+    box-shadow: 0 2px 4px -1px rgba(0,0,0,0.25);
 }
 
 .links {
@@ -26,24 +26,30 @@
     overflow: hidden;
     list-style-type: none;
     font-weight: bold;
+    justify-content: center;
 }
 
 .show-nav {
     margin-bottom: 2px;
     height: 120px;
     padding-left: 20px;
+    padding-inline-start: 0px;
 }
 
 .header-navlink ul .link-li {
     color: darkgrey;
-    padding: 0 10px;
+    padding: 0 40px;
 }
 
 .header-a {
+    text-align: center;
     text-decoration: none;
+    color: black;
 }
 
 @media screen and (min-width: 768px) {
+
+
     .navlink-btn {
         display: none;
     }

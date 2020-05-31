@@ -70,10 +70,10 @@ render() {
                         
                         onChange={myChangeHandler}
                     />
-                    <label htmlfor="emailAddress" className="contact-label">Email :</label>
+                    <label htmlfor="email" className="contact-label">Email :</label>
                     <input
                         className="contact-input"
-                        id="emailAddress"
+                        id="email"
                         type="email"
                         placeholder="Exemple@exemple.com"
                         name="email"

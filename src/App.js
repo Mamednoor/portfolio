@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
-import SignUpForm from './components/pages/SignUpForm'
-
+import NavLink from './components/shared/NavLink'
 import './App.css';
+import Main from './components/shared/Main';
 
 
 class App extends Component {
   render () {
     return (
       <div >
-        <SignUpForm />
+        <NavLink />
+        <Main />
       </div>
     )
 }

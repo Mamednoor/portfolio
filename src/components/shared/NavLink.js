@@ -11,13 +11,15 @@ Toggle = () => {
     this.setState({toggle:!this.state.toggle})
 }
 render() {
+    const { toggle } = this.state
+    const { Toggle } = this
     return (
     <header className="header-navlink">
         <div className="navBar">
-            <button className="navlink-btn" onClick={this.Toggle}>
+            <button className="navlink-btn" onClick={Toggle}>
                 <FaAlignRight />
             </button>
-            <ul className={this.state.toggle ? "links show-nav" : "links"}>
+            <ul className={toggle ? "links show-nav" : "links"}>
                 <li className="link-li">
                     <Link className="header-a" to="/">Home</Link>
                 </li>

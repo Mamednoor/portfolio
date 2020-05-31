@@ -4,7 +4,7 @@ class PorteFolio extends Component {
     render() {
         return (
             <div>
-                <p>lorem ipsum</p>
+                <p>Porte folio</p>
             </div>
         )
     }
