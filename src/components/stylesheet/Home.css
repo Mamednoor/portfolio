@@ -1,6 +1,6 @@
 section {
   height: 10px;
-  min-height: 720px;
+  min-height: 400px;
   width: 100%;
   color: black;
   z-index: 2;
@@ -32,8 +32,12 @@ section {
   z-index: 1;
 }
 
-hr {
-  border: 1px outset rgba(255, 255, 255, 0.2);
-  box-shadow: 1px 1px 1px rgba(0,0,0,0.6);
-  width: 100%;
+.PageTage {
+  height: 60px;
+  width: min-content;
+  margin-bottom: 5px;
+  text-align: center;
+  font-family: "Pinyon Script", cursive;
+  font-size: 50px;
+
 }

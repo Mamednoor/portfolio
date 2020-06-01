@@ -3,7 +3,7 @@ import $ from "jquery";
 
 import '../stylesheet/Home.css'
 
-export default function Brief() {
+export function Brief() {
     const JobName = ["Développeur Fullstack", "React, Node.js, JavaScript"];
     let JobNameCount = 0;
     let JobCharCount = 0;
@@ -71,3 +71,31 @@ export default function Brief() {
         </section>
     );
 }
+
+export function Info() {
+  return (
+    <section id="Info">
+      <div className="PageTage">Presentation</div>
+			<p>petite presentation de moi de mes aspirations et mes attentes</p>
+    </section>
+  );
+}
+
+export function Skill() {
+  return (
+    <section id="Skill">
+      <div className="PageTage">Competences</div>
+			<p>petite presentation de mes competences</p>
+    </section>
+  );
+}
+
+export function Experience() {
+  return (
+    <section id="Skill">
+      <div className="PageTage">Experiences</div>
+			<p>mon parcours</p>
+    </section>
+  );
+}
+

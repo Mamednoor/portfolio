@@ -3,3 +3,9 @@
   padding: 0;
   scroll-behavior: smooth;
 }
+
+hr {
+  border: 1px outset rgba(255, 255, 255, 0.2);
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+  width: 100%;
+}
