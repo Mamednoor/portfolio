@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Modal from 'react-awesome-modal';
 import "../stylesheet/Contact.css";
 import '../stylesheet/SendBtnModal.css'
 
@@ -16,24 +15,12 @@ state = {
 };
 
 
-openModal = () => {
-    this.setState({visible:true}, () => {
-            if(this.state.firstname.length > 0 && this.state.subject.length < 0 && this.state.email.length < 0){
-                this.setState({input: true})}
-})}
-
-closeModal = () => {
-    this.setState({
-        visible:false
-    })
-}
-
 myChangeHandler = (event) => {
     this.setState({[event.target.id] : event.target.value.replace(/[.*+?^${}()|[]\]/g, "")},
-    // () => {
-    //     if(this.state.firstname.length > 0 && this.state.subject.length < 0 && this.state.email.length < 0)
-    //     {this.setState({input: true})}
-    // }
+    () => {
+        if(this.state.firstname.length > 0 && this.state.subject.length < 0 && this.state.email.length < 0)
+        {this.setState({input: true})}
+    }
     )
 }
 
@@ -44,8 +31,6 @@ handleSubmit = event => {
 
 render() {
     const {myChangeHandler, handleSubmit } = this;
-    const {openModal, closeModal} = this
-    const{visible} = this.state
         return (
             <div className ="contact-div">
                 <h1 className="contact-hun">Formulaire de contact</h1>
@@ -57,7 +42,6 @@ render() {
 			            id="firstname"
                         name="firstname"
                         placeholder="Nom & Prénom"
-                        
                         onChange={myChangeHandler}
                     />
                     <label htmlfor="sujet" className="contact-label">Sujets :</label>
@@ -67,7 +51,6 @@ render() {
 			            id="sujet"
                         name="sujet"
                         placeholder="Conseils, Demandes, Contacts"
-                        
                         onChange={myChangeHandler}
                     />
                     <label htmlfor="email" className="contact-label">Email :</label>
@@ -77,25 +60,11 @@ render() {
                         type="email"
                         placeholder="Exemple@exemple.com"
                         name="email"
-                        
                         onChange={myChangeHandler}
                     />
                     <label htmlfor="message" className="contact-label">Message :</label>
                     <textarea className="contact-textarea" type="text" name="textarea" id="message"/>
-                    <input className="contact-input" type="submit" value="Envoyez" onClick={() => openModal()} />
-                    <Modal
-                        visible={visible}
-                        width="400"
-                        height="300"
-                        effect="fadeInDown"
-                        onClickAway={() => closeModal()}
-                    >
-                        <div className="sndbtnmod-divun">
-                            <h1 className="sndbtnmod-hun">Message envoyé</h1>
-                            <p className="sndbtnmod-p">Merci d'avoir pris contact avec nous</p>
-                            <input className="sndbtnmod-input" type="submit" value="Close" onClick={() => closeModal()} />
-                        </div>
-                    </Modal>
+                    <input className="contact-input" type="submit" value="Envoyez"/>
                 </form>
             </div>
         );

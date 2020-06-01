@@ -1,14 +1,13 @@
 import React from 'react'
-import { Brief, Info, Skill,Experience } from './Home'
-
+import { Home, Info, Skill, Experience } from './Home'
 
 function Content() {
   return (
     <>
-    <Brief/>
-    <Info/>
-    <Skill/>
-    <Experience/>
+    <Home />
+    <Info />
+    <Skill />
+    <Experience />
     </>
   )
 }

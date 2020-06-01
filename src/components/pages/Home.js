@@ -1,9 +1,10 @@
 import React, { useEffect } from "react";
+import { Link } from 'react-router-dom'
 import $ from "jquery";
 
 import '../stylesheet/Home.css'
 
-export function Brief() {
+export function Home() {
     const JobName = ["Développeur Fullstack", "React, Node.js, JavaScript"];
     let JobNameCount = 0;
     let JobCharCount = 0;
@@ -61,40 +62,50 @@ export function Brief() {
     }, []);
 
     return ( 
-        <section id = "Brief" >
+        <section id = "Accueil" >
             <div className = "BriefBox" >
                 <h1> Bienvenue, je suis</h1>
                 <p> Mamed Gohabur</p>
                 <p id="jobName"/>
 								<hr></hr>
             </div>
+						
         </section>
     );
 }
 
 export function Info() {
+
   return (
-    <section id="Info">
-      <div className="PageTage">Presentation</div>
-			<p>petite presentation de moi de mes aspirations et mes attentes</p>
+    <section id="Présentation">
+      <div className="PageTags">Présentation</div>
+			<p className="p-home-section">petite presentation de moi de mes aspirations et mes attentes</p>
+			<ul className="ul-social-home">
+				<li className='li-home-social'>
+					<a href="https://www.linkedin.com/in/mamednoorgohabur/" target="_blank">LinkedIn</a>
+				</li>
+				<li className='li-home-social'>
+					<a href="https://github.com/Mamednoor" target="_blank">Github</a>
+				</li>
+      </ul>
     </section>
   );
 }
 
 export function Skill() {
   return (
-    <section id="Skill">
-      <div className="PageTage">Competences</div>
-			<p>petite presentation de mes competences</p>
+    <section id="Compétences">
+      <div className="PageTags">Compétences</div>
+			<p className="p-home-section">petite presentation de mes competences</p>
     </section>
   );
 }
 
 export function Experience() {
   return (
-    <section id="Skill">
-      <div className="PageTage">Experiences</div>
-			<p>mon parcours</p>
+    <section id="Expériences">
+      <div className="PageTags">Experiences</div>
+			<p className="p-home-section">mon parcours</p>
     </section>
   );
 }
