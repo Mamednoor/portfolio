@@ -30,7 +30,7 @@
 }
 
 .show-nav {
-    margin-bottom: 2px;
+    margin-bottom: 200px;
     height: 120px;
     padding-left: 20px;
     padding-inline-start: 0px;
@@ -48,7 +48,6 @@
 }
 
 @media screen and (min-width: 768px) {
-
 
     .navlink-btn {
         display: none;

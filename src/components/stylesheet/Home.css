@@ -8,11 +8,9 @@ section {
 
 .BriefBox {
   position: absolute;
-  top: 35%;
+  top: 10%;
   left: calc(50% - 180px);
-  min-width: 286px;
-  -webkit-box-reflect: below 0 -webkit-linear-gradient(transparent, transparent
-        60%, rgba(255, 255, 255, 0.3));
+  -webkit-box-reflect: below 0 -webkit-linear-gradient(transparent, transparent 60%, rgba(255, 255, 255, 0.3));
 }
 
 .BriefBox > h1 {
@@ -32,4 +30,10 @@ section {
   border-right: solid 5px gray;
   animation: BorderOpacity 0.5s infinite;
   z-index: 1;
+}
+
+hr {
+  border: 1px outset rgba(255, 255, 255, 0.2);
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+  width: 100%;
 }

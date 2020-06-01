@@ -4,7 +4,7 @@ import $ from "jquery";
 import '../stylesheet/Home.css'
 
 export default function Brief() {
-    const JobName = ["Développeur Full Stack", "React, Node.js, JavaScript"];
+    const JobName = ["Développeur Fullstack", "React, Node.js, JavaScript"];
     let JobNameCount = 0;
     let JobCharCount = 0;
     let JobString = "";
@@ -66,6 +66,7 @@ export default function Brief() {
                 <h1> Bienvenue, je suis</h1>
                 <p> Mamed Gohabur</p>
                 <p id="jobName"/>
+								<hr></hr>
             </div>
         </section>
     );
