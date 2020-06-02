@@ -2,8 +2,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 150px
+  height: 150px;
 }
+
+.p-info-section {
+  font-size: 20px;
+}
+
 .ul-info {
   list-style: none;
   padding: 10px;
