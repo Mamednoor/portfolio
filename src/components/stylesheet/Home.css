@@ -1,113 +1,35 @@
 section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  min-height: 350px;
-  width: 0 auto;
+  height: 100px;
+  min-height: 500px;
+  width: 100%;
   color: black;
   z-index: 2;
 }
 
 .BriefBox {
   justify-content: center;
-  text-align: center;
-  -webkit-box-reflect: below 0 -webkit-linear-gradient(transparent, transparent 60%, rgba(255, 255, 255, 0.3));
-}
-
-.BriefBox > h1 {
-  font-family: "Russo One", sans-serif;
-  font-size: 50px;
+  left: calc(50% - 180px);
+  min-width: 286px;
+  -webkit-box-reflect: below 0 -webkit-linear-gradient(transparent, transparent
+        60%, rgba(255, 255, 255, 0.3));
 }
 
 .BriefBox > h2 {
-  font-family: "Russo One", sans-serif;
-  font-size: 30px;
+  font-family: "Shadows Into Light", cursive;
 }
 
 .BriefBox > p {
   font-family: "Russo One", sans-serif;
-  font-size: 60px;
+  font-size: 20px;
 }
 
 #jobName {
   white-space: nowrap;
   width: min-content;
-  height: 50px;
-  font-size: 30px;
+  height: 40px;
+  font-size: 20px;
   border-right: solid 5px gray;
   animation: BorderOpacity 0.5s infinite;
   z-index: 1;
-  margin: 15px auto;
 }
 
-.PageTags {
-  display: flex;
-  flex-direction: column;
-  height: 60px;
-  width: min-content;
-  margin: 90px auto;
-  padding: 10px;
-  border-radius: 40px;
-  text-align: center;
-  background-color: rgba(187, 187, 187);
-  -webkit-box-shadow: 0px 0px 25px 25px rgba(187,187,187,1);
-  -moz-box-shadow: 0px 0px 25px 25px rgba(187,187,187,1);
-  box-shadow: 0px 0px 25px 25px rgba(187,187,187,1);
-  font-family: "Pinyon Script", cursive;
-  line-height: 37px;
-  font-size: 50px;
-}
-
-.p-home-section {
-  height: 200px;
-  margin: 15px;
-  text-align: center;
-  font-size: 20px;
-}
-
-.div-home {
-  margin: 5px auto;
-  line-height: 33px;
-  width: 50%;
-}
-
-.div-info {
-  display: flex;
-  justify-content: center;
-  height: 150px
-}
-.ul-info {
-  list-style: none;
-  padding: 10px;
-}
-
-.li-info {
-  text-align: center;
-  display: inline;
-  padding: 20px;
-  margin: 20px;
-}
-
-button {
-  background-color: rgba(187, 187, 187, 0.5);
-  color: black;
-  padding: 12px 20px;
-  border: none;
-  line-height: 37px;
-  font-size: 20px;
-  border-radius: 4px;
-  cursor: pointer;
-  margin: 0 auto;
-}
-
-button:hover {
-	color: #fff;
-  border: 2px outset rgba(187, 187, 187, 0.5);
-  background: rgba(187, 187, 187, 0.5);
-  transform:scale(1.1);
-  transition: 0.2s;
-  text-shadow: 1px 1px 1px rgba(187, 187, 187, 0.5);
-  box-shadow: 3px 3px 3px rgba(187, 187, 187, 0.5);
-  letter-spacing: 2px;
-}

@@ -30,13 +30,13 @@ class NavLink extends Component {
             <li className="nav-item">
               <Link
                 activeClass="active"
-                to="Presentation"
+                to="Info"
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={500}
               >
-                Presentation
+                Présentation
               </Link>
             </li>
             <li className="nav-item">
@@ -48,7 +48,7 @@ class NavLink extends Component {
                 offset={-70}
                 duration={500}
               >
-                Experience
+                Expériences
               </Link>
             </li>
             <li className="nav-item">
@@ -82,26 +82,5 @@ class NavLink extends Component {
   }
 }
 
-
-// function NavLink() {
-
-//     return (
-//     <header className="header-navlink">
-//         <div className="navBar">
-//             <ul className={"links"}>
-//                 <li className="link-li">
-//                     <Link activeClass="active" className="header-a" to="/">Home</Link>
-//                 </li>
-//                 <li className="link-li">
-//                     <Link activeClass="active" className="header-a" to="/dashboard">Porte Folio</Link>
-//                 </li>
-//                 <li className="link-li">
-//                     <Link activeClass="active" className="header-a" to="/contact">Contact</Link>
-//                 </li>
-//             </ul>
-//         </div>
-//     </header>
-//     );
-// }
 
 export default NavLink;
