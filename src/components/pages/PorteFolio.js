@@ -1,13 +1,13 @@
-import React, { Component } from 'react';
+import React from "react";
 
-class PorteFolio extends Component {
-    render() {
-        return (
-            <div>
-                <p>Porte folio</p>
-            </div>
-        )
-    }
+function PorteFolio() {
+  return (
+    <section className="section-content">
+      <div id="PorteFolio">
+        <p>Porte folio</p>
+      </div>
+    </section>
+  );
 }
 
 export default PorteFolio;
