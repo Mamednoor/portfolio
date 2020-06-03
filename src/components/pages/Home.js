@@ -61,7 +61,7 @@ function Home() {
     }, []);
 
     return ( 
-        <section className="section-content" id ="Home">
+        <section id ="Home">
             <div className ="BriefBox">
                 <h2> Bienvenue, je suis</h2>
                 <h1> Mamed Gohabur</h1>

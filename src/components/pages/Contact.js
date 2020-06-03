@@ -2,9 +2,9 @@ import React from 'react'
 
 function Contact() {
     return (
-        <section className="section-content" id='Contact'>
+        <section id='Contact'>
         <div className="PageTags">Contact</div>
-        <p className="p-home-section">Hello World</p>
+        <p className="p-contain">Hello World</p>
         </section>
     )
 }

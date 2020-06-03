@@ -14,23 +14,18 @@ class App extends Component {
       <div className="App">
         <NavLink />
         <Home
-          dark={true}
           id="Home"
         />
         <Info
-          dark={false}
           id="Info"
         />
         <Experience
-          dark={true}
           id="Experience"
         />
         <PorteFolio
-          dark={false}
           id="PorteFolio"
         />
         <Contact
-          dark={true}
           id="Contact"
         />
       </div>

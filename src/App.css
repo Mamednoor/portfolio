@@ -1,35 +1,74 @@
 * {
-  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
 }
 
-hr {
-  border: 1px outset rgba(255, 255, 255, 0.2);
-  box-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+html {
+  height: 100%;
   width: 100%;
+  scroll-behavior: smooth;
 }
 
 section {
-  height: 100px;
-  min-height: 600px;
+  position: relative;
+  height: 100vh;
+  min-height: 720px;
   width: 100%;
   color: black;
   z-index: 2;
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 40px;
+}
+
+.BriefBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 286px;
+  -webkit-box-reflect: below 0 -webkit-linear-gradient(transparent, transparent
+        60%, rgba(255, 255, 255, 0.3));
+}
+
+.BriefBox > h1 {
+  font-family: "Shadows Into Light", cursive;
+}
+
+.BriefBox > p {
+  font-family: "Russo One", sans-serif;
+  font-size: 50px;
+}
+
+#jobName {
+  white-space: nowrap;
+  width: min-content;
+  height: 40px;
+  font-size: 30px;
+  border-right: solid 5px #fff;
+  animation: BorderOpacity 0.5s infinite;
+  z-index: 1;
 }
 
 .PageTags {
-  display: flex;
-  flex-direction: column;
-  margin: 90px auto;
+  position: relative;
+  top: 2px;
+  left: 50%;
+  height: 60px;
+  width: max-content;
+  margin-bottom: 30px;
   padding: 10px;
-  border-radius: 10px;
+  border-radius: 6px;
   text-align: center;
-  background-color: rgba(187, 187, 187);
-  -webkit-box-shadow: 0px 0px 25px 25px rgba(187,187,187,1);
-  -moz-box-shadow: 0px 0px 25px 25px rgba(187,187,187,1);
-  box-shadow: 0px 0px 25px 25px rgba(187,187,187,1);
-  font-family: "Shadows Into Light", cursive;
+  background-color: rgba(187, 187, 187, 0.5);
+  box-shadow: 0px 0px 20px #fff, 0px 0px 40px #fff, 0px 0px 80px #fff,
+    0px 0px 160px #fff;
+  font-family: "Pinyon Script", cursive;
+  line-height: 60px;
   font-size: 50px;
+  transform: translate(-50%, 0%);
+}
+
+.p-contain{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 10px 70px;
 }
