@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Button } from 'styled-button-component'
 
 
 import PixieWilder from '../assets/img/PixieWilders.png'
@@ -31,28 +30,27 @@ const CustomImage = styled.div`
   height: 224px;
   text-align: center;
   background-color: papayawhip;
-  
   > img {
-      max-width: 100%;
-      max-height: 100%;
+      width: 100%;
+      height: 100%;
     }
 
 `
-
 const CustomCard = styled.div`
+  justify-content: space-around;
   text-align: center;
   padding: 24px;
-  > h3 {
-      color: #333f48;
-      font-size: 20px;
-      font-size: 18px;
-      margin: 2px 0px;
-    }
   > p {
+      margin: 10px;
       color: #566271;
       font-size: 14px;
-      margin: 3px;
+
     }
+  > a {
+    color: #333f48;
+      font-size: 20px;
+      font-size: 18px;
+  }
 `
 
 function Cards() {
@@ -61,16 +59,15 @@ function Cards() {
       <CardContainer>
         <CardBoxed>
           <CustomImage>
-            <img alt="example" src={PixieWilder} />
+            <img alt="example" src={PixieWilder}/>
           </CustomImage>
           <CustomCard>
-            <h3>Pixie Wilders</h3>
+          <a href="https://mamednoor.github.io/project1PixieWilder/" target="_blank"><h3>Pixie Wilders</h3></a>
             <p>
             Création d’une marketplace fictif de photographie 
             <br />
             (Stack: HTML, CSS, Git et Github)        
             </p>
-            <Button size="normal" primary href="https://mamednoor.github.io/project1PixieWilder/" target="_blank" >Visite</Button>
           </CustomCard>       
         </CardBoxed>
         <CardBoxed>
@@ -78,23 +75,10 @@ function Cards() {
             <img alt="example" src={CookCake} />
           </CustomImage>
           <CustomCard>
-            <h3>Cook & Cake</h3>
+          <a href="https://cookandcake.netlify.app/" target="_blank"><h3>Cook & Cake</h3></a>
             <p>Création d’une Application web de cuisine avec consommation d'API
             <br />
             (Stack: React, JavaScript, HTML, CSS, Git et Github, SCRUM)</p>        
-            <Button size="normal" primary href="https://cookandcake.netlify.app/" target="_blank">Visite</Button>
-          </CustomCard>       
-        </CardBoxed>
-        <CardBoxed>
-          <CustomImage>
-            <img alt="example" src={Build} />
-          </CustomImage>
-          <CustomCard>
-            <h3>Under Construction</h3>        
-            <p>Création d’une marketplace de design 
-            <br />
-            (Stack: MySQL, React, Node.js, Git & GitHub, SCRUM)</p>
-            <Button size="normal" primary href="" target="_blank">Visite</Button>
           </CustomCard>       
         </CardBoxed>
         <CardBoxed>
@@ -102,12 +86,21 @@ function Cards() {
             <img alt="example" src="http://images.brisbanetimes.com.au/2009/12/22/994443/ABC-Brisbane-Building-site-plan-600x400.jpg" />
           </CustomImage>
           <CustomCard>
-            <span>Hackathon</span>
-            <h3>Goat vs Chicken</h3>  
-            <p>Création d'un jeux vidéo 
+          <a href="https://romantic-swirles-0e45a7.netlify.app/" target="_blank" ><h3>Goat vs Chicken</h3> </a>
+            <p>Création d'un jeux vidéo lors d'un Hackathon de 24H à la WildCodeSchool Paris
             <br/>
-            (Stack: JavaScript, Phaser, Git et Github)</p>      
-            <Button size="normal" primary href="https://romantic-swirles-0e45a7.netlify.app/" target="_blank">Visite</Button>
+            (Stack: JavaScript, Phaser, Git et Github)</p>
+          </CustomCard>       
+        </CardBoxed>
+        <CardBoxed>
+          <CustomImage>
+            <img alt="example" src={Build} />
+          </CustomImage>
+          <CustomCard>
+          <a size="normal" primary href="" target="_blank"><h3>Under Construction</h3> </a>
+            <p>Création d’une marketplace de design 
+            <br />
+            (Stack: MySQL, React, Node.js, Git & GitHub, SCRUM)</p>
           </CustomCard>       
         </CardBoxed>
       </CardContainer>

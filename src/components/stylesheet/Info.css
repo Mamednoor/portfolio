@@ -1,8 +1,7 @@
 .profile-header {
   display: flex;
   justify-content: center;
-  margin: 70px auto;
-  color: var(--header-text);
+  flex-direction: column;
 }
 
 .profile-picture {
@@ -10,24 +9,11 @@
   height: 256px;
   border-radius: 50%;
   object-fit: cover;
-  margin: 25px;
-}
-
-.profile-name {
-  font-family: 'Bungee Shade', cursive;
-  font-size: 48px;
-  letter-spacing: 0.2em;
-  margin-bottom: 16px;
+  margin: 40px auto;
 }
 
 .profile-tagline {
   font-family: Calligraffitti;
-  font-size: 32px;
-  letter-spacing: 3px;
-  margin-bottom: 24px;
-}
-
-.profile-links {
-  font-family: Poppins;
-  font-size: 16px;
+  font-size: 20px;
+  margin: 5px auto;
 }

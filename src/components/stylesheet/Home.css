@@ -1,5 +1,8 @@
 .BriefBox {
+  margin-top: 50px;
+  display: flex;
   justify-content: center;
+  flex-direction: column;
   text-align: center;
   left: calc(50% - 180px);
   min-width: 286px;
@@ -7,11 +10,17 @@
         60%, rgba(255, 255, 255, 0.3));
 }
 
-.BriefBox > h2 {
+.BriefBox > span {
   font-family: "Shadows Into Light", cursive;
+  font-size: x-large;
 }
 
-.BriefBox > p, h1 {
+.BriefBox > h1 {
+  font-family: "Russo One", sans-serif;
+  font-size: 50px;
+}
+
+.BriefBox > p {
   font-family: "Russo One", sans-serif;
   font-size: 20px;
 }

@@ -1,8 +1,22 @@
-.ul-info {
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans&display=swap');
+
+.p-contact {
+	font-family: Calligraffitti;
+	text-align: center;
+	color: whitesmoke;
+}
+
+.social_links ul {
 	display: flex;
 	justify-content: center;
 	list-style: none;
 	padding: 10px;
+}
+
+.ul-info{
+	display: flex;
+	justify-content: center;
 }
 
 .li-info {

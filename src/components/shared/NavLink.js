@@ -1,9 +1,8 @@
-import React, {Component} from "react";
+import React, { Component } from "react";
 
 import { Link, animateScroll as scroll } from "react-scroll";
 
 import "../stylesheet/NavLink.css";
-
 
 class NavLink extends Component {
   scrollToTop = () => {
@@ -21,7 +20,7 @@ class NavLink extends Component {
                 to="Home"
                 spy={true}
                 smooth={true}
-                offset={-70}
+                offset={-90}
                 duration={500}
               >
                 Home
@@ -33,7 +32,7 @@ class NavLink extends Component {
                 to="Info"
                 spy={true}
                 smooth={true}
-                offset={-70}
+                offset={-90}
                 duration={500}
               >
                 Présentation
@@ -45,7 +44,7 @@ class NavLink extends Component {
                 to="Experience"
                 spy={true}
                 smooth={true}
-                offset={-70}
+                offset={-90}
                 duration={500}
               >
                 Expériences
@@ -57,7 +56,7 @@ class NavLink extends Component {
                 to="PorteFolio"
                 spy={true}
                 smooth={true}
-                offset={-70}
+                offset={-90}
                 duration={500}
               >
                 Porte Folio
@@ -69,7 +68,7 @@ class NavLink extends Component {
                 to="Contact"
                 spy={true}
                 smooth={true}
-                offset={-70}
+                offset={-90}
                 duration={500}
               >
                 Contact
@@ -81,6 +80,5 @@ class NavLink extends Component {
     );
   }
 }
-
 
 export default NavLink;
