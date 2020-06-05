@@ -11,64 +11,58 @@ html {
 }
 
 section {
-  position: relative;
-  height: 100vh;
-  min-height: 720px;
+  height: 50vh;
+  min-height: 300px;
   width: 100%;
   color: black;
   z-index: 2;
 }
 
 .BriefBox {
+  margin-top: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   min-width: 286px;
-  -webkit-box-reflect: below 0 -webkit-linear-gradient(transparent, transparent
-        60%, rgba(255, 255, 255, 0.3));
+  -webkit-box-reflect: below 0 -webkit-linear-gradient(transparent, transparent 60%, rgba(255, 255, 255, 0.3));
 }
 
 .BriefBox > h1 {
-  font-family: "Shadows Into Light", cursive;
+  font-family: "Russo One", sans-serif;
+  font-size: 80px;
 }
 
 .BriefBox > p {
   font-family: "Russo One", sans-serif;
-  font-size: 50px;
+  font-size: 100px;
 }
 
 #jobName {
   white-space: nowrap;
   width: min-content;
   height: 40px;
-  font-size: 30px;
+  font-size: 80px;
   border-right: solid 5px #fff;
   animation: BorderOpacity 0.5s infinite;
   z-index: 1;
 }
 
 .PageTags {
-  position: relative;
-  top: 2px;
-  left: 50%;
+  margin: 30px auto;
   height: 60px;
   width: max-content;
-  margin-bottom: 30px;
   padding: 10px;
   border-radius: 6px;
   text-align: center;
   background-color: rgba(187, 187, 187, 0.5);
-  box-shadow: 0px 0px 20px #fff, 0px 0px 40px #fff, 0px 0px 80px #fff,
-    0px 0px 160px #fff;
+  box-shadow: 0px 0px 20px rgba(187, 187, 187, 0.5);
   font-family: "Pinyon Script", cursive;
   line-height: 60px;
   font-size: 50px;
-  transform: translate(-50%, 0%);
+
 }
 
 .p-contain{
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 24px;
-  margin: 10px 70px;
+  font-size: 20px;
+  margin: 10px 100px;
 }
