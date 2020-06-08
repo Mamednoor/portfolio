@@ -17,8 +17,7 @@ function Info() {
       </div>
       <div>
         <p className="p-content">
-          Un profil atypique, enthousiaste mais surtout passionné par les
-          nouvelles technologies.
+          Un profil atypique, enthousiaste et dynamique.
         </p>
         <p className="p-content">
           Après plusieurs vies professionnelles mais surtout passionné par les
