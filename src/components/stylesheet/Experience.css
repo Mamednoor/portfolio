@@ -1,0 +1,122 @@
+.section-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#Experience {
+  padding: 50px;
+  min-height: 600px;
+  width: 100%;
+  color: black;
+  z-index: 2;
+}
+
+.wrapper {
+  margin: 3.125em auto;
+  padding: 1em 5em 1em;
+  max-width: 1000px;
+}
+
+.timeline {
+  line-height: 1.5em;
+  font-size: 14px;
+  transition: all 0.4s ease;
+  position: relative;
+  counter-reset: section;
+}
+
+.timeline:before {
+  content: "";
+  width: 10px;
+  height: 100%;
+  background: gray;
+  position: absolute;
+  top: 0;
+  left: -3.313em;
+}
+
+.hr-guide-step {
+  position: relative;
+  background-color: #eeeeee;
+}
+
+.hr-guide-step_title {
+  color: white;
+  background-color: gray;
+  font-family: "Oswald", Georgia, Cambria, "Times New Roman", Times, serif;
+  font-weight: 300;
+  font-size: 20px;
+  padding: 1em;
+}
+
+.hr-guide-step_text {
+  background-color: #dddddd;
+  padding: 1em;
+  margin: 0;
+}
+
+.hr-guide-step:before {
+  content: "";
+  font-family: "Oswald", Georgia, Cambria, "Times New Roman", Times, serif;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3em;
+  height: 3em;
+  background-color: gray;
+  border: 0.2em solid white;
+  position: absolute;
+  counter-increment: section;
+  content: counter(section);
+  text-shadow: 0 1px 0 #424242;
+  left: -4.5em;
+}
+
+@supports (display: grid) {
+  @media (min-width: 768px) {
+    .timeline {
+      display: grid;
+      grid-gap: 4.75em;
+      grid-template-areas: ".  entry1""entry2  ."". entry3""entry4 ."". entry5""entry6 .";
+    }
+
+    .timeline:before {
+      left: 49.5%;
+    }
+
+    .hr-guide-step:nth-child(1) {
+      grid-area: entry1;
+    }
+
+    .hr-guide-step:nth-child(2) {
+      grid-area: entry2;
+    }
+
+    .hr-guide-step:nth-child(3) {
+      grid-area: entry3;
+    }
+
+    .hr-guide-step:nth-child(4) {
+      grid-area: entry4;
+    }
+
+    .hr-guide-step:nth-child(5) {
+      grid-area: entry5;
+    }
+
+    .hr-guide-step:nth-child(6) {
+      grid-area: entry6;
+    }
+
+    .hr-guide-step:nth-of-type(odd):before {
+      left: -3.8em;
+    }
+
+
+    .hr-guide-step:nth-of-type(even):before {
+      left: 103%;
+    }
+  }
+}

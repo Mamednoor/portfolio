@@ -1,25 +1,49 @@
 import React from "react";
 
-import PDF from "../assets/Mamed-Gohabur-Developpeur-FullStack.pdf";
+import "../stylesheet/Experience.css";
 
 function Experience() {
   return (
     <section className="section-content" id="Experience">
       <div className="PageTags">Experiences</div>
-      <p className="p-contain">
-        Aillant travaillé dans plusieurs domaines d'activité tel que
-        l'industrie, hôtellerie et l'informatique ainsi que le milieu de la
-        santé, ou j'ai pu apprendre différentes méthodologies de travail,
-        manager des équipes de techniciens et de sous-traitant. ces diverses
-        expériences qui m'ont permis de grandir professionnellement en acquérant
-        de nouvelle compétences. l'autonomie, la curiosité ainsi que la
-        proactivité sont des atouts qui m'ont permis d’évoluer dans mon
-        parcours. 
-      </p>
-      <p className="p-contain">Telecharger la derniere version de mon Curriculum Vitae avec le lien ci-dessous</p>
-      <a className="a-info p-contain" href={PDF}>
-        <button className="btn-exp">Curriculum Vitae</button>
-      </a>
+      <div class="wrapper">
+        <div class="timeline">
+          <dl class="hr-guide-step">
+            <dt class="hr-guide-step_title">Wild Code School - Mars 2020</dt>
+            <dd class="hr-guide-step_text">Développeur web et web mobile</dd>
+          </dl>
+          <dl class="hr-guide-step">
+            <dt class="hr-guide-step_title">
+              Dalkia - Février 2019 à Janvier 2020
+            </dt>
+            <dd class="hr-guide-step_text">Manager</dd>
+          </dl>
+          <dl class="hr-guide-step">
+            <dt class="hr-guide-step_title">
+              Infoway - Août 2018 à Fevrier 2019
+            </dt>
+            <dd class="hr-guide-step_text">Responsable Technique</dd>
+          </dl>
+          <dl class="hr-guide-step">
+            <dt class="hr-guide-step_title">
+              Ibis Bercy village - Juin 2015 à Décembre 2017
+            </dt>
+            <dd class="hr-guide-step_text">Responsable Technique</dd>
+          </dl>
+          <dl class="hr-guide-step">
+            <dt class="hr-guide-step_title">
+              Mercure Paris centre Tour Eiffel - Septembre 2011 à Juin 2015
+            </dt>
+            <dd class="hr-guide-step_text">Assistant Responsable Technique</dd>
+          </dl>
+          <dl class="hr-guide-step">
+            <dt class="hr-guide-step_title">Cegelec</dt>
+            <dd class="hr-guide-step_text">
+              Septembre 2008 à Août 2011 - Technicien de Maintenance
+            </dd>
+          </dl>
+        </div>
+      </div>
     </section>
   );
 }

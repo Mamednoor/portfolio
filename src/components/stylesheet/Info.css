@@ -1,3 +1,11 @@
+#Info {
+  padding: 50px;
+  min-height: 600px;
+  width: 100%;
+  color: black;
+  z-index: 2;
+}
+
 .profile-header {
   display: flex;
   justify-content: center;
@@ -14,6 +22,52 @@
 
 .profile-tagline {
   font-family: Calligraffitti;
+  font-style: italic;
   font-size: 20px;
   margin: 5px auto;
+}
+
+.p-content {
+  text-align: center;
+  font-family: Calligraffitti;
+  font-size: 20px;
+  margin: 20px 100px;
+}
+
+.a-info {
+  text-align: center;
+  display: inline;
+  padding: 20px;
+  margin: 20px;
+}
+
+.btn-info {
+  font-family: "Shadows Into Light", cursive;
+  background-color: rgba(187, 187, 187, 0.5);
+  color: black;
+  border: none;
+  line-height: 37px;
+  font-size: 30px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: max-content;
+  height: max-content;
+  padding: 2px 15px;
+}
+
+.btn-info:hover {
+  color: #fff;
+  border: 2px outset rgba(187, 187, 187, 0.5);
+  background: rgba(187, 187, 187, 0.5);
+  transform: scale(1.1);
+  transition: 0.2s;
+  text-shadow: 1px 1px 1px rgba(187, 187, 187, 0.5);
+  box-shadow: 3px 3px 3px rgba(187, 187, 187, 0.5);
+  letter-spacing: 2px;
+}
+
+.div-info-link {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
