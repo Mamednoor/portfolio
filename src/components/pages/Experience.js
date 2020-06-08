@@ -29,7 +29,7 @@ function Experience() {
         <h4 className="vertical-timeline-element-subtitle">Wild Code School</h4>
         <p>
         Bootcamp sur le métier du développement web, apprentissage React, Node.js, JavaScript, MySQL, Git,
-Github, HTML et CSS avec les méthodes Agile et Scrum
+Github, HTML et CSS avec les méthodes Agile et Scrum.
         </p>
       </VerticalTimelineElement>
       <VerticalTimelineElement
