@@ -15,8 +15,9 @@ const spin = keyframes`
     }
 `;
 const Logo = styled.img`
+
   animation: ${spin} infinite 5s linear;
-  height: 5vh;
+  height: 3vh;
   grid-area: 1/1/2/2;
 `;
 
@@ -29,6 +30,7 @@ class NavLink extends Component {
     return (
       <nav className="nav" id="navbar">
         <Logo src={logoReact} alt="logo" />
+        <Logo src={logoNodejs} alt="logo" />
         <div className="nav-content">
           <ul className="nav-items">
             <li className="nav-item">
@@ -58,7 +60,7 @@ class NavLink extends Component {
             </li>
           </ul>
         </div>
-        <Logo src={logoNodejs} alt="logo" />
+        
       </nav>
     );
   }
