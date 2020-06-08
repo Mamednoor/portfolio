@@ -1,0 +1,44 @@
+.BriefBox {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  left: calc(50% - 180px);
+  min-width: 286px;
+  -webkit-box-reflect: below 0 -webkit-linear-gradient(transparent, transparent
+        60%, rgba(255, 255, 255, 0.3));
+}
+
+.BriefBox > span {
+  font-family: "Shadows Into Light", cursive;
+  font-size: x-large;
+}
+
+.BriefBox > h1 {
+  font-family: "Russo One", sans-serif;
+  font-size: 50px;
+}
+
+.BriefBox > p {
+  font-family: "Russo One", sans-serif;
+  font-size: 20px;
+}
+
+#jobName {
+  margin: 0 auto;
+  white-space: nowrap;
+  width: min-content;
+  height: 40px;
+  font-size: 20px;
+  border-right: solid 5px gray;
+  animation: BorderOpacity 0.5s infinite;
+  z-index: 1;
+}
+
+#Home {
+  padding: 50px;
+  min-height: 300px;
+  width: 100%;
+  color: black;
+  z-index: 2;
+}

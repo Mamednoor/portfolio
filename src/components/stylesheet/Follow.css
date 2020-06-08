@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans&display=swap");
+
+.p-contact {
+  font-size: 20px;
+  font-family: Calligraffitti;
+  text-align: center;
+  color: whitesmoke;
+}
+
+.social_links {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 10px;
+}
+
+.ul-contact {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.li-contact {
+  text-align: center;
+  display: inline;
+  padding: 20px;
+  margin: 20px;
+}
+
+.a-contact {
+  font-size: 40px;
+  font-family: "Shadows Into Light", cursive;
+  text-decoration: none;
+  text-align: center;
+  color: whitesmoke;
+}
+
+#Follow {
+  padding: 50px;
+  background-color: black;
+  width: 100%;
+  color: whitesmoke;
+  z-index: 2;
+}
