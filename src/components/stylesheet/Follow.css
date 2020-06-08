@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans&display=swap");
-
 .p-contact {
   font-size: 20px;
   font-family: Calligraffitti;
@@ -28,8 +26,8 @@
 }
 
 .a-contact {
-  font-size: 40px;
-  font-family: "Shadows Into Light", cursive;
+  font-size: 30px;
+  font-family: Calligraffitti;
   text-decoration: none;
   text-align: center;
   color: whitesmoke;
@@ -37,7 +35,7 @@
 
 #Follow {
   padding: 50px;
-  background-color: black;
+  background-color: #4d4d4d;
   width: 100%;
   color: whitesmoke;
   z-index: 2;

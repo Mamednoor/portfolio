@@ -63,10 +63,8 @@ function Home() {
   return (
     <section id="Home">
       <div className="BriefBox">
-        <span> Bienvenue, je suis</span>
-        <h1> Mamed Gohabur</h1>
+        <h1>Mamed Gohabur</h1>
         <p id="jobName" />
-        <hr></hr>
       </div>
     </section>
   );

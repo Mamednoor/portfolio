@@ -6,9 +6,6 @@ function Follow() {
   return (
     <section id="Follow">
       <div className="PageTags">Suivez-moi</div>
-      <p className="p-contact">
-        Voici différents liens pour me suivre me suivre
-      </p>
       <ul className="ul-contact">
         <li className="li-contact">
           <a

@@ -1,13 +1,13 @@
 import React from "react";
 import Cards from "./Cards";
 
-function PorteFolio() {
+function PortFolio() {
   return (
     <section id="PorteFolio">
-      <div className="PageTags">Porte Folio</div>
+      <div className="PageTags">PortFolio</div>
       <Cards />
     </section>
   );
 }
 
-export default PorteFolio;
+export default PortFolio;

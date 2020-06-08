@@ -15,7 +15,7 @@ const CardContainer = styled.div`
 
 const CardBoxed = styled.div`
   background: #ffffff;
-  font-size: 12px;
+  font-size: 20px;
   max-width: 360px;
   height: 391px;
   overflow: hidden;
@@ -42,7 +42,7 @@ const CustomCard = styled.div`
   > .p-card {
     margin: 10px;
     color: #566271;
-    font-size: 14px;
+    font-size: 15px;
   }
   > .a-card {
     color: #333f48;

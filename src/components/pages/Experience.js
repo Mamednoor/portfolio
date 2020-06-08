@@ -6,30 +6,30 @@ import "../stylesheet/Experience.css";
 function Experience() {
   return (
     <section className="section-content" id="Experience">
-      <div className="PageTags">Experiences</div>
+      <div className="PageTags">Expériences</div>
       <VerticalTimeline>  
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        date="2020 - present"
+        date="Future"
         iconStyle={{ background: "rgb(16, 204, 82)", color: "#fff" }}
       >
         <h3 className="vertical-timeline-element-title">Dans votre entreprise peut-être</h3>
         <h4 className="vertical-timeline-element-subtitle">Développeur Fullstack</h4>
         <p>
-          Dans votre entreprise, avec vos missions.
+          avec vos missions.
         </p>
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-        date="2020 - present"
+        date="Présent"
         iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
       >
         <h3 className="vertical-timeline-element-title">Développeur web et web mobile</h3>
         <h4 className="vertical-timeline-element-subtitle">Wild Code School</h4>
         <p>
         Bootcamp sur le métier du développement web, apprentissage React, Node.js, JavaScript, MySQL, Git,
-Github, HTML et CSS avec les méthodes Agile et Scrum.
+        Github, HTML et CSS avec les méthodes Agile et Scrum.
         </p>
       </VerticalTimelineElement>
       <VerticalTimelineElement
@@ -37,12 +37,12 @@ Github, HTML et CSS avec les méthodes Agile et Scrum.
         date="2019 - 2020"
         iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
       >
-        <h3 className="vertical-timeline-element-title">Dalkia</h3>
+        <h3 className="vertical-timeline-element-title">Dalkia - Group EDF</h3>
         <h4 className="vertical-timeline-element-subtitle">
           Paris - France
         </h4>
         <p>
-          Manager
+          Manager d'une équipe de huit personnes, gestion de projets
         </p>
       </VerticalTimelineElement>
       <VerticalTimelineElement

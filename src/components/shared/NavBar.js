@@ -1,25 +1,7 @@
 import React, {Component} from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
-import styled, { keyframes } from "styled-components";
 
-import logoReact from "../assets/img/react.svg";
-import logoNodejs from "../assets/img/nodejs.png";
 import "./NavBar.css";
-
-const spin = keyframes`
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-`;
-const Logo = styled.img`
-
-  animation: ${spin} infinite 5s linear;
-  height: 3vh;
-  grid-area: 1/1/2/2;
-`;
 
 class NavBar extends Component {
   scrollToTop = () => {
@@ -31,7 +13,7 @@ class NavBar extends Component {
       <div className="nav">
         <input type="checkbox" id="nav-check"></input>
         <div className="nav-header">
-          <div className="nav-title"></div>
+          <div className="nav-title">Mamed Gohabur - Développeur FullStack</div>
         </div>
         <div className="nav-btn">
           <label className="label-nav" for="nav-check">
@@ -41,8 +23,6 @@ class NavBar extends Component {
           </label>
         </div>
         <div className="nav-links">
-        <Logo src={logoReact} alt="logo" />
-        <Logo src={logoNodejs} alt="logo" />
           <Link
             className="a-nav"
             to="Home"
@@ -56,19 +36,10 @@ class NavBar extends Component {
             className="a-nav"
             to="Info"
             smooth={true}
-            offset={-90}
+            offset={-40}
             duration={500}
           >
             Présentation
-          </Link>
-          <Link
-            className="a-nav"
-            to="Experience"
-            smooth={true}
-            offset={-90}
-            duration={500}
-          >
-            Expériences
           </Link>
           <Link
             className="a-nav"
@@ -78,6 +49,15 @@ class NavBar extends Component {
             duration={500}
           >
             Porte Folio
+          </Link>
+          <Link
+            className="a-nav"
+            to="Experience"
+            smooth={true}
+            offset={-90}
+            duration={500}
+          >
+            Expériences
           </Link>
           <Link
             className="a-nav"

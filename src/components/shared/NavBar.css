@@ -1,5 +1,4 @@
 .nav {
-  display: flex;
   height: 55px;
   width: 100%;
   background-color: #4d4d4d;
@@ -15,7 +14,7 @@
 
 .nav > .nav-header > .nav-title {
   display: inline-block;
-  font-size: 22px;
+  font-size: 18px;
   color: #fff;
   padding: 10px 10px 10px 10px;
 }
@@ -25,8 +24,8 @@
 }
 
 .nav > .nav-links {
-  display: flex;
-  justify-content: center;
+  display: inline;
+  float: right;
   font-size: 18px;
 }
 
