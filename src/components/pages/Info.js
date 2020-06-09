@@ -9,7 +9,9 @@ function Info() {
   return (
     <section id="Info">
       <div className="profile-header">
+      <div className="div-header-picture">
         <img src={profilePicture} className="profile-picture" alt="Profile" />
+      </div>
 
         <div className="div-profile-header">
           <p className="p-content">

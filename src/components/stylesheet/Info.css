@@ -36,8 +36,12 @@
 }
 
 .div-profile-header{
-  padding-left: 50px;
   align-self: center;
+}
+
+.div-header-picture {
+  align-self: center;
+  padding: 50px;
 }
 
 .p-content {
@@ -45,6 +49,7 @@
   font-family: Calligraffitti;
   font-size: 20px;
   margin: 5px auto;
+  padding: 10px;
 }
 
 .a-info {
