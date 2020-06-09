@@ -56,12 +56,14 @@ function Info() {
           </div>
         </div>
       </div>
-
-      <div className="profile-tagline">
-        La plus grande gloire n’est pas de ne jamais tomber, mais de se relever
-        à chaque chute. (Nelson Mandela)
-      </div>
-
+      {/* <fieldset>
+      <legend>Citation</legend>
+        <div className="profile-tagline">
+          <p>La plus grande gloire n’est pas de ne jamais tomber, mais de se relever
+          à chaque chute.</p>
+          <p>- Nelson Mandela</p>
+        </div>
+      </fieldset> */}
     </section>
   );
 }

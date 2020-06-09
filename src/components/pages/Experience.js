@@ -41,9 +41,11 @@ function Experience() {
         <h4 className="vertical-timeline-element-subtitle">
           Paris - France
         </h4>
-        <p>
-          Manager d'une équipe de huit personnes, gestion de projets
-        </p>
+        <p>Management d’une équipe de huit personnes (équipe de sous-traitant multi-technique)</p>
+        <p>Management de projet « Rénovation et Travaux »</p>
+        <p>Interlocuteur privilégié : clients, prestataires et sous-traitants</p>
+        <p>Suivis des budgets de maintenance</p>
+        <p>Gamme de maintenance pilotée avec GPLI / MAINTA / SAM FM</p>
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
@@ -51,8 +53,14 @@ function Experience() {
         iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
       >
         <h3 className="vertical-timeline-element-title">Infoway - Expert en affichage dynamique</h3>
-        <h4 className="vertical-timeline-element-subtitle">Saint-Denis - France</h4>
-        <p>Responsable Technique</p>
+        <h4 className="vertical-timeline-element-subtitle">Responsable technique</h4>
+        <p>Management de projet national sur site et à distance</p>
+        <p>Supervision des déploiements de projets</p>
+        <p>Interlocuteur privilégié : Maitre d’œuvres, prestataires, développeurs</p>
+        <p>Paramétrage et configuration de l’outil GMAO</p>
+        <p>Gestion des demandes utilisateurs</p>
+        <p>Suivis des phases recettes et tests</p>
+        <p>Gestion et administration des équipements à distances</p>
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
@@ -61,9 +69,14 @@ function Experience() {
       >
         <h3 className="vertical-timeline-element-title">Ibis Bercy village</h3>
         <h4 className="vertical-timeline-element-subtitle">
-          Paris - France
+          Responasble technique
         </h4>
-        <p>Responsable Technique</p>
+        <p>Membre du comité de direction</p>
+        <p>Configuration de l’outil GMAO interne Accor</p>
+        <p>Suivis administratif (commande / contrat / énergies)</p>
+        <p>Gestion du matériel</p>
+        <p>Gestion de projet</p>
+        <p>Relation clientèle (gestion de conflit)</p>
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--education"
@@ -73,8 +86,11 @@ function Experience() {
         <h3 className="vertical-timeline-element-title">
           Mercure Paris centre Tour Eiffel
         </h3>
-        <h4 className="vertical-timeline-element-subtitle">Paris - France</h4>
-        <p>Assistant Responsable Technique</p>
+        <h4 className="vertical-timeline-element-subtitle">Assistant responsable technique</h4>
+        <p>Management équipe de neuf personnes</p>
+        <p>Suivis administratif (commande)</p>
+        <p>Gestion du matériel</p>
+        <p>Suivis de projet</p>
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--education"

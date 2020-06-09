@@ -4,11 +4,15 @@
   width: 100%;
   color: black;
   z-index: 2;
+  line-height: 40px;
+  display: flex;
+  justify-content: center;
+  align-self:center;
 }
 
 .profile-header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-self:center;
   flex-direction: row;
   flex-wrap: wrap;
@@ -32,6 +36,7 @@
 }
 
 .div-profile-header{
+  padding-left: 50px;
   align-self: center;
 }
 
@@ -70,4 +75,17 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+legend {
+  text-align: center;
+  font-size: x-large;
+  font-style: italic;
+}
+
+fieldset {
+  text-align: justify;
+  justify-self: center;
+  align-items: center;
+  width:max-content;
 }
