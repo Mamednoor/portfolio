@@ -58,6 +58,9 @@ function Follow() {
           </a>
         </li>
       </ul>
+      <p>Site crée par Mamed Gohabur</p>
+      <p>Vous pouvez me contacter par LinkedIn ou par Mail</p>
+      <p>Je serai ravis d'échanger avec vous</p>
     </section>
   );
 }

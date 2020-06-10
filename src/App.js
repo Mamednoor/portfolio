@@ -6,7 +6,7 @@ import Experience from "./components/pages/Experience";
 import PortFolio from "./components/pages/PortFolio";
 import Follow from "./components/pages/Follow";
 import NavBar from "./components/shared/NavBar";
-import Stack from "./components/pages/Stack";
+import Stack from "./components/shared/Stack";
 
 function App() {
     return (

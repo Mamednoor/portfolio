@@ -1,6 +1,6 @@
 #Info {
   padding: 50px;
-  min-height: 600px;
+  min-height: 500px;
   width: 100%;
   color: black;
   z-index: 2;
@@ -93,4 +93,9 @@ fieldset {
   justify-self: center;
   align-items: center;
   width:max-content;
+}
+
+.imginfo {
+  height: 50px;
+  width: 50px;
 }
