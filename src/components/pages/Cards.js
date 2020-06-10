@@ -68,7 +68,7 @@ function Cards() {
             <h3>Pixie Wilders</h3>
           </a>
           <p className="p-card">
-            Création d’une marketplace fictif de photographie
+            Création d’une marketplace de photographie
             <br />
             (Stack: HTML, CSS, Git et Github)
           </p>
