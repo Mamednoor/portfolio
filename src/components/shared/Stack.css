@@ -1,0 +1,27 @@
+#Stack {
+  padding: 50px;
+  min-height: 200px;
+  width: 100%;
+  color: black;
+  z-index: 2;
+}
+
+.divstack {
+  padding: 150px auto;
+}
+
+.imgstack {
+  height: 90px;
+  width: 90px;
+}
+
+.ulstack {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.listack {
+  padding: 10px;
+  list-style: none;
+}

@@ -2,6 +2,10 @@ import React from "react";
 
 import PDF from "../assets/Mamed-Gohabur-Developpeur-FullStack.pdf";
 import profilePicture from "../assets/Profile.jpeg";
+import logoCV from "../assets/img/CV.png";
+import logoGithub from "../assets/img/Github.png";
+import logoLinkedin from "../assets/img/Linkedin.png";
+import logoMail from "../assets/img/Mail.png";
 
 import "../stylesheet/Info.css";
 
@@ -23,7 +27,7 @@ function Info() {
             rester à l'affût des nouveautés.
           </p>
           <p className="p-content">
-            et une formation à la{" "}
+            Une formation à la{" "}
             <a href="https://www.wildcodeschool.com/fr-FR/formations/developpeur-web?campus=paris">
               {" "}
               WildCodeSchool Paris 75005{" "}
@@ -43,17 +47,25 @@ function Info() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <button className="btn-info">LinkedIn</button>
+          <img className="imginfo" src={logoLinkedin} alt="LinkedIn" />
             </a>
             <a className="a-info" href={PDF}>
-              <button className="btn-info">Curriculum Vitae</button>
+            <img className="imginfo" src={logoCV} alt="CV" />
             </a>
+            <a
+            className="a-info"
+            href="https://github.com/Mamednoor"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+          <img className="imginfo" src={logoGithub} alt="Github" />
+          </a>
             <a
               className="a-info"
               href="mailto:mamed.gohabur@gmail.com"
               rel="noopener noreferrer"
             >
-              <button className="btn-info">Mail</button>
+            <img className="imginfo" src={logoMail} alt="Mail" />
             </a>
           </div>
         </div>
