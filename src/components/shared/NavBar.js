@@ -43,7 +43,7 @@ class NavBar extends Component {
           </Link>
           <Link
             className="a-nav"
-            to="PorteFolio"
+            to="PortFolio"
             smooth={true}
             offset={-90}
             duration={500}
