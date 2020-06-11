@@ -3,7 +3,7 @@ import Cards from "./Cards";
 
 function PortFolio() {
   return (
-    <section id="PorteFolio">
+    <section id="PortFolio">
       <div className="PageTags">PortFolio</div>
       <Cards />
     </section>
