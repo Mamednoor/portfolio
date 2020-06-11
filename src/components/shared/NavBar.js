@@ -48,7 +48,7 @@ class NavBar extends Component {
             offset={-90}
             duration={500}
           >
-            Porte Folio
+            PortFolio
           </Link>
           <Link
             className="a-nav"
