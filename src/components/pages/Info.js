@@ -19,12 +19,13 @@ function Info() {
 
         <div className="div-profile-header">
           <p className="p-content">
-            Développeur Fullstack avec un profil atypique, enthousiaste et dynamique.
+            Vous recherchez un développeur dynamique, atypique et enthousiaste mais surtout passioné
+            vous êtes au bon endroit, apprenez en plus et continuer la visite !
           </p>
           <p className="p-content">
-            Après plusieurs vies professionnelles mais surtout passionné par les
-            nouvelles technologies qui ne cesse d'évoluer, aimant apprendre et
-            rester à l'affût des nouveautés.
+            Après plusieurs vies professionnelles animé par les
+            nouvelles technologies qui ne cesse d'évoluer, aimant apprendre en
+            restant à l'affût des nouveautés.
           </p>
           <p className="p-content">
             Une formation à la{" "}
