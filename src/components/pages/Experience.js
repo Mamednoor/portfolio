@@ -13,10 +13,10 @@ function Experience() {
         date="Future"
         iconStyle={{ background: "rgb(16, 204, 82)", color: "#fff" }}
       >
-        <h3 className="vertical-timeline-element-title">Dans votre entreprise peut-être</h3>
-        <h4 className="vertical-timeline-element-subtitle">Développeur Fullstack</h4>
+        <h3 className="vertical-timeline-element-title">Dans votre entreprise</h3>
+        <h4 className="vertical-timeline-element-subtitle">Développeur Fullstack React, Node.js</h4>
         <p>
-          avec vos missions.
+          différentes mission confié
         </p>
       </VerticalTimelineElement>
       <VerticalTimelineElement

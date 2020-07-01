@@ -19,8 +19,8 @@
 }
 
 .profile-picture {
-  width: 256px;
-  height: 256px;
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
   object-fit: cover;
 }
@@ -49,7 +49,7 @@
   font-family: Calligraffitti;
   font-size: 20px;
   margin: 5px auto;
-  padding: 10px;
+  padding: 5px;
 }
 
 .a-info {
