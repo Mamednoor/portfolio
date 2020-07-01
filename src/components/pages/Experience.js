@@ -17,6 +17,9 @@ function Experience() {
         <h4 className="vertical-timeline-element-subtitle">Développeur Fullstack React, Node.js</h4>
         <p>Travail en Agilité</p>
         <p>Daily quotidien en début et fin de journée</p>
+        <p>Différentes missions</p>
+        <p>Création de contenue</p>
+        <p>Débug et optimisation de code</p>
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
