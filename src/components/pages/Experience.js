@@ -15,9 +15,8 @@ function Experience() {
       >
         <h3 className="vertical-timeline-element-title">Dans votre entreprise</h3>
         <h4 className="vertical-timeline-element-subtitle">Développeur Fullstack React, Node.js</h4>
-        <p>
-          différentes mission confié
-        </p>
+        <p>Travail en Agilité</p>
+        <p>Daily quotidien en début et fin de journée</p>
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
