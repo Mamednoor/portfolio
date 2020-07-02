@@ -1,5 +1,5 @@
 #Info {
-  padding: 50px;
+  padding: 30px;
   min-height: 500px;
   width: 100%;
   color: black;
@@ -12,7 +12,7 @@
 
 .profile-header {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-self:center;
   flex-direction: row;
   flex-wrap: wrap;
