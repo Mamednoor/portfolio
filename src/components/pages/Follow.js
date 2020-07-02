@@ -58,7 +58,6 @@ function Follow() {
           </a>
         </li>
       </ul>
-      <p>Crée par Mamed Gohabur</p>
     </section>
   );
 }
