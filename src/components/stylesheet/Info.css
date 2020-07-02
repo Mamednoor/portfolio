@@ -16,6 +16,8 @@
   align-self:center;
   flex-direction: row;
   flex-wrap: wrap;
+  border: solid black 2px;
+  margin: 20px;
 }
 
 .profile-picture {
@@ -37,6 +39,7 @@
 
 .div-profile-header{
   align-self: center;
+  margin: 20px;
 }
 
 .div-header-picture {
@@ -49,7 +52,7 @@
   font-family: Calligraffitti;
   font-size: 20px;
   margin: 5px auto;
-  padding: 5px;
+  padding: 2px;
 }
 
 .a-info {
@@ -78,7 +81,6 @@
 
 .div-info-link {
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
 }
 
