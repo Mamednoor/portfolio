@@ -8,6 +8,7 @@ import logoCss from "../assets/img/CSS.png";
 import logoGit from "../assets/img/Git.png";
 import logoGithub from "../assets/img/Github.png";
 import logoMySQL from "../assets/img/Mysql.png";
+import logoExpress from '../assets/img/Express.svg'
 
 import "./Stack.css";
 
@@ -22,6 +23,9 @@ function Stack() {
           </li>
           <li className="listack">
             <img className="imgstack" src={logoNode} alt="Nodejs" />
+          </li>
+          <li className="listack">
+            <img className="imgstack" src={logoExpress} alt="ExpressJs" />
           </li>
           <li className="listack">
             <img className="imgstack" src={logoJS} alt="JavaScript" />

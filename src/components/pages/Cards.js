@@ -42,6 +42,7 @@ const CustomCard = styled.div`
   > .p-card {
     margin: 10px;
     color: #566271;
+    font-family: 'Open Sans', sans-serif;
     font-size: 15px;
   }
   > .a-card {
