@@ -16,13 +16,12 @@
   align-self:center;
   flex-direction: row;
   flex-wrap: wrap;
-  border: solid black 2px;
   margin: 20px;
 }
 
 .profile-picture {
-  width: 300px;
-  height: 300px;
+  width: 256px;
+  height: 256px;
   border-radius: 50%;
   object-fit: cover;
 }
@@ -49,9 +48,8 @@
 
 .p-content {
   text-align: justify;
-  font-family: 'Open Sans', sans-serif;
-  margin: 5px auto;
-  padding: 2px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 22px;
 }
 
 .a-info {

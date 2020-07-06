@@ -19,26 +19,13 @@ function Info() {
 
         <div className="div-profile-header">
           <p className="p-content">
-            Vous recherchez un développeur dynamique, atypique et enthousiaste mais surtout passioné
-            vous êtes au bon endroit, apprenez en plus et continuer la visite !
+            Je suis Développeur Fullstack passionné de nouvelle technologies.
           </p>
           <p className="p-content">
-            Après plusieurs vies professionnelles animé par les
-            nouvelles technologies qui ne cesse d'évoluer, aimant apprendre en
-            restant à l'affût des nouveautés.
+            En tant que passioné, je m'éfforce à écrire des code simple et lisible
           </p>
           <p className="p-content">
-            Une formation à la{" "}
-            <a href="https://www.wildcodeschool.com/fr-FR/formations/developpeur-web?campus=paris">
-              {" "}
-              WildCodeSchool Paris 75005{" "}
-            </a>
-            sur les langages React, Node.js, JavaScript, MySQL, Git, Github,
-            HTML et CSS avec les méthodes Agile et Scrum
-          </p>
-          <p className="p-content">
-            Apprenez-en plus ou contactez moi directement avec les liens
-            ci-desous
+            En tant que curieux, je reste à l'affût des nouvelles technologies et je reste en apprentissage constant
           </p>
 
           <div className="div-info-link">
