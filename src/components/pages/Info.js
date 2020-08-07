@@ -1,6 +1,6 @@
 import React from "react";
 
-import PDF from "../assets/Mamed-Gohabur-Developpeur-FullStack.pdf";
+import PDF from "../assets/Mamed-Gohabur-Developpeur-React-Nodejs.pdf";
 import profilePicture from "../assets/Profile.jpeg";
 import logoCV from "../assets/img/CV.png";
 import logoGithub from "../assets/img/Github.png";
