@@ -10,19 +10,6 @@ function Experience() {
       <VerticalTimeline>  
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        date="Future"
-        iconStyle={{ background: "rgb(16, 204, 82)", color: "#fff" }}
-      >
-        <h3 className="vertical-timeline-element-title">Dans votre entreprise</h3>
-        <h4 className="vertical-timeline-element-subtitle">Développeur Fullstack React, Node.js</h4>
-        <p>Travail en Agilité</p>
-        <p>Daily quotidien en début et fin de journée</p>
-        <p>Différentes missions</p>
-        <p>Création de contenue</p>
-        <p>Débug et optimisation de code</p>
-      </VerticalTimelineElement>
-      <VerticalTimelineElement
-        className="vertical-timeline-element--work"
         contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
         date="Présent"
         iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
