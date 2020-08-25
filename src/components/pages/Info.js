@@ -30,7 +30,7 @@ function Info() {
             GMAO, j’ai décidé d’acquérir des compétences dans le développements
             web.
           </p>
-
+        
           <div className="div-info-link">
             <a
               className="a-info"

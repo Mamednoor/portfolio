@@ -7,7 +7,7 @@
   margin: 0px;
   padding: 0px;
   scroll-behavior: smooth;
-  box-sizing: inherit;
+  box-sizing: border-box;
   font-family: Calligraffitti;
 }
 
@@ -28,7 +28,6 @@ html {
 #PorteFolio {
   min-height: 600px;
   width: 100%;
-
   z-index: 2;
 }
 

@@ -1,5 +1,5 @@
 #Info {
-  padding: 20px;
+  padding: 15px;
   min-height: 500px;
   width: 100%;
   color: black;
@@ -16,7 +16,8 @@
   align-self:center;
   flex-direction: row;
   flex-wrap: wrap;
-  margin: 20px;
+  margin: 10px;
+
 }
 
 .profile-picture {
@@ -37,6 +38,8 @@
 }
 
 .div-profile-header{
+  display: flex;
+  flex-direction: column;
   align-self: center;
   margin: 10px;
 }
@@ -47,36 +50,23 @@
 }
 
 .p-content {
+  justify-content: center;
   text-align: left ;
   font-family: 'Roboto', sans-serif;
   line-height: 22px;
   font-size: 18px;
   color:white;
-  width: 30em;
+  width: 25vw;
 }
 
 .a-info {
   text-align: center;
-  display: inline;
-  padding: 10px;
+  display: flex;
+  margin: 10px;
 }
 
-.btn-info {
-  font-family: Calligraffitti;
-  background-color: rgba(187, 187, 187, 0.5);
-  color: black;
-  border: none;
-  line-height: 37px;
-  font-size: 25px;
-  border-radius: 4px;
-  cursor: pointer;
-  width: max-content;
-  height: max-content;
-  padding: 2px 15px;
-}
-
-.btn-info:hover {
-  color: #fff;
+.a-info:hover{
+  background-color: red;
 }
 
 .div-info-link {
@@ -84,20 +74,15 @@
   flex-wrap: wrap;
 }
 
-legend {
-  text-align: center;
-  font-size: x-large;
-  font-style: italic;
-}
-
-fieldset {
-  text-align: justify;
-  justify-self: center;
-  align-items: center;
-  width:max-content;
-}
-
 .imginfo {
   height: 50px;
   width: 50px;
+}
+
+@media screen and (min-width: 200px) and (max-width: 640px){
+  .p-content {
+    text-align: left ;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+  }
 }
