@@ -85,4 +85,9 @@
     font-family: 'Roboto', sans-serif;
     width: 100%;
   }
+  .div-header-picture {
+    margin: 0 auto;
+    align-self: center;
+    padding: 20px;
+  }
 }

@@ -39,7 +39,7 @@
 }
 
 .nav > .nav-links > .a-nav:hover {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: red;
   height: min-content;
 }
 
