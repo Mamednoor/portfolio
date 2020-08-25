@@ -13,8 +13,9 @@
 
 body {
   font-size: 0.875em;
-  color: #212121;
+  color: white;
   line-height: 1.5;
+  background-color: black;
 }
 
 html {
@@ -27,7 +28,7 @@ html {
 #PorteFolio {
   min-height: 600px;
   width: 100%;
-  color: black;
+
   z-index: 2;
 }
 

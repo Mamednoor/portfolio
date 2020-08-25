@@ -2,13 +2,14 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+  color: black;
+  line-height: 22px;
 }
 
 #Experience {
   padding: 50px;
   min-height: 600px;
   width: 100%;
-  color: black;
   z-index: 2;
 }
 
@@ -59,7 +60,7 @@
 .hr-guide-step:before {
   content: "";
   font-family: "Oswald", Georgia, Cambria, "Times New Roman", Times, serif;
-  color: #ffffff;
+  color: black;
   display: flex;
   align-items: center;
   justify-content: center;

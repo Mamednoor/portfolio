@@ -30,7 +30,7 @@
   width: min-content;
   height: 40px;
   font-size: 20px;
-  border-right: solid 5px gray;
+  border-right: solid 1px gray;
   animation: BorderOpacity 0.5s infinite;
   z-index: 1;
 }
@@ -39,6 +39,6 @@
   padding-top: 150px;
   min-height: 300px;
   width: 100%;
-  color: black;
+  color: white;
   z-index: 2;
 }

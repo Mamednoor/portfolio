@@ -47,10 +47,12 @@
 }
 
 .p-content {
-  text-align: justify;
+  text-align: left ;
   font-family: 'Roboto', sans-serif;
   line-height: 22px;
   font-size: 18px;
+  color:white;
+  width: 30em;
 }
 
 .a-info {

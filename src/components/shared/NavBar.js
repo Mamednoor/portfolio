@@ -13,7 +13,7 @@ class NavBar extends Component {
       <div className="nav">
         <input type="checkbox" id="nav-check"></input>
         <div className="nav-header">
-          <div className="nav-title">Mamed Gohabur - Développeur FullStack</div>
+          {/* <div className="nav-title">Mamed Gohabur - Développeur FullStack</div> */}
         </div>
         <div className="nav-btn">
           <label className="label-nav" for="nav-check">

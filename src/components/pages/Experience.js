@@ -5,8 +5,9 @@ import "../stylesheet/Experience.css";
 
 function Experience() {
   return (
-    <section className="section-content" id="Experience">
+    <>
       <div className="PageTags">Expériences</div>
+    <section className="section-content" id="Experience">
       <VerticalTimeline>  
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
@@ -81,22 +82,9 @@ function Experience() {
         <p>Gestion du matériel</p>
         <p>Suivis de projet</p>
       </VerticalTimelineElement>
-      <VerticalTimelineElement
-        className="vertical-timeline-element--education"
-        date="2008 2011"
-        iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-      >
-        <h3 className="vertical-timeline-element-title">
-          Cegelec
-        </h3>
-        <h4 className="vertical-timeline-element-subtitle">Creteil / Nanterre - France</h4>
-        <p>Technicien de maintenance</p>
-      </VerticalTimelineElement>
-      <VerticalTimelineElement
-        iconStyle={{ background: "black", color: "#fff" }}
-      />
     </VerticalTimeline>
     </section>
+    </>
   );
 }
 

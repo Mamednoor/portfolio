@@ -14,7 +14,7 @@ const CardContainer = styled.div`
 `;
 
 const CardBoxed = styled.div`
-  background: #ffffff;
+  background: black;
   font-size: 20px;
   max-width: 360px;
   height: 391px;
@@ -41,12 +41,12 @@ const CustomCard = styled.div`
   padding: 24px;
   > .p-card {
     margin: 10px;
-    color: #566271;
+    color: white;
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
   }
   > .a-card {
-    color: #333f48;
+    color: white;
     font-size: 20px;
     font-size: 18px;
   }

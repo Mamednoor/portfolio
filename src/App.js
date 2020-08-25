@@ -1,12 +1,11 @@
 import React from "react";
 import "./App.css";
-import Home from "./components/pages/Home";
 import Info from "./components/pages/Info";
 import Experience from "./components/pages/Experience";
 import PortFolio from "./components/pages/PortFolio";
 import Follow from "./components/pages/Follow";
 import NavBar from "./components/shared/NavBar";
-import Stack from "./components/shared/Stack";
+import Home from "./components/pages/Home";
 
 function App() {
     return (
@@ -14,7 +13,6 @@ function App() {
         <NavBar />
         <Home id="Home" />
         <Info id="Info" />
-        <Stack />
         <PortFolio id="PorteFolio" />
         <Experience id="Experience" />
         <Follow id="Contact" />
