@@ -1,10 +1,11 @@
 import React from "react";
 import styled from "styled-components";
 
-import Build from "../assets/img/UnderConstruction.jpg";
-import CookCake from "../assets/img/CookAndCake.png";
-import GoatvsChicken from "../assets/img/GoatvsChicken.png";
-import PixieWilder from "../assets/img/PixieWilders.png";
+import build from "../assets/img/UnderConstruction.jpg";
+import cookcake from "../assets/img/CookAndCake.png";
+import goatvschicken from "../assets/img/GoatvsChicken.png";
+import doctalk from "../assets/img/doctalk.jpg"
+import pixieWilder from "../assets/img/PixieWilders.png";
 
 const CardContainer = styled.div`
   display: flex;
@@ -57,7 +58,7 @@ function Cards() {
     <CardContainer>
       <CardBoxed>
         <CustomImage>
-          <img className="img-card" alt="ScreenProject" src={PixieWilder} />
+          <img className="img-card" alt="ScreenProject" src={pixieWilder} />
         </CustomImage>
         <CustomCard>
           <a
@@ -77,7 +78,7 @@ function Cards() {
       </CardBoxed>
       <CardBoxed>
         <CustomImage>
-          <img className="img-card" alt="ScreenProject" src={CookCake} />
+          <img className="img-card" alt="ScreenProject" src={cookcake} />
         </CustomImage>
         <CustomCard>
           <a
@@ -97,7 +98,7 @@ function Cards() {
       </CardBoxed>
       <CardBoxed>
         <CustomImage>
-          <img className="img-card" alt="ScreenProject" src={GoatvsChicken} />
+          <img className="img-card" alt="ScreenProject" src={goatvschicken} />
         </CustomImage>
         <CustomCard>
           <a
@@ -118,7 +119,27 @@ function Cards() {
       </CardBoxed>
       <CardBoxed>
         <CustomImage>
-          <img className="img-card" alt="ScreenProject" src={Build} />
+          <img className="img-card" alt="ScreenProject" src={doctalk} />
+        </CustomImage>
+        <CustomCard>
+          <a
+            className="a-card"
+            size="normal"
+            href="https://github.com/Mamednoor/doctalkfusion"
+            rel="noopener noreferrer"
+          >
+            <h3>Doc'Talk</h3>{" "}
+          </a>
+          <p className="p-card">
+          Création d'une application mobile mettant en relation  médecins et patients.
+            <br />
+            (Stack: MySQL, React, Node.js, Socket.io, Git & GitHub, SCRUM)
+          </p>
+        </CustomCard>
+      </CardBoxed>
+      <CardBoxed>
+        <CustomImage>
+          <img className="img-card" alt="ScreenProject" src={build} />
         </CustomImage>
         <CustomCard>
           <a
@@ -130,7 +151,7 @@ function Cards() {
             <h3>Under Construction</h3>{" "}
           </a>
           <p className="p-card">
-            Création d’une marketplace de design
+            Création d’une marketplace de design pour le compte de Papier crayon
             <br />
             (Stack: MySQL, React, Node.js, Git & GitHub, SCRUM)
           </p>
