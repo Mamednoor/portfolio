@@ -38,6 +38,8 @@
   z-index: 2;
 }
 
+/* add responsive for Home section */
+
 @media screen and (min-width: 200px) and (max-width: 640px){
   #Home {
     padding-top: 100px;
