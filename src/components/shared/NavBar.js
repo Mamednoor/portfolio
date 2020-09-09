@@ -1,20 +1,18 @@
-import React, {Component} from "react";
+import React from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
 
 import "./NavBar.css";
 
-class NavBar extends Component {
-  scrollToTop = () => {
+const NavBar = () => {
+
+  const scrollToTop = () => {
     scroll.scrollToTop();
   };
-  render() {
+
   return (
     <nav>
       <div className="nav">
         <input type="checkbox" id="nav-check"></input>
-        <div className="nav-header">
-          {/* <div className="nav-title">Mamed Gohabur - Développeur FullStack</div> */}
-        </div>
         <div className="nav-btn">
           <label className="label-nav" for="nav-check">
             <span></span>
@@ -54,7 +52,7 @@ class NavBar extends Component {
             className="a-nav"
             to="Experience"
             smooth={true}
-            offset={-90}
+            offset={-180}
             duration={500}
           >
             Expériences
@@ -72,7 +70,6 @@ class NavBar extends Component {
       </div>
     </nav>
   );
-}
 }
 
 export default NavBar;
