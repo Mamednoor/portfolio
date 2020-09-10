@@ -6,6 +6,7 @@ import cookcake from "../assets/img/CookAndCake.png";
 import goatvschicken from "../assets/img/GoatvsChicken.png";
 import doctalk from "../assets/img/doctalk.jpg"
 import pixieWilder from "../assets/img/PixieWilders.png";
+import reduxtrain from "../assets/img/redux-train.png"
 
 const CardContainer = styled.div`
   display: flex;
@@ -72,7 +73,7 @@ function Cards() {
           <p className="p-card">
             Création d’une marketplace de photographie
             <br />
-            (Stack: HTML, CSS, Git et Github)
+            Stack: HTML, CSS, Git et Github
           </p>
         </CustomCard>
       </CardBoxed>
@@ -92,7 +93,7 @@ function Cards() {
           <p className="p-card">
             Création d’une Application web de cuisine avec consommation d'API
             <br />
-            (Stack: React, JavaScript, HTML, CSS, Git et Github, SCRUM)
+            Stack: React, JavaScript, HTML, CSS, Git et Github, SCRUM
           </p>
         </CustomCard>
       </CardBoxed>
@@ -113,7 +114,7 @@ function Cards() {
             Création d'un jeux vidéo lors d'un Hackathon de 24H à la
             WildCodeSchool Paris
             <br />
-            (Stack: JavaScript, Phaser, Git et Github)
+            Stack: JavaScript, Phaser, Git et Github
           </p>
         </CustomCard>
       </CardBoxed>
@@ -133,7 +134,7 @@ function Cards() {
           <p className="p-card">
           Création d'une application mobile mettant en relation  médecins et patients.
             <br />
-            (Stack: MySQL, React, Node.js, Socket.io, Git & GitHub, SCRUM)
+            Stack: MySQL, React, Node.js, Socket.io, Git & GitHub, SCRUM
           </p>
         </CustomCard>
       </CardBoxed>
@@ -153,7 +154,27 @@ function Cards() {
           <p className="p-card">
             Création d’une marketplace de design pour le compte de Papier crayon
             <br />
-            (Stack: MySQL, React, Node.js, Git & GitHub, SCRUM)
+            Stack: MySQL, React, Node.js, Git & GitHub, SCRUM
+          </p>
+        </CustomCard>
+      </CardBoxed>
+      <CardBoxed>
+        <CustomImage>
+          <img className="img-card" alt="ScreenProject" src={reduxtrain} />
+        </CustomImage>
+        <CustomCard>
+          <a
+            className="a-card"
+            size="normal"
+            href="https://redux-train-todoapp.netlify.app/"
+            rel="noopener noreferrer"
+          >
+            <h3>Todo List</h3>{" "}
+          </a>
+          <p className="p-card">
+            Création d’une Todo List avec Redux
+            <br />
+            Stack: React + Redux, Git & Github
           </p>
         </CustomCard>
       </CardBoxed>
