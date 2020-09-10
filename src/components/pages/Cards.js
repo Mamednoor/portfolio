@@ -7,6 +7,7 @@ import goatvschicken from "../assets/img/GoatvsChicken.png";
 import doctalk from "../assets/img/doctalk.jpg"
 import pixieWilder from "../assets/img/PixieWilders.png";
 import reduxtrain from "../assets/img/redux-train.png"
+import papiercrayon from "../assets/img/papiercrayon.png"
 
 const CardContainer = styled.div`
   display: flex;
@@ -114,7 +115,7 @@ function Cards() {
             Création d'un jeux vidéo lors d'un Hackathon de 24H à la
             WildCodeSchool Paris
             <br />
-            Stack: JavaScript, Phaser, Git et Github
+            Stack: JavaScript, Phaser3, Git et Github
           </p>
         </CustomCard>
       </CardBoxed>
@@ -140,7 +141,7 @@ function Cards() {
       </CardBoxed>
       <CardBoxed>
         <CustomImage>
-          <img className="img-card" alt="ScreenProject" src={build} />
+          <img className="img-card" alt="ScreenProject" src={papiercrayon} />
         </CustomImage>
         <CustomCard>
           <a
