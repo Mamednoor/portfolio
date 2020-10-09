@@ -17,12 +17,6 @@ function Info() {
           <img src={profilePicture} className="profile-picture" alt="Profile" />
         </div>
         <div className="div-profile-header">
-          {/* <p className="p-content">
-            Je suis Développeur Fullstack passionné de nouvelle technologies.
-            En tant que passioné, je m'éfforce à écrire des code simple et lisible.
-            En tant que curieux, je reste à l'affût des nouvelles technologies et je reste en apprentissage constant.
-          </p> */}
-
           <p className="p-content">
             Fort d’une expérience de 9 ans la gestion technique et maintenance
             de patrimoine ainsi que le déploiement de produit informatique et

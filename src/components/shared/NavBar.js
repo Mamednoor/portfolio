@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
 
 import "./NavBar.css";
@@ -8,6 +8,10 @@ const NavBar = () => {
   const scrollToTop = () => {
     scroll.scrollToTop();
   };
+
+  useEffect(() => {
+    scrollToTop()
+  }, [])
 
   return (
     <nav>

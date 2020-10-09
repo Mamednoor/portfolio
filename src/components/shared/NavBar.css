@@ -39,13 +39,15 @@
 }
 
 .nav > .nav-links > .a-nav:hover {
-  background-color: red;
+  color: red;
   height: min-content;
 }
+
 
 .nav > #nav-check {
   display: none;
 }
+
 
 @media (max-width: 600px) {
   .nav > .nav-btn {

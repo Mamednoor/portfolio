@@ -8,11 +8,23 @@ function Experience() {
     <>
       <div className="PageTags">Expériences</div>
     <section className="section-content" id="Experience">
-      <VerticalTimeline>  
+      <VerticalTimeline>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
         date="Présent"
+        iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+      >
+        <h3 className="vertical-timeline-element-title">Développeur Front-End React</h3>
+        <h4 className="vertical-timeline-element-subtitle">Cityviz</h4>
+        <p>
+          Stacks: React / Hooks, Redux, Redux-Saga, GitLab
+        </p>
+      </VerticalTimelineElement>  
+      <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+        contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+        date="03-2020 07-2020"
         iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
       >
         <h3 className="vertical-timeline-element-title">Développeur web et web mobile</h3>

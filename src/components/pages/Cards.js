@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 
-import build from "../assets/img/UnderConstruction.jpg";
 import cookcake from "../assets/img/CookAndCake.png";
 import goatvschicken from "../assets/img/GoatvsChicken.png";
 import doctalk from "../assets/img/doctalk.jpg"
@@ -109,7 +108,7 @@ function Cards() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <h3>Goat vs Chicken</h3>{" "}
+            <h3>Goat vs Chicken</h3>
           </a>
           <p className="p-card">
             Création d'un jeux vidéo lors d'un Hackathon de 24H à la
@@ -130,7 +129,7 @@ function Cards() {
             href="https://github.com/Mamednoor/doctalkfusion"
             rel="noopener noreferrer"
           >
-            <h3>Doc'Talk</h3>{" "}
+            <h3>Doc'Talk</h3>
           </a>
           <p className="p-card">
           Création d'une application mobile mettant en relation  médecins et patients.
@@ -150,7 +149,7 @@ function Cards() {
             href="https://github.com/Mamednoor/papiercrayon"
             rel="noopener noreferrer"
           >
-            <h3>Under Construction</h3>{" "}
+            <h3>Papier Crayon</h3>
           </a>
           <p className="p-card">
             Création d’une marketplace de design pour le compte de Papier crayon
@@ -170,7 +169,7 @@ function Cards() {
             href="https://redux-train-todoapp.netlify.app/"
             rel="noopener noreferrer"
           >
-            <h3>Todo List</h3>{" "}
+            <h3>Todo List</h3>
           </a>
           <p className="p-card">
             Création d’une Todo List avec Redux
