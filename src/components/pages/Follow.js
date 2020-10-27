@@ -27,36 +27,6 @@ function Follow() {
             Github
           </a>
         </li>
-        <li className="li-contact">
-          <a
-            className="a-contact"
-            href="https://www.codecademy.com/users/MamedNoor/achievements"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            CodeAcademy
-          </a>
-        </li>
-        <li className="li-contact">
-          <a
-            className="a-contact"
-            href="https://codesandbox.io/u/Mamednoor"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            CodeSandbox
-          </a>
-        </li>
-        <li className="li-contact">
-          <a
-            className="a-contact"
-            href="https://www.codewars.com/users/Mamednoor"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Codewars
-          </a>
-        </li>
       </ul>
     </section>
   );
