@@ -133,6 +133,7 @@ function Cards() {
           </a>
           <p className="p-card">
           Création d'une application mobile mettant en relation  médecins et patients.
+          Hackathon Doctolib
             <br />
             Stack: MySQL, React, Node.js, Socket.io, Git & GitHub, SCRUM
           </p>
@@ -152,7 +153,7 @@ function Cards() {
             <h3>Papier Crayon</h3>
           </a>
           <p className="p-card">
-            Création d’une marketplace de design pour le compte de Papier crayon
+            Création d’une marketplace de design Papier crayon
             <br />
             Stack: MySQL, React, Node.js, Git & GitHub, SCRUM
           </p>
