@@ -1,61 +1,71 @@
 import React from "react";
 
+import {
+  MailOutlined,
+  LinkedinOutlined,
+  AuditOutlined,
+  GithubOutlined,
+} from "@ant-design/icons";
+
+import Centered from "../common/Centered";
+import ContentBody from "../common/ContentBody";
+import Avatar from "../common/Avatar";
+import Section from "../common/Section";
+import Text from "../common/Text";
+
+import '../stylesheet/Info.css'
+
 import PDF from "../assets/Mamed-Gohabur-Developpeur-React-Nodejs.pdf";
 import profilePicture from "../assets/Profile.jpeg";
-import logoCV from "../assets/img/CV.png";
-import logoGithub from "../assets/img/github.svg";
-import logoLinkedin from "../assets/img/linkedin.svg";
-import logoMail from "../assets/img/mail.jpg";
-
-import "../stylesheet/Info.css";
 
 function Info() {
   return (
-    <section id="Info">
-      <div className="profile-header">
-        <div className="div-header-picture">
-          <img src={profilePicture} className="profile-picture" alt="Profile" />
-        </div>
-        <div className="div-profile-header">
-          <p className="p-content">
+    <ContentBody id="Info">
+      <Centered>
+        <Section>
+        <Avatar src={profilePicture} alt="Profile" />
+        </Section>
+      </Centered>
+
+      <Centered>
+        <Section>
+          <Text>
             Fort d’une expérience de 9 ans la gestion technique et maintenance
             de patrimoine ainsi que le déploiement de produit informatique et
             digital sur le plan national avec l’utilisation de plusieurs outils
             GMAO, j’ai décidé d’acquérir des compétences dans le développements
             web.
-          </p>
-        
-          <div className="div-info-link">
-            <a
-              className="a-info"
-              href="https://www.linkedin.com/in/mamednoorgohabur/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img className="imginfo" src={logoLinkedin} alt="LinkedIn" />
-            </a>
-            <a className="a-info" href={PDF}>
-              <img className="imginfo" src={logoCV} alt="CV" />
-            </a>
-            <a
-              className="a-info"
-              href="https://github.com/Mamednoor"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img className="imginfo" src={logoGithub} alt="Github" />
-            </a>
-            <a
-              className="a-info"
-              href="mailto:mamed.gohabur@gmail.com"
-              rel="noopener noreferrer"
-            >
-              <img className="imginfo" src={logoMail} alt="Mail" />
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
+          </Text>
+        </Section>
+      </Centered>
+
+      <Centered>
+        <Section>
+          <a
+            href="https://www.linkedin.com/in/mamednoorgohabur/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="a-info"
+          >
+            <LinkedinOutlined style={{ fontSize: "70px", color: "white" }} />
+          </a>
+          <a href={PDF} className="a-info">
+            <AuditOutlined style={{ fontSize: "70px", color: "white" }} />
+          </a>
+          <a
+            href="https://github.com/Mamednoor"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="a-info"
+          >
+            <GithubOutlined style={{ fontSize: "70px", color: "white" }} />
+          </a>
+          <a href="mailto:mamed.gohabur@gmail.com" rel="noopener noreferrer" className="a-info">
+            <MailOutlined style={{ fontSize: "70px", color: "white" }} />
+          </a>
+        </Section>
+      </Centered>
+    </ContentBody>
   );
 }
 

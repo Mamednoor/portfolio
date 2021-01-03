@@ -43,6 +43,11 @@
   height: min-content;
 }
 
+.nav > .nav-links > .a-nav:active {
+  color: red;
+  height: min-content;
+}
+
 
 .nav > #nav-check {
   display: none;
