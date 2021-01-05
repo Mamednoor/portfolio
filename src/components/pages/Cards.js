@@ -8,7 +8,8 @@ import pixieWilder from "../assets/img/PixieWilders.png";
 import reduxtrain from "../assets/img/redux-train.png";
 import papiercrayon from "../assets/img/papiercrayon.png";
 
-import { Card } from "antd";
+import { Card, Image } from "antd";
+import Avatar from '../common/Avatar'
 import project from "../../utils/project";
 
 const CardContainer = styled.div`
@@ -61,13 +62,13 @@ function Cards() {
   return (
     <>
       {project.map((item) => (
-        <Card key={item.name}>
+        <Card 
+          key={item.name}
+          cover={<img alt='' style={{ width: 240 }} src={item.image} />}
+        >
           <p>{item.name}</p>
           <p>{item.description}</p>
-          <img 
-            alt={item.img}
-            src={item.img}
-          />
+
           <p>{item.stack}</p>
           <p>{item.repo}</p>
         </Card>
