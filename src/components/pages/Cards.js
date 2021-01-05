@@ -8,21 +8,24 @@ import pixieWilder from "../assets/img/PixieWilders.png";
 import reduxtrain from "../assets/img/redux-train.png";
 import papiercrayon from "../assets/img/papiercrayon.png";
 
-import { Card } from "antd";
 import project from "../../utils/project";
 
 const CardContainer = styled.div`
   display: flex;
+  flex-direction: row;
+  align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  margin: 10px auto;
+  margin: 10px;
+  width: max-content;
+  border: 2px solid white;
 `;
 
 const CardBoxed = styled.div`
   background: black;
-  font-size: 20px;
-  max-width: 360px;
-  height: 391px;
+  font-size: 15px;
+  max-width: 390px;
+  height: 468px;
   overflow: hidden;
   position: relative;
   -webkit-transition: all 0.3s;
@@ -48,7 +51,7 @@ const CustomCard = styled.div`
     margin: 10px;
     color: white;
     font-family: "Roboto", sans-serif;
-    font-size: 15px;
+    font-size: 14px;
   }
   > .a-card {
     color: white;
@@ -61,143 +64,29 @@ function Cards() {
   return (
     <>
       {project.map((item) => (
-        <Card 
-          key={item.name}
-          cover={<img alt='' style={{ width: 240 }} src={item.image} />}
-          style={{ width: 300, border: "2px solid red", display: "flex", flexDirection: "column", alignItems: "center", padding: 10 }}
-        >
-          <div>
-          <p>{item.name}</p>
-          <p>{item.description}</p>
-          <p>{item.stack}</p>
-          <p>{item.repo}</p>
-          </div>
-        </Card>
+        <CardContainer>
+          <CardBoxed>
+            <CustomImage>
+              <img className="img-card" alt="ScreenProject" src={item.image} />
+            </CustomImage>
+            <CustomCard>
+              <a
+                className="a-card"
+                href={item.link}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <h3>{item.name}</h3>
+              </a>
+              <p className="p-card">
+                {item.description}
+                <br />
+                {item.stack}
+              </p>
+            </CustomCard>
+          </CardBoxed>
+        </CardContainer>
       ))}
-      <CardContainer>
-        <CardBoxed>
-          <CustomImage>
-            <img className="img-card" alt="ScreenProject" src={pixieWilder} />
-          </CustomImage>
-          <CustomCard>
-            <a
-              className="a-card"
-              href="https://mamednoor.github.io/project1PixieWilder/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h3>Pixie Wilders</h3>
-            </a>
-            <p className="p-card">
-              Création d’une marketplace de photographie
-              <br />
-              Stack: HTML, CSS, Git et Github
-            </p>
-          </CustomCard>
-        </CardBoxed>
-        <CardBoxed>
-          <CustomImage>
-            <img className="img-card" alt="ScreenProject" src={cookcake} />
-          </CustomImage>
-          <CustomCard>
-            <a
-              className="a-card"
-              href="https://cookandcake.netlify.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h3>Cook & Cake</h3>
-            </a>
-            <p className="p-card">
-              Création d’une Application web de cuisine avec consommation d'API
-              <br />
-              Stack: React, JavaScript, HTML, CSS, Git et Github, SCRUM
-            </p>
-          </CustomCard>
-        </CardBoxed>
-        <CardBoxed>
-          <CustomImage>
-            <img className="img-card" alt="ScreenProject" src={goatvschicken} />
-          </CustomImage>
-          <CustomCard>
-            <a
-              className="a-card"
-              href="https://romantic-swirles-0e45a7.netlify.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h3>Goat vs Chicken</h3>
-            </a>
-            <p className="p-card">
-              Création d'un jeux vidéo lors d'un Hackathon de 24H à la
-              WildCodeSchool Paris
-              <br />
-              Stack: JavaScript, Phaser3, Git et Github
-            </p>
-          </CustomCard>
-        </CardBoxed>
-        <CardBoxed>
-          <CustomImage>
-            <img className="img-card" alt="ScreenProject" src={doctalk} />
-          </CustomImage>
-          <CustomCard>
-            <a
-              className="a-card"
-              size="normal"
-              href="https://github.com/Mamednoor/doctalkfusion"
-              rel="noopener noreferrer"
-            >
-              <h3>Doc'Talk</h3>
-            </a>
-            <p className="p-card">
-              Création d'une application mobile mettant en relation médecins et
-              patients. Hackathon Doctolib
-              <br />
-              Stack: MySQL, React, Node.js, Socket.io, Git & GitHub, SCRUM
-            </p>
-          </CustomCard>
-        </CardBoxed>
-        <CardBoxed>
-          <CustomImage>
-            <img className="img-card" alt="ScreenProject" src={papiercrayon} />
-          </CustomImage>
-          <CustomCard>
-            <a
-              className="a-card"
-              size="normal"
-              href="https://github.com/Mamednoor/papiercrayon"
-              rel="noopener noreferrer"
-            >
-              <h3>Papier Crayon</h3>
-            </a>
-            <p className="p-card">
-              Création d’une marketplace de design Papier crayon
-              <br />
-              Stack: MySQL, React, Node.js, Git & GitHub, SCRUM
-            </p>
-          </CustomCard>
-        </CardBoxed>
-        <CardBoxed>
-          <CustomImage>
-            <img className="img-card" alt="ScreenProject" src={reduxtrain} />
-          </CustomImage>
-          <CustomCard>
-            <a
-              className="a-card"
-              size="normal"
-              href="https://redux-train-todoapp.netlify.app/"
-              rel="noopener noreferrer"
-            >
-              <h3>Todo List</h3>
-            </a>
-            <p className="p-card">
-              Création d’une Todo List avec Redux
-              <br />
-              Stack: React + Redux, Git & Github
-            </p>
-          </CustomCard>
-        </CardBoxed>
-      </CardContainer>
     </>
   );
 }
