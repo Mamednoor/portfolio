@@ -8,8 +8,7 @@ import pixieWilder from "../assets/img/PixieWilders.png";
 import reduxtrain from "../assets/img/redux-train.png";
 import papiercrayon from "../assets/img/papiercrayon.png";
 
-import { Card, Image } from "antd";
-import Avatar from '../common/Avatar'
+import { Card } from "antd";
 import project from "../../utils/project";
 
 const CardContainer = styled.div`
@@ -65,12 +64,14 @@ function Cards() {
         <Card 
           key={item.name}
           cover={<img alt='' style={{ width: 240 }} src={item.image} />}
+          style={{ width: 300, border: "2px solid red", display: "flex", flexDirection: "column", alignItems: "center", padding: 10 }}
         >
+          <div>
           <p>{item.name}</p>
           <p>{item.description}</p>
-
           <p>{item.stack}</p>
           <p>{item.repo}</p>
+          </div>
         </Card>
       ))}
       <CardContainer>

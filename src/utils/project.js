@@ -13,7 +13,6 @@ const project =[
     "description": "description",
     "image": "https://github.com/Mamednoor/Mamednoor/blob/master/src/components/assets/img/CookAndCake.png?raw=true",
     "stack": "stack",
-
     "preview": "preview",
     "link": "link",
     "repo": "repo"
