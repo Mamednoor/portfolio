@@ -16,10 +16,10 @@ function Experience() {
         date="Présent"
         iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
       >
-        <h3 className="vertical-timeline-element-title">Développeur Front-End React</h3>
+        <h3 className="vertical-timeline-element-title">Développeur Front-End React, React-Native</h3>
         <h4 className="vertical-timeline-element-subtitle">Cityviz</h4>
         <p>
-          Stacks: React / Hooks, Redux, Redux-Saga, GitLab
+          Stacks: React Hooks, Redux, Redux-Saga, React-Native, GitLab
         </p>
       </VerticalTimelineElement>  
       <VerticalTimelineElement
