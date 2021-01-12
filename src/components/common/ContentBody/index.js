@@ -23,6 +23,10 @@ justify-content: center;
     align-self:center;
   }
 
+  @media (max-width: 768px) {
+    display:flex;
+    flex-direction:column;
+  }
 `
 
 export default ContentBody

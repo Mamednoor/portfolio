@@ -18,12 +18,17 @@ const CardContainer = styled.div`
   margin: 10px;
   width: max-content;
   border: 2px solid white;
+
+  @media (max-width: 768px) {
+    display:flex;
+    flex-direction:column;
+  }
 `;
 
 const CardBoxed = styled.div`
   background: black;
   font-size: 15px;
-  max-width: 390px;
+  max-width: 350px;
   height: 468px;
   overflow: hidden;
   position: relative;
@@ -31,6 +36,7 @@ const CardBoxed = styled.div`
   transition: all 0.3s;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
   margin: 10px;
+
 `;
 
 const CustomImage = styled.div`

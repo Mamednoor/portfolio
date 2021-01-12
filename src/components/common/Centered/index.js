@@ -5,6 +5,11 @@ const Centered = styled.div`
   justify-content: space-around;
   width: 100%;
   align-items: center;
+
+  @media (max-width: 768px) {
+    display:flex;
+    flex-direction:column;
+  }
 `
 
 export default Centered
