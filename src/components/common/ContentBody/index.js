@@ -2,6 +2,7 @@ import styled from 'styled-components'
 
 const ContentBody = styled.div`
 display: flex;
+
 padding: 15px;
 min-height: 500px;
 width: 100%;

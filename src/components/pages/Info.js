@@ -13,7 +13,7 @@ import Avatar from "../common/Avatar";
 import Section from "../common/Section";
 import Text from "../common/Text";
 
-import '../stylesheet/Info.css'
+import "../stylesheet/Info.css";
 
 import PDF from "../assets/Mamed-Gohabur-Developpeur-React-Nodejs.pdf";
 import profilePicture from "../assets/Profile.jpeg";
@@ -21,10 +21,9 @@ import profilePicture from "../assets/Profile.jpeg";
 function Info() {
   return (
     <ContentBody id="Info">
-      
       <Centered>
         <Section>
-        <Avatar src={profilePicture} alt="Profile" />
+          <Avatar src={profilePicture} alt="Profile" />
         </Section>
       </Centered>
 
@@ -61,7 +60,11 @@ function Info() {
           >
             <GithubOutlined style={{ fontSize: "70px", color: "white" }} />
           </a>
-          <a href="mailto:mamed.gohabur@gmail.com" rel="noopener noreferrer" className="a-info">
+          <a
+            href="mailto:mamed.gohabur@gmail.com"
+            rel="noopener noreferrer"
+            className="a-info"
+          >
             <MailOutlined style={{ fontSize: "70px", color: "white" }} />
           </a>
         </Section>
