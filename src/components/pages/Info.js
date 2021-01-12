@@ -47,7 +47,7 @@ function Info() {
             rel="noopener noreferrer"
             className="a-info"
           >
-            <LinkedinOutlined style={{ fontSize: "70px", color: "white" }} />
+            <LinkedinOutlined style={{ fontSize: "70px", color: "white" }} className="icon" />
           </a>
           <a href={PDF} className="a-info">
             <AuditOutlined style={{ fontSize: "70px", color: "white" }} />

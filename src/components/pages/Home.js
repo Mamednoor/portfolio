@@ -6,8 +6,7 @@ import H2 from '../common/H2'
 import BriefBox from '../common/BriefBox'
 import Main from '../common/Main'
 
-
-import "../stylesheet/Home.css";
+// import "../stylesheet/Home.css";
 
 function Home() {
 
