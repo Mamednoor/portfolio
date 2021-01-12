@@ -1,11 +1,12 @@
 import React from "react";
+import Title from "../common/Title";
 
 import "../stylesheet/Follow.css";
 
 function Follow() {
   return (
     <section id="Follow">
-      <div className="PageTags">Suivez-moi</div>
+      <Title>Suivez-moi</Title>
       <ul className="ul-contact">
         <li className="li-contact">
           <a

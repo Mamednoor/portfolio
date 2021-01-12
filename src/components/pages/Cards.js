@@ -12,7 +12,6 @@ import project from "../../utils/project";
 
 const CardContainer = styled.div`
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
@@ -58,7 +57,7 @@ const CustomCard = styled.div`
     font-size: 20px;
     font-size: 18px;
   }
-`;
+`
 
 function Cards() {
   return (

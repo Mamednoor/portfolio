@@ -21,6 +21,7 @@ import profilePicture from "../assets/Profile.jpeg";
 function Info() {
   return (
     <ContentBody id="Info">
+      
       <Centered>
         <Section>
         <Avatar src={profilePicture} alt="Profile" />

@@ -2,10 +2,10 @@ import styled from 'styled-components'
 
 const Text = styled.p`
   justify-content: center;
-  text-align: left ;
+  text-align: justify;
   font-family: 'Roboto', sans-serif;
   line-height: 22px;
-  font-size: 18px;
+  font-size: 20px;
   color:white;
 `
 
