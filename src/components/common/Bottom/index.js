@@ -5,11 +5,8 @@ import {
 
 const Bottom = styled(Layout.Footer)`
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-
-  .link {
-    font-size: x-small
-  }
+  padding: 20px;
 `
 export default Bottom

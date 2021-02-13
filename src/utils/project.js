@@ -1,4 +1,4 @@
-const project =[
+const project = [
   {
     "name": "Pixie Wilders",
     "description": "Création d’une marketplace de photographie",

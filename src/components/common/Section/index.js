@@ -9,7 +9,6 @@ flex-direction: row;
     margin: 10px;
     width: min-content;
   }
-
   .a-info:hover{
     width: min-content;
     background-color: red;
