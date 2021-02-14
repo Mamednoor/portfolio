@@ -44,7 +44,6 @@ export const CustomCard = styled.div`
 `
 
 export const P = styled.p`
-  margin: 10px;
   color: white;
   font-family: "Roboto", sans-serif;
   font-size: 17px;

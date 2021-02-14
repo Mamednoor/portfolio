@@ -1,11 +1,8 @@
 import React from "react";
 
-
 import Title from "../common/Title";
 import Bottom from "../common/Bottom";
 import Link from "../common/Link";
-import Flex from "../common/Flex";
-import Centered from "../common/Centered";
 
 import "../stylesheet/Follow.css";
 
@@ -28,6 +25,13 @@ function Follow() {
         rel="noopener noreferrer"
       >
         Github
+      </Link>
+      <Link
+        href="mailto:mamed.gohabur@gmail.com"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Contact
       </Link>
     </Bottom>
     </>

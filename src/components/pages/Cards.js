@@ -32,8 +32,8 @@ function Cards() {
               >
                 <h3>{item.name}</h3>
               </Link>
-              <P>{item.description}</P>
-              <P>{item.stack}</P>
+                <P>{item.description}</P>
+                <P>{item.stack}</P>
             </CustomCard>
           </CardBoxed>
         </CardContainer>
