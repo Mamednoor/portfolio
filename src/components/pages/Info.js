@@ -12,6 +12,8 @@ import ContentBody from "../common/ContentBody";
 import Avatar from "../common/Avatar";
 import Section from "../common/Section";
 import Text from "../common/Text";
+import Link from "../common/Link";
+
 
 import "../stylesheet/Info.css";
 
@@ -41,32 +43,32 @@ function Info() {
 
       <Centered>
         <Section>
-          <a
+          <Link
             href="https://www.linkedin.com/in/mamednoorgohabur/"
             target="_blank"
             rel="noopener noreferrer"
             className="a-info"
           >
-            <LinkedinOutlined style={{ fontSize: "70px", color: "white" }} className="icon" />
-          </a>
-          <a href={PDF} className="a-info">
+            <LinkedinOutlined style={{ fontSize: "70px", color: "white" }} />
+          </Link>
+          <Link href={PDF} className="a-info">
             <AuditOutlined style={{ fontSize: "70px", color: "white" }} />
-          </a>
-          <a
+          </Link>
+          <Link
             href="https://github.com/Mamednoor"
             target="_blank"
             rel="noopener noreferrer"
             className="a-info"
           >
             <GithubOutlined style={{ fontSize: "70px", color: "white" }} />
-          </a>
-          <a
+          </Link>
+          <Link
             href="mailto:mamed.gohabur@gmail.com"
             rel="noopener noreferrer"
             className="a-info"
           >
             <MailOutlined style={{ fontSize: "70px", color: "white" }} />
-          </a>
+          </Link>
         </Section>
       </Centered>
     </ContentBody>
