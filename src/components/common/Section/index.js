@@ -13,7 +13,7 @@ flex-direction: row;
     width: min-content;
     background-color: red;
   }
-  
+
 `
 
 export default Section

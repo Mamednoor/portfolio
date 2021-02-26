@@ -12,5 +12,3 @@ line-height: 36px;
 font-size: 50px;
 `
 export default Title
-
-// titre d'une section

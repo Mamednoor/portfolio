@@ -8,7 +8,9 @@ const Link = styled.a`
 
   :hover {
     color: red;
+    transition: color 0.9s, background 0.9s, border-color 0.9s, box-shadow 0.9s, -webkit-box-shadow 0.9s;
   }
+
 `
 
 export default Link
