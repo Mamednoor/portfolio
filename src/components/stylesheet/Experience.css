@@ -31,7 +31,6 @@
   content: "";
   width: 10px;
   height: 100%;
-  background: gray;
   position: absolute;
   top: 0;
   left: -3.313em;
@@ -39,34 +38,29 @@
 
 .hr-guide-step {
   position: relative;
-  background-color: #eeeeee;
 }
 
 .hr-guide-step_title {
   color: white;
-  background-color: gray;
-  font-family: "Oswald", Georgia, Cambria, "Times New Roman", Times, serif;
+
   font-weight: 300;
   font-size: 20px;
   padding: 1em;
 }
 
 .hr-guide-step_text {
-  background-color: #dddddd;
   padding: 1em;
   margin: 0;
 }
 
 .hr-guide-step:before {
   content: "";
-  font-family: "Oswald", Georgia, Cambria, "Times New Roman", Times, serif;
   color: black;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 3em;
   height: 3em;
-  background-color: gray;
   border: 0.2em solid white;
   position: absolute;
   counter-increment: section;

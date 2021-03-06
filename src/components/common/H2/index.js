@@ -8,11 +8,14 @@ const H2 = styled.h2`
   left: calc(50% - 180px);
   font-family: "Russo One", sans-serif
   min-width: 286px;
-  -webkit-box-reflect: below 0 -webkit-linear-gradient(transparent, transparent
-    60%, rgba(255, 255, 255, 0.3));   
+  #myElement {
+    -webkit-box-reflect: below 0 -webkit-linear-gradient(transparent, transparent
+    15%, rgba(255, 255, 255, 0.3))
+  }   
   &:last-child {
     margin-bottom: 0;
   }
+
 `
 
 export default H2

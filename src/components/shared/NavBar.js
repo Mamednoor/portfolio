@@ -18,7 +18,7 @@ const NavBar = () => {
       <div className="nav">
         <input type="checkbox" id="nav-check"></input>
         <div className="nav-btn">
-          <label className="label-nav" for="nav-check">
+          <label className="label-nav" htmlFor="nav-check">
             <span></span>
             <span></span>
             <span></span>

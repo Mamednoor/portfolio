@@ -15,8 +15,10 @@ import { CardBoxed, CardContainer, CustomImage, CustomCard, Img, P } from '../co
 function Cards() {
   return (
     <>
-      {project.map((item) => (
-        <CardContainer>
+      {project.map((item, i) => (
+        <CardContainer 
+          key={i}
+        >
           <CardBoxed>
             <CustomImage>
               <Img 
