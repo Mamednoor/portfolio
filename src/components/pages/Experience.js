@@ -19,9 +19,10 @@ function Experience() {
         <h3 className="vertical-timeline-element-title">Développeur Front-End React, React-Native</h3>
         <h4 className="vertical-timeline-element-subtitle">Cityviz</h4>
         <p>
-        - Création de composants pour instaurer de nouveau écrans React.js & React-native.<br/>
+        - Création de composants pour instaurer de nouveau écrans.<br/>
         - Création et ajout de nouvelles fonctionnalités.<br/>
         - Création et modification de endpoint sur API.<br/>
+        - Recette -Q&A <br/>
         - Résolution de bug.<br/>
         Stack : React.js, React-Native, Redux, Redux-Saga, Python, PostgreSQL, Docker, YouTrack, GitLab
         </p>
@@ -35,7 +36,7 @@ function Experience() {
         <h3 className="vertical-timeline-element-title">Développeur web et web mobile</h3>
         <h4 className="vertical-timeline-element-subtitle">Wild Code School</h4>
         <p>
-          - Bootcamp sur le métier du développement web, apprentissage React, Node.js, JavaScript, MySQL, Git,
+          - Bootcamp sur le métier du développement web, apprentissage HTML, CSS, JavaScript, React, Node.js, MySQL, Git,
           Github, HTML et CSS avec les méthodes Agile et Scrum.<br/>
           - Apprentissage par la pratique en réalisant des projets individuelle et collectif
           ainsi que la réalisation d'un projet client
