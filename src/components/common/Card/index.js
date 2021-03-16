@@ -9,7 +9,7 @@ export const CardContainer = styled.div`
   width: max-content;
   border: 2px solid white;
 
-  @media (max-width: 800px) {
+  @media (max-width: 768px) {
     display:flex;
     flex-direction:column;
   }
