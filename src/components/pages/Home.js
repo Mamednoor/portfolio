@@ -5,8 +5,6 @@ import H1 from '../common/H1'
 import BriefBox from '../common/BriefBox'
 import Main from '../common/Main'
 
-import "../stylesheet/Home.css";
-
 function Home() {
 
   return (
