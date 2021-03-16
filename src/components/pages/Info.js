@@ -24,13 +24,13 @@ function Info() {
   return (
     <ContentBody id="Info">
       <Centered>
-        <Section>
+        <Section style={{ marginBottom: '20px'}}>
           <Avatar src={profilePicture} alt="Profile" />
         </Section>
       </Centered>
 
       <Centered>
-        <Section>
+        <Section style={{ margin: '30px 0'}}>
           <Text>
             Fort d’une expérience de 9 ans la gestion technique et maintenance
             de patrimoine ainsi que le déploiement de produit informatique et
@@ -42,7 +42,7 @@ function Info() {
       </Centered>
 
       <Centered>
-        <Section>
+        <Section style={{ margin: '30px 0'}}>
           <Link
             href="https://www.linkedin.com/in/mamednoorgohabur/"
             target="_blank"
