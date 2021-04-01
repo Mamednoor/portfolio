@@ -17,7 +17,7 @@ function Experience() {
         iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
       >
         <h3 className="vertical-timeline-element-title">Développeur Front-End React, React-Native</h3>
-        <h4 className="vertical-timeline-element-subtitle">Cityviz - 2020 - Actuelle</h4>        
+        <h4 className="vertical-timeline-element-subtitle">Cityviz - 2020</h4>        
         <p>
         - Création de composants pour instaurer de nouveau écrans.<br/>
         - Création et ajout de nouvelles fonctionnalités.<br/>
@@ -44,7 +44,7 @@ function Experience() {
         className="vertical-timeline-element--work"
         iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
       >
-        <h3 className="vertical-timeline-element-title">Dalkia - Group EDF - 2019 - 2020</h3>
+        <h3 className="vertical-timeline-element-title">Dalkia - Groupe EDF - 2019 - 2020</h3>
         <h4 className="vertical-timeline-element-subtitle">Manager Opérationnel - 2019 - 2020</h4> 
         <p>
         - Management d’une équipe de huit personnes (équipe de sous-traitant multi-technique)<br/>
@@ -75,7 +75,7 @@ function Experience() {
         iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
       >
         <h3 className="vertical-timeline-element-title">Ibis Bercy village</h3>
-        <h4 className="vertical-timeline-element-subtitle">Responasble technique - 2015 - 2017</h4>
+        <h4 className="vertical-timeline-element-subtitle">Responsable technique - 2015 - 2017</h4>
         <p>
         - Membre du comité de direction<br/>
         - Configuration de l’outil GMAO interne Accor<br/>
