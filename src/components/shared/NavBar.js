@@ -45,12 +45,12 @@ const NavBar = () => {
           </Link>
           <Link
             className="a-nav"
-            to="PortFolio"
+            to="Portfolio"
             smooth={true}
             offset={-90}
             duration={500}
           >
-            PortFolio
+            portefolio
           </Link>
           <Link
             className="a-nav"

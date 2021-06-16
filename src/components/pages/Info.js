@@ -32,11 +32,10 @@ function Info() {
       <Centered>
         <Section style={{ margin: '30px 0'}}>
           <Text>
-            Fort d’une expérience de 9 ans la gestion technique et maintenance
-            de patrimoine ainsi que le déploiement de produit informatique et
-            digital sur le plan national avec l’utilisation de plusieurs outils
-            GMAO, j’ai décidé d’acquérir des compétences dans le développements
-            web.
+          Fort d'une expérience de neuf ans dans la gestion technique et maintenance de patrimoine
+          ainsi que le déploiement de produit informatique et digital sur le plan national
+          avec l'utilisation de plusieurs outils GMAO "Gestion de Maintenance Assistée par Ordinateur",
+          j'ai décidé d'acquérir des compétences dans le développement web.
           </Text>
         </Section>
       </Centered>

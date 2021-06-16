@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import Info from "./components/pages/Info";
 import Experience from "./components/pages/Experience";
-import PortFolio from "./components/pages/PortFolio";
+import Portfolio from "./components/pages/Portfolio";
 import Follow from "./components/pages/Follow";
 import NavBar from "./components/shared/NavBar";
 import Home from "./components/pages/Home";
@@ -13,7 +13,7 @@ function App() {
         <NavBar />
         <Home id="Home" />
         <Info id="Info" />
-        <PortFolio id="PorteFolio" />
+        <Portfolio id="portefolio" />
         <Experience id="Experience" />
         <Follow id="Contact" />
       </div>

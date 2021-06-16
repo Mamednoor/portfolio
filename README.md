@@ -1,5 +1,5 @@
-## PortFolio 
+## Portefolio 
 
-[First React PortFolio](https://mamednoor.netlify.app)  
+[First React Portfolio](https://mamednoor.netlify.app)  
 
 Création d'un portfolio avec React.js from scratch afin de me présenter et de mettre en avant mes réalisations.

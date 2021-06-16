@@ -4,11 +4,11 @@ import Centered from "../common/Centered";
 import Section from "../common/Section";
 import Title from "../common/Title";
 
-function PortFolio() {
+function Portfolio() {
   return (
     <>
-      <Title id="PortFolio">
-        PortFolio
+      <Title id="portefolio">
+      portefolio
       </Title>
       <Section>
         <Centered>
@@ -19,4 +19,4 @@ function PortFolio() {
   );
 }
 
-export default PortFolio;
+export default Portfolio;
