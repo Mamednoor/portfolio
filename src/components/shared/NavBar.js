@@ -32,7 +32,7 @@ const NavBar = () => {
             offset={-90}
             duration={500}
           >
-            Home
+            Accueil
           </Link>
           <Link
             className="a-nav"
@@ -50,7 +50,7 @@ const NavBar = () => {
             offset={-90}
             duration={500}
           >
-            portefolio
+            Portefolio
           </Link>
           <Link
             className="a-nav"
