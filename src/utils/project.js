@@ -53,6 +53,15 @@ const project = [
     "link": "https://redux-train-todoapp.netlify.app/",
     "repo": "https://github.com/Mamednoor/redux-train"
   },
+  {
+    "name": "Pokedex with Angular",
+    "description": "Apprentissage du framework Angular",
+    "image": "https://github.com/Mamednoor/Mamednoor/blob/master/src/components/assets/img/pokedex.png?raw=true",
+    "stack": "Stack: HTML, CSS, JavaScript, Angular",
+    "preview": "preview",
+    "link": "https://github.com/Mamednoor/pokedexAngular",
+    "repo": "https://github.com/Mamednoor/pokedexAngular"
+  }
 ]
 
 export default project
