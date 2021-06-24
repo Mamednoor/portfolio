@@ -15,6 +15,37 @@ function Experience() {
       <Title>Expériences</Title>
       <TimeLine id="Experience">
         <VerticalTimeline>
+        <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          >
+            <h3 className="vertical-timeline-element-title">
+              Consultant - Développeur Microsoft D365
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              Alternance IBM - 2021 <br />
+              Etudiant à l'école Buisiness Apps ( fondée par Microsoft, WebForce3, Social Builder)
+            </h4>
+            <P>
+              Modules de la formation : <br />
+            - organisation et stratégie d'entreprise <br />
+            - gestion de projet informatique <br />
+            - Microsoft dynamics D365 <br />
+            - power plateform <br />
+            - power automate <br />
+            - intégration frontend <br />
+            - développement backend <br />
+            - modélisation base de données <br />
+            - DevOps <br />
+            - développement d'applications desktop <br />
+            - développement d'applications multi-couches <br />
+            - certification PL200 <br />
+            - certification PL400 <br />
+
+            Stacks programmation : JavaScript, PHP, Angular, MySQL, C#, .NET, CRM Microsoft Dynamics 365
+            </P>
+          </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
@@ -24,7 +55,7 @@ function Experience() {
               Développeur Front-End React, React-Native
             </h3>
             <h4 className="vertical-timeline-element-subtitle">
-              Cityviz - 2020
+              Cityviz - 2020 - 2021
             </h4>
             <P>
               - Création de composants pour instaurer de nouveau écrans.<br />
