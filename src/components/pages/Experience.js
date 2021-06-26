@@ -49,7 +49,7 @@ function Experience() {
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-            iconStyle={{ background: "red", color: "#fff" }}
+            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           >
             <h3 className="vertical-timeline-element-title">
               Développeur Front-End React, React-Native
@@ -69,7 +69,7 @@ function Experience() {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            iconStyle={{ background: "red", color: "#fff" }}
+            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           >
             <h3 className="vertical-timeline-element-title">
               Développeur web et web mobile
@@ -88,7 +88,7 @@ function Experience() {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            iconStyle={{ background: "red", color: "#fff" }}
+            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           >
             <h3 className="vertical-timeline-element-title">
               Dalkia - Groupe EDF - 2019 - 2020
@@ -108,7 +108,7 @@ function Experience() {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            iconStyle={{ background: "red", color: "#fff" }}
+            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           >
             <h3 className="vertical-timeline-element-title">
               Infoway - Expert en affichage dynamique
@@ -129,7 +129,7 @@ function Experience() {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            iconStyle={{ background: "red", color: "#fff" }}
+            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           >
             <h3 className="vertical-timeline-element-title">
               Ibis Bercy village
@@ -148,7 +148,7 @@ function Experience() {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--education"
-            iconStyle={{ background: "red", color: "#fff" }}
+            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           >
             <h3 className="vertical-timeline-element-title">
               Mercure Paris centre Tour Eiffel
