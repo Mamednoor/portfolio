@@ -6,7 +6,7 @@ const H2 = styled.h2`
   line-height: 2em;
   text-align: center;
   left: calc(50% - 180px);
-  font-family: "Robotto"
+  font-family: "Roboto"
   min-width: 286px;
   margin: 0 auto;
   white-space: nowrap;

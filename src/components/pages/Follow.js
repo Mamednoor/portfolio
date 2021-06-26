@@ -22,25 +22,22 @@ function Follow() {
           href="https://www.linkedin.com/in/mamednoorgohabur/"
           target="_blank"
           rel="noopener noreferrer"
-          className="a-info"
           >
-          <LinkedinOutlined style={{ fontSize: "70px", color: "white" }} />
+          <LinkedinOutlined style={{ fontSize: "70px", color: "white" }} className="icons"/>
         </Link>
         <Link
           href="https://github.com/Mamednoor"
           target="_blank"
           rel="noopener noreferrer"
-          className="a-info"
           >
-          <GithubOutlined style={{ fontSize: "70px", color: "white" }} />
+          <GithubOutlined style={{ fontSize: "70px", color: "white" }} className="icons"/>
         </Link>
         <Link
           href="mailto:mamed.gohabur@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
-          className="a-info"
           >
-          <MailOutlined style={{ fontSize: "70px", color: "white" }} />
+          <MailOutlined style={{ fontSize: "70px", color: "white" }} className="icons"/>
         </Link>
       </Bottom>
     </>

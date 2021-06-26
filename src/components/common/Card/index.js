@@ -6,13 +6,18 @@ export const CardContainer = styled.div`
   justify-content: center;
   flex-wrap: wrap;
   margin: 10px;
-  width: max-content;
+  width: fit-content;
   border: 2px solid white;
+  border-radius: 10px;
+
+  :hover {
+    transform: scale(1.01);
+  }
 
   @media (max-width: 768px) {
     display:flex;
     flex-direction:column;
-    margin: 0;
+    margin: 5px;
   }
 `
 

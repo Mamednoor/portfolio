@@ -7,8 +7,8 @@ import Title from "../common/Title";
 function Portfolio() {
   return (
     <>
-      <Title id="portefolio">
-      portefolio
+      <Title id="Portefolio">
+      Portefolio
       </Title>
       <Section>
         <Centered>

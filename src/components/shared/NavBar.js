@@ -45,7 +45,7 @@ const NavBar = () => {
           </Link>
           <Link
             className="a-nav"
-            to="Portfolio"
+            to="Portefolio"
             smooth={true}
             offset={-90}
             duration={500}

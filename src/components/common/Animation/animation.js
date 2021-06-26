@@ -8,7 +8,7 @@ const Animation = () => {
   
   useEffect(() => {
     const myElement = document.querySelector('#myElement')
-    init(myElement, { showCursor: false, strings: ['Développeur Fullstack', 'React, Node.js, JavaScript'] })
+    init(myElement, { showCursor: false, strings: ['Développeur Fullstack', 'React, Node.js'] })
   }, [])
 
   return <H2><div id="myElement"></div></H2>
