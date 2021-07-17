@@ -1,18 +1,12 @@
 import styled from 'styled-components'
 
-const Link = styled.a`
-  color: white;
-  font-size: 20px;
-  text-align: center;
-  width: min-content;
-
-  
+const SchoolLink = styled.a`
+  color: blue;
 
   :hover {
-    color: red;
     cursor:pointer;
     transition: color 0.9s, background 0.9s, border-color 0.9s, box-shadow 0.9s, -webkit-box-shadow 0.9s;
   }
 `
 
-export default Link
+export default SchoolLink

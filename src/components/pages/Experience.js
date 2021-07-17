@@ -25,25 +25,23 @@ function Experience() {
             </h3>
             <h4 className="vertical-timeline-element-subtitle">
               Alternance IBM - 2021 <br />
-              Etudiant à l'école Buisiness Apps ( fondée par Microsoft, WebForce3, Social Builder)
+              Etudiant à la Business Apps (fondée par Microsoft, WebForce3, Social Builder)
             </h4>
             <P>
-              Modules de la formation : <br />
-            - organisation et stratégie d'entreprise <br />
-            - gestion de projet informatique <br />
-            - Microsoft dynamics D365 <br />
-            - power plateform <br />
-            - power automate <br />
-            - intégration frontend <br />
-            - développement backend <br />
-            - modélisation base de données <br />
-            - DevOps <br />
-            - développement d'applications desktop <br />
-            - développement d'applications multi-couches <br />
-            - certification PL200 <br />
-            - certification PL400 <br />
-
-            Stacks programmation : JavaScript, PHP, Angular, MySQL, C#, .NET, CRM Microsoft Dynamics 365
+              - organisation et stratégie d'entreprise <br />
+              - gestion de projet informatique <br />
+              - Microsoft dynamics D365 <br />
+              - power plateform <br />
+              - power automate <br />
+              - intégration frontend <br />
+              - développement backend <br />
+              - modélisation base de données <br />
+              - DevOps <br />
+              - développement d'applications desktop <br />
+              - développement d'applications multi-couches <br />
+              - certification PL200 <br />
+              - certification PL400 <br />
+              Stacks programmation : JavaScript, PHP, Angular, MySQL, C#, .NET, CRM Microsoft Dynamics 365
             </P>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -75,7 +73,7 @@ function Experience() {
               Développeur web et web mobile
             </h3>
             <h4 className="vertical-timeline-element-subtitle">
-              Wild Code School - 2020 - 2021
+              Etudiant à la Wild Code School - 2020 - 2021
             </h4>
             <P>
               - Bootcamp sur le métier du développement web, apprentissage HTML,
