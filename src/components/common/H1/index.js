@@ -1,15 +1,16 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 const H1 = styled.h1`
-  font-family: "Russo One", sans-serif;
-  font-size: 50px;
-  font-weight: 500;
-  line-height: 32px;
-  padding-bottom: 10px;
+	font-family: "Russo One",
+		sans-serif;
+	font-size: 50px;
+	font-weight: 500;
+	line-height: 43px;
+	padding-bottom: 10px;
 
-  &:last-child {
-    margin-bottom: 0;
-  }
-`
+	&:last-child {
+		margin-bottom: 0;
+	}
+`;
 
-export default H1
+export default H1;

@@ -1,44 +1,56 @@
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
 @import url("https://fonts.googleapis.com/css?family=Oswald");
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 * {
-  margin: 0px;
-  padding: 0px;
-  scroll-behavior: smooth;
-  box-sizing: border-box;
-  font-family: Calligraffitti;
+	margin: 0px;
+	padding: 0px;
+	scroll-behavior: smooth;
+	box-sizing: border-box;
+	font-family: Calligraffitti;
 }
 
 body {
-  font-size: 0.875em;
-  color: white;
-  line-height: 1.5;
-  background-color: black;
+	font-size: 0.875em;
+	color: white;
+	line-height: 1.5;
+	background-color: black;
 }
 
 html {
-  height: 100%;
-  width: 100%;
-  scroll-behavior: smooth;
-  box-sizing: border-box;
+	height: 100%;
+	width: 100%;
+	scroll-behavior: smooth;
+	box-sizing: border-box;
 }
 
 #PorteFolio {
-  min-height: 600px;
-  width: 100%;
-  z-index: 2;
+	min-height: 600px;
+	width: 100%;
+	z-index: 2;
 }
 
 .PageTags {
-  margin: 30px auto;
-  height: 60px;
-  width: max-content;
-  padding: 10px;
-  border-radius: 10px;
-  text-align: center;
-  font-family: "Shadows Into Light", cursive;
-  line-height: 36px;
-  font-size: 50px;
+	margin: 30px
+		auto;
+	height: 60px;
+	width: max-content;
+	padding: 10px;
+	border-radius: 10px;
+	text-align: center;
+	font-family: "Shadows Into Light",
+		cursive;
+	line-height: 36px;
+	font-size: 50px;
+}
+
+.blob-info {
+	z-index: -1;
+}
+
+@media (max-width: 768px) {
+	.blob-info {
+		display: none;
+	}
 }

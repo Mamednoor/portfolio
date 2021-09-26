@@ -23,6 +23,22 @@ function Info() {
 	return (
 		<ContentBody id='Info'>
 			<Centered>
+				<svg
+					style={{
+						position:
+							"relative",
+						top: "154px",
+					}}
+					className='blob-info'
+					viewBox='0 0 200 200'
+					xmlns='http://www.w3.org/2000/svg'
+				>
+					<path
+						fill='#FF0000'
+						d='M23.6,-30.6C34.4,-29.7,49.7,-29.7,61.3,-22.6C72.9,-15.5,80.9,-1.4,74.5,7.5C68.2,16.3,47.7,19.9,35.4,26.3C23.1,32.7,19,41.8,11.5,48.2C4,54.5,-7,58,-15.4,54.6C-23.8,51.2,-29.6,40.9,-36.7,32.1C-43.7,23.3,-52,16,-60.8,4.2C-69.6,-7.6,-78.9,-24,-71.6,-29.6C-64.2,-35.2,-40.2,-30.2,-25.5,-29.3C-10.8,-28.4,-5.4,-31.7,0.5,-32.4C6.4,-33.2,12.7,-31.5,23.6,-30.6Z'
+						transform='translate(100 100)'
+					/>
+				</svg>
 				<Avatar
 					src={
 						profilePicture
@@ -114,6 +130,8 @@ function Info() {
 									"70px",
 								color:
 									"white",
+								margin:
+									"7px",
 							}}
 							className='icons'
 						/>
@@ -131,6 +149,8 @@ function Info() {
 									"70px",
 								color:
 									"white",
+								margin:
+									"7px",
 							}}
 							className='icons'
 						/>
@@ -147,6 +167,8 @@ function Info() {
 									"70px",
 								color:
 									"white",
+								margin:
+									"7px",
 							}}
 							className='icons'
 						/>
@@ -162,6 +184,8 @@ function Info() {
 									"70px",
 								color:
 									"white",
+								margin:
+									"7px",
 							}}
 							className='icons'
 						/>
