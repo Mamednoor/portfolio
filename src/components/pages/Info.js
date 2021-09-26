@@ -102,12 +102,7 @@ function Info() {
 			</Centered>
 
 			<Centered>
-				<Section
-					style={{
-						marginBottom:
-							"20px",
-					}}
-				>
+				<Section>
 					<Link
 						href='https://www.linkedin.com/in/mamednoorgohabur/'
 						target='_blank'
