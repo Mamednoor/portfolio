@@ -31,7 +31,7 @@ const Avatar = styled(
 		height: 256px;
 		border-radius: 50%;
 		position: relative;
-		top: -14px;
+		top: 5px;
 	}
 `;
 

@@ -14,6 +14,7 @@ const ContentBody = styled.div`
 	@media (max-width: 768px) {
 		display: flex;
 		flex-direction: column;
+		margin-bottom: 20px;
 	}
 `;
 
