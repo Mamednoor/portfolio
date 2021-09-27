@@ -96,7 +96,7 @@ const project =
 				"https://github.com/Mamednoor/Mamednoor/blob/master/src/assets/img/portefolio-php.png?raw=true",
 			stack:
 				" - Stack: HTML, CSS, JavaScript, PHP",
-			link: "https://www.portfolio-php.42web.io/",
+			link: "https://mamedgohabur.42web.io/",
 			repo: "https://github.com/Mamednoor/Portfolio_PHP",
 		},
 	];
