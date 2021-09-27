@@ -120,7 +120,7 @@ function Info() {
 			<Centered>
 				<Section>
 					<Link
-						href='https://www.linkedin.com/in/mamednoorgohabur/'
+						href='https://fr.linkedin.com/in/mamednoorgohabur'
 						target='_blank'
 						rel='noopener noreferrer'
 					>
