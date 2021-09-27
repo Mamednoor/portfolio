@@ -49,7 +49,7 @@ html {
 	z-index: -1;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 1080px) {
 	.blob-info {
 		display: none;
 	}
