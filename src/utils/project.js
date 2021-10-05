@@ -77,17 +77,7 @@ const project =
 			link: "https://workerandco.netlify.app",
 			repo: "https://github.com/Mamednoor/project-wbf3",
 		},
-		{
-			name: "Pokedex with Angular",
-			description:
-				" - Création d'un mini pokedex",
-			image:
-				"https://github.com/Mamednoor/Mamednoor/blob/master/src/assets/img/pokedex.png?raw=true",
-			stack:
-				" - Stack: HTML, CSS, JavaScript, Angular",
-			link: "https://github.com/Mamednoor/pokedexAngular",
-			repo: "https://github.com/Mamednoor/pokedexAngular",
-		},
+
 		{
 			name: "Portefolio v2",
 			description:
