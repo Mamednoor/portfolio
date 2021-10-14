@@ -1,9 +1,7 @@
-import styled from "styled-components";
-import { Image } from "antd";
+import styled from 'styled-components'
+import { Image } from 'antd'
 
-const Avatar = styled(
-	Image
-)`
+const Avatar = styled(Image)`
 	display: block;
 	align-self: center;
 	align-items: center;
@@ -11,7 +9,7 @@ const Avatar = styled(
 	height: 256px;
 	border-radius: 50%;
 	position: relative;
-	top: -306px;
+	top: 20px;
 	z-index: 2;
 	box-shadow: 5px
 		5px
@@ -46,6 +44,6 @@ const Avatar = styled(
 		top: 5px;
 		z-index: 2;
 	}
-`;
+`
 
-export default Avatar;
+export default Avatar
