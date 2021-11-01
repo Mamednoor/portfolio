@@ -1,7 +1,11 @@
-@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css");
-@import url("https://fonts.googleapis.com/css?family=Open+Sans");
-@import url("https://fonts.googleapis.com/css?family=Oswald");
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url('https://fonts.googleapis.com/css?family=Russo+One|Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pinyon+Script&display=swap');
 
 * {
 	margin: 0px;
@@ -32,25 +36,13 @@ html {
 }
 
 .PageTags {
-	margin: 30px
-		auto;
+	margin: 30px auto;
 	height: 60px;
 	width: max-content;
 	padding: 10px;
 	border-radius: 10px;
 	text-align: center;
-	font-family: "Shadows Into Light",
-		cursive;
+	font-family: 'Shadows Into Light', cursive;
 	line-height: 36px;
 	font-size: 50px;
-}
-
-.blob-info {
-	z-index: -1;
-}
-
-@media screen and (max-width: 1080px) {
-	.blob-info {
-		display: none;
-	}
 }
