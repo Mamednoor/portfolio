@@ -12,8 +12,6 @@ const project = [
 	{
 		name: 'Pixie Wilders',
 		description: ' - Création d’une marketplace de photographie',
-		// image:
-		// 	'https://github.com/Mamednoor/Mamednoor/blob/master/src/assets/img/PixieWilders.png?raw=true',
 		image: `${pixieWilder}`,
 		stack: ' - Stack: HTML, CSS, Git et Github',
 		link: 'https://mamednoor.github.io/project1PixieWilder/',
@@ -23,8 +21,6 @@ const project = [
 		name: 'Cook&Cake',
 		description:
 			" - Création d’une Application web de cuisine avec consommation d'API",
-		// image:
-		// 	'https://github.com/Mamednoor/Mamednoor/blob/master/src/assets/img/CookAndCake.png?raw=true',
 		image: `${cookcake}`,
 		stack: ' - Stack: React, JavaScript, HTML, CSS, Git et Github, SCRUM',
 		link: 'https://cookandcake.netlify.app/',
@@ -34,8 +30,6 @@ const project = [
 		name: 'Goat Vs Chicken',
 		description:
 			" - Création d'un jeux vidéo lors d'un Hackathon de 24H à la WildCodeSchool Paris",
-		// image:
-		// 	'https://github.com/Mamednoor/Mamednoor/blob/master/src/assets/img/GoatvsChicken.png?raw=true',
 		image: `${goatvschicken}`,
 		stack: ' - Stack: JavaScript, Phaser3, Git et Github',
 		link: 'https://romantic-swirles-0e45a7.netlify.app/',
@@ -45,8 +39,6 @@ const project = [
 		name: "Doc'Talk",
 		description:
 			" - Création d'une application mobile mettant en relation médecins et patients. Hackathon Doctolib 2020",
-		// image:
-		// 	'https://github.com/Mamednoor/Mamednoor/blob/master/src/assets/img/doctalk.png?raw=true',
 		image: `${doctalk}`,
 		stack: ' - Stack: MySQL, React, Node.js, Socket.io, Git & GitHub, SCRUM',
 		link: 'https://doctalk.netlify.app/',
@@ -55,8 +47,6 @@ const project = [
 	{
 		name: 'Papier Crayon',
 		description: ' - Création d’une marketplace de design Papier crayon',
-		// image:
-		// 	'https://github.com/Mamednoor/Mamednoor/blob/master/src/assets/img/papiercrayon.png?raw=true',
 		image: `${papiercrayon}`,
 		stack: ' - Stack: MySQL, React, Node.js, Git & GitHub, SCRUM',
 		link: 'https://papier-crayon.netlify.app/',
@@ -65,8 +55,6 @@ const project = [
 	{
 		name: 'Todo List',
 		description: ' - Création d’une Todo List avec Redux',
-		// image:
-		// 	'https://github.com/Mamednoor/Mamednoor/blob/master/src/assets/img/redux-train.png?raw=true',
 		image: `${reduxtrain}`,
 		stack: ' - Stack: React + Redux, Git & Github',
 		link: 'https://redux-train-todoapp.netlify.app/',
@@ -75,8 +63,6 @@ const project = [
 	{
 		name: 'Worker & Co',
 		description: ' - Création d’un site vitrine pour une agence de co-working',
-		// image:
-		// 	'https://github.com/Mamednoor/Mamednoor/blob/master/src/assets/img/Worker&Co.png?raw=true',
 		image: `${workerCo}`,
 		stack: ' - Stack: HTML, CSS, JavaScript, Bootstrap, Git & Github',
 		link: 'https://workerandco.netlify.app',
@@ -86,8 +72,6 @@ const project = [
 	{
 		name: 'Portefolio v2',
 		description: 'Portefolio',
-		// image:
-		// 	'https://github.com/Mamednoor/Mamednoor/blob/master/src/assets/img/portefolio-php.png?raw=true',
 		image: `${portfoliov2}`,
 		stack: ' - Stack: HTML, CSS, JavaScript, PHP',
 		link: 'https://mamedgohabur.42web.io/',

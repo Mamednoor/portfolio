@@ -32,9 +32,10 @@ function Info() {
 					programmation ce fût avec logique et courage de sauté le pas afin de
 					fusionner passion et travail. Fort de mes expériences dans plusieurs
 					secteurs d'activité, après avoir adapté méthodologie de travail, style
-					de management dans des métiers fonctionnels. J'ai décidé de compléter
-					mon expertise en développement web et mobile en me spécialisant dans
-					les outils Microsoft D365.
+					de management dans des métiers fonctionnels et opérationnels. J'ai
+					décidé de compléter mon expertise dans le développement web et mobile
+					tout en me spécialisant dans les outils Microsoft D365 ainsi que le
+					développement d'application PowerPlateform.
 				</Text>
 			</Centered>
 

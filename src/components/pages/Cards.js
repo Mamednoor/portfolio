@@ -1,6 +1,6 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 
-import project from '../../utils/project'
+import data from '../../utils/project'
 import Link from '../common/Link'
 import {
 	CardBoxed,
@@ -12,9 +12,13 @@ import {
 } from '../common/Card'
 
 function Cards() {
+	const [projet] = useState(data)
+
+	useEffect(() => {}, [projet])
+
 	return (
 		<>
-			{project.map((item, i) => (
+			{projet.map((item, i) => (
 				<CardContainer key={i} className="card-container">
 					<CardBoxed>
 						<CustomImage>
