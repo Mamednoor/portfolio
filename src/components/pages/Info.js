@@ -23,7 +23,7 @@ function Info() {
 	return (
 		<ContentBody id="Info">
 			<Centered>
-				<Avatar src={profilePicture} alt="Profile" />
+				<Avatar src={profilePicture} alt="Avatar de Mamed Noor Gohabur" />
 			</Centered>
 
 			<Centered>

@@ -4,7 +4,6 @@ import doctalk from '../assets/img/doctalk.jpg'
 import pixieWilder from '../assets/img/PixieWilders.png'
 import reduxtrain from '../assets/img/redux-train.png'
 import papiercrayon from '../assets/img/papiercrayon.png'
-// import pokedex from '../assets/img/pokedex.png'
 import workerCo from '../assets/img/Worker&Co.png'
 import portfoliov2 from '../assets/img/portefolio-php.png'
 
