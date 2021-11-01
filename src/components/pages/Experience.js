@@ -21,7 +21,7 @@ function Experience() {
 							borderRight: '7px solid  rgb(33, 150, 243)',
 						}}
 						iconStyle={{
-							background: 'rgb(33, 150, 243)',
+							background: 'green',
 							color: '#fff',
 						}}
 					>
@@ -29,7 +29,7 @@ function Experience() {
 							Consultant Microsoft Dynamics 365 / Développeur PowerPlateform
 						</h3>
 						<h4 className="vertical-timeline-element-subtitle">
-							Alternance IBM - 2021
+							Alternance IBM <br /> - Mars 2021
 						</h4>
 						<P>
 							- Développement d'application Power Plateform <br />
