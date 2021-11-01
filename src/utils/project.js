@@ -1,6 +1,6 @@
 import cookcake from '../assets/img/CookAndCake.png'
 import goatvschicken from '../assets/img/GoatvsChicken.png'
-import doctalk from '../assets/img/doctalk.jpg'
+import doctalk from '../assets/img/doctalk.png'
 import pixieWilder from '../assets/img/PixieWilders.png'
 import reduxtrain from '../assets/img/redux-train.png'
 import papiercrayon from '../assets/img/papiercrayon.png'
