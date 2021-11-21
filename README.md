@@ -1,12 +1,13 @@
 ## Porte folio
 
-[First React Portfolio](https://mamednoor.netlify.app)  
+Pour voir le site veuillez suivre ce lien : [Mamed Noor Gohabur](https://mamednoor.netlify.app)  
 
-### Details  
+## Details  
 
 Création d'un portfolio avec React.js afin de me présenter et de mettre en avant mes réalisations ainsi que mes expériences.
+Le porte folio est hébergé sur Netlify.com
 
-### Technologies
+## Technologies
 
 - React
 - React-scroll
@@ -15,9 +16,8 @@ Création d'un portfolio avec React.js afin de me présenter et de mettre en ava
 - ityped
 - react-vertical-timeline-component
 
-### Arborescence 
+## Arborescence
 
-./  
 ├── public  
 │   ├── favicon.png  
 │   ├── index.html  
@@ -76,4 +76,4 @@ Création d'un portfolio avec React.js afin de me présenter et de mettre en ava
 ├── .prettierrc  
 ├── package.json  
 ├── Readme.md  
-└── yarn.lock  
+└── yarn.lock
