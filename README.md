@@ -3,9 +3,10 @@
 ## Qui suis-je ?
 
 - Mamed Noor Gohabur
-- Un passionné d'informatique
-- Passionné par le développement
-- En poste chez IBM depuis Mars 2021 en tant que Consultant Fonctionnel - Développeur Power Platform
+- Un passionné d'informatique et le développement
+- Développeur Fullstack
+- Développeur Power Platform
+- En poste chez IBM
 
 ## Compétences
 
