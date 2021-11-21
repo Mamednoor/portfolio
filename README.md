@@ -17,7 +17,7 @@ Création d'un portfolio avec React.js afin de me présenter et de mettre en ava
 
 ### Arborescence 
 
-./Mamednoor  
+./  
 ├── public  
 │   ├── favicon.png  
 │   ├── index.html  
