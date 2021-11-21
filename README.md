@@ -14,3 +14,66 @@ Création d'un portfolio avec React.js afin de me présenter et de mettre en ava
 - styled-component
 - ityped
 - react-vertical-timeline-component
+
+### Arborescence 
+
+./Mamednoor
+├── public
+│   ├── favicon.png
+│   ├── index.html
+│   └──robots.txt
+├── src
+│   ├──App.css
+│   ├──App.js
+│   └──App.test.js
+├── assets
+│   ├── img
+│   ├── Mamed-Gohabur-Developpeur-React-Nodejs.pdf
+│   └── Profile.jpeg
+├── components
+│   ├── common
+│   │   ├── Animation
+│   │   ├── Avatar
+│   │   ├── Bottom
+│   │   ├── BriefBox
+│   │   ├── Button
+│   │   ├── Card
+│   │   ├── Centered
+│   │   ├── ContentBody
+│   │   ├── Flex
+│   │   ├── H1
+│   │   ├── H2
+│   │   ├── Link
+│   │   ├── Main
+│   │   ├── P
+│   │   ├── SchoolLink
+│   │   ├── Section
+│   │   ├── Text
+│   │   ├── TimeLine
+│   │   └── Title
+│   ├── pages
+│   │   ├── Cards.js
+│   │   ├── Experience.js
+│   │   ├── Follow.js
+│   │   ├── Home.js
+│   │   ├── Info.js
+│   │   └── Portfolio.js
+│   ├── shared
+│   │   ├── NavBar.css
+│   │   ├── NavBar.js
+│   │   ├── Stack.css
+│   │   └── Stack.js
+│   └── stylesheet
+│       ├── Experience.css
+│       ├── Follow.css
+│       └── Info.css
+├── index.css
+├── index.js
+├── setupTests.js
+└── utils
+│   └── project.js
+├── .gitignore
+├── .prettierrc
+├── package.json
+├── Readme.md
+└── yarn.lock
