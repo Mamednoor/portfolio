@@ -6,6 +6,7 @@
 - Un passionné d'informatique et le développement
 - Développeur Fullstack React, Node.js
 - Développeur Power Platform
+- Consultant Microsoft Dynamics 365
 - En poste chez IBM
 
 ## Compétences
@@ -68,8 +69,6 @@ Veuillez suivre ce lien pour en apprendre plus et voir mes réalisations : [Mame
 
 
 ![Stats GitHub](https://github-readme-stats.vercel.app/api?username=Mamednoor&show_icons=true&theme=radical)
-
-
 <img style="margin: 10px" src="https://wakatime.com/share/@MamedNoor/1a1b0c47-6368-4077-aa29-273f266598c9.svg" alt="Coding Language" width="500" />
 
 
