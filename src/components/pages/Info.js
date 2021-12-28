@@ -16,7 +16,11 @@ import Link from '../common/Link'
 
 import '../stylesheet/Info.css'
 
+<<<<<<< HEAD
 import PDF from '../../assets/Mamed-Noor-Gohabur_Développeur-Fullstack.pdf'
+=======
+import PDF from '../../assets/Mamed-Noor-Gohabur-Développeur-Fullstack.pdf'
+>>>>>>> 239812cd084cda929d8bc77372d79def5b3fdd7a
 import profilePicture from '../../assets/Profile.jpeg'
 
 function Info() {
