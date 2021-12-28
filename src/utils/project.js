@@ -1,21 +1,12 @@
 import cookcake from '../assets/img/CookAndCake.png'
 import goatvschicken from '../assets/img/GoatvsChicken.png'
 import doctalk from '../assets/img/doctalk.png'
-import pixieWilder from '../assets/img/PixieWilders.png'
 import reduxtrain from '../assets/img/redux-train.png'
 import papiercrayon from '../assets/img/papiercrayon.png'
 import workerCo from '../assets/img/Worker&Co.png'
 import portfoliov2 from '../assets/img/portefolio-php.png'
 
 const project = [
-	{
-		name: 'Pixie Wilders',
-		description: ' - Création d’une marketplace de photographie',
-		image: `${pixieWilder}`,
-		stack: ' - Stack: HTML, CSS, Git et Github',
-		link: 'https://mamednoor.github.io/project1PixieWilder/',
-		repo: 'https://github.com/Mamednoor/project1PixieWilder',
-	},
 	{
 		name: 'Cook&Cake',
 		description:
