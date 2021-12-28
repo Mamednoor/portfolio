@@ -26,18 +26,24 @@ function Experience() {
 						}}
 					>
 						<h3 className="vertical-timeline-element-title">
-							Consultant Microsoft Dynamics 365 / Développeur PowerPlateform
+							Concepteur Développeur d'application / Consultant Microsoft
+							Dynamics 365 - Développeur PowerPlateform
 						</h3>
 						<h4 className="vertical-timeline-element-subtitle">
 							Alternance IBM <br /> - Mars 2021
 						</h4>
 						<P>
+							- développement d'interface frontend et backend <br />
+							- développement d'APIRest <br />
+							- modélisation base de données <br />
 							- Développement d'application Power Plateform <br />
 							- Paramétrage Dynamics 365 Finance & Opération <br />
 							- Test d'intégration <br />
 							- Gestion de projet informatique <br />
 							- Scrumm <br />
 							- Suivis des backlogs <br />
+							Stacks programmation : JavaScript, React.js,Node.js avec Express,
+							PHP, Angular,MySQL, Mongodb avec Mongoose
 						</P>
 					</VerticalTimelineElement>
 					<VerticalTimelineElement
