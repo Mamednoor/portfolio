@@ -1,15 +1,15 @@
 # Hello, Bienvenue sur ma page Github
 
-## Qui suis-je ?
+## `Qui suis-je ?`
 
-- Mamed Noor Gohabur
+- [Mamed Noor Gohabur](https://mamednoor.netlify.app)
 - Un passionné d'informatique et de développement
 - Développeur Fullstack React, Node.js
 - Développeur Power Platform
 - Consultant Microsoft Dynamics 365
 - En poste chez IBM
 
-## Compétences
+## `Compétences`
 
 <table>
   <tr><td valign="top" width="33%">
@@ -22,8 +22,7 @@
     <img style="margin: 10px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/600px-JavaScript-logo.png" alt="JavaScript" height="50" />  
     <img style="margin: 10px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png" alt="React" height="50" /> 
     <img style="margin: 10px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/1200px-Angular_full_color_logo.svg.png" alt="Angular" height="50" />  
-    <img style="margin: 10px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/2560px-PHP-logo.svg.png" alt="PHP" height="50" />  
-
+    <img style="margin: 10px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/2560px-PHP-logo.svg.png" alt="PHP" height="50" />
   </div>
 
   </td>
@@ -55,21 +54,14 @@
   </td></tr>
 </table>  
 
-## Porte folio
-
-Veuillez suivre ce lien pour en apprendre plus et voir mes réalisations : [Mamed Noor Gohabur](https://mamednoor.netlify.app)
-
-## Vous egalement me contactez sur :
+## `Vous egalement me contactez`  
 
 <a href="https://www.linkedin.com/in/mamednoorgohabur/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> <a href="mailto:mamed.gohabur@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
 
-
-
-## Plus
-
+## `Statistiques`
 
 ![Stats GitHub](https://github-readme-stats.vercel.app/api?username=Mamednoor&show_icons=true&theme=radical)  
-<img style="margin: 10px" src="https://wakatime.com/share/@MamedNoor/1a1b0c47-6368-4077-aa29-273f266598c9.svg" alt="Coding Language" width="500" />
+<img style="margin: 10px" src="https://wakatime.com/share/@MamedNoor/1a1b0c47-6368-4077-aa29-273f266598c9.svg" alt="Coding Language" width="400" />
 
 
 <!-- ![Visitor Count](https://profile-counter.glitch.me/Mamednoor/count.svg) -->
