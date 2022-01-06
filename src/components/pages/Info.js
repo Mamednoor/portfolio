@@ -16,7 +16,7 @@ import Link from '../common/Link'
 
 import '../stylesheet/Info.css'
 
-import PDF from '../../assets/Mamed-Noor-Gohabur_Développeur-Fullstack.pdf'
+import PDF from '../../assets/Mamed-Noor-Gohabur-Développeur.pdf'
 import profilePicture from '../../assets/Profile.jpeg'
 
 function Info() {
