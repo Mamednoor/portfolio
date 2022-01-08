@@ -9,17 +9,6 @@
 	box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
 }
 
-.nav > .nav-header {
-	display: inline;
-}
-
-.nav > .nav-header > .nav-title {
-	display: inline-block;
-	font-size: 18px;
-	color: #fff;
-	padding: 10px 10px 10px 10px;
-}
-
 .nav > .nav-btn {
 	display: none;
 }

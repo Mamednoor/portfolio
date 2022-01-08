@@ -40,7 +40,7 @@ function Info() {
 			</Centered>
 
 			<Centered>
-				<Section>
+				<Section style={{ zIndex: '1' }}>
 					<Link
 						href="https://fr.linkedin.com/in/mamednoorgohabur"
 						target="_blank"

@@ -16,11 +16,6 @@ function Particle() {
 				interactivity: {
 					detect_on: 'canvas',
 					events: {
-						onclick: { enable: true, mode: 'push' },
-						onhover: {
-							enable: true,
-							parallax: { enable: false, force: 60, smooth: 10 },
-						},
 						resize: true,
 					},
 				},
@@ -40,7 +35,7 @@ function Particle() {
 						enable: true,
 						out_mode: 'out',
 						random: false,
-						speed: 1,
+						speed: 2,
 						straight: false,
 					},
 					number: { density: { enable: true, value_area: 800 }, value: 80 },
