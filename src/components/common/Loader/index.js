@@ -6,6 +6,7 @@ import Centered from '../Centered'
 function Loader() {
 	return (
 		<Centered
+			className="contaierLoader"
 			style={{
 				width: '100%',
 				margin: '80px auto',

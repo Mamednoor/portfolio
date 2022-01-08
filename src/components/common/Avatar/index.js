@@ -29,7 +29,7 @@ const Avatar = styled(Image)`
 		height: 256px;
 		border-radius: 50%;
 		position: relative;
-		top: 5px;
+		top: -47px;
 	}
 
 	@media screen and (max-width: 1080px) {
