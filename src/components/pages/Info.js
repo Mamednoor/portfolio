@@ -18,12 +18,17 @@ import '../stylesheet/Info.css'
 
 import PDF from '../../assets/Mamed-Noor-Gohabur-Développeur.pdf'
 import profilePicture from '../../assets/Profile.jpeg'
+import { Tooltip } from 'antd'
 
 function Info() {
 	return (
 		<ContentBody id="Info">
 			<Centered>
-				<Avatar src={profilePicture} alt="Avatar de Mamed Noor Gohabur" />
+				<Avatar
+					src={profilePicture}
+					alt="Avatar de Mamed Noor Gohabur"
+					preview={false}
+				/>
 			</Centered>
 
 			<Centered>
