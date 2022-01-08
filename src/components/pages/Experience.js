@@ -17,17 +17,13 @@ function Experience() {
 				<VerticalTimeline>
 					<VerticalTimelineElement
 						className="vertical-timeline-element--work"
-						contentArrowStyle={{
-							borderRight: '7px solid  rgb(33, 150, 243)',
-						}}
 						iconStyle={{
 							background: 'green',
 							color: '#fff',
 						}}
 					>
 						<h3 className="vertical-timeline-element-title">
-							Concepteur Développeur d'application / Consultant Microsoft
-							Dynamics 365 - Développeur PowerPlateform
+							Développeur Fullstack React / Node.js - Développeur PowerApps
 						</h3>
 						<h4 className="vertical-timeline-element-subtitle">
 							Alternance IBM <br /> - Mars 2021
@@ -35,8 +31,11 @@ function Experience() {
 						<P>
 							- développement d'interface frontend et backend <br />
 							- développement d'APIRest <br />
-							- modélisation base de données <br />
-							- Développement d'application Power Plateform <br />
+							- modélisation base de données => SQL, NoSQL, SharePoint,
+							Dataverse
+							<br />
+							- Développement d'application Power Apps <br />
+							- Développement d'application Power Automate <br />
 							- Paramétrage Dynamics 365 Finance & Opération <br />
 							- Test d'intégration <br />
 							- Gestion de projet informatique <br />
@@ -48,9 +47,6 @@ function Experience() {
 					</VerticalTimelineElement>
 					<VerticalTimelineElement
 						className="vertical-timeline-element--work"
-						contentArrowStyle={{
-							borderRight: '7px solid  rgb(33, 150, 243)',
-						}}
 						iconStyle={{
 							background: 'rgb(33, 150, 243)',
 							color: '#fff',
@@ -84,9 +80,6 @@ function Experience() {
 					</VerticalTimelineElement>
 					<VerticalTimelineElement
 						className="vertical-timeline-element--work"
-						contentArrowStyle={{
-							borderRight: '7px solid  rgb(33, 150, 243)',
-						}}
 						iconStyle={{
 							background: 'rgb(33, 150, 243)',
 							color: '#fff',

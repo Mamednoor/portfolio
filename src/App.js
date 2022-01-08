@@ -1,5 +1,4 @@
-import React from 'react'
-import './App.css'
+import React, { useEffect, useState } from 'react'
 import Info from './components/pages/Info'
 import Experience from './components/pages/Experience'
 import Portfolio from './components/pages/Portfolio'
@@ -8,8 +7,21 @@ import NavBar from './components/shared/NavBar'
 import Home from './components/pages/Home'
 import Particle from './components/common/Particles'
 
+import './App.css'
+import Loader from './components/common/Loader'
+
 function App() {
-	return (
+	const [loader, setLoader] = useState(true)
+
+	useEffect(() => {
+		setTimeout(() => {
+			setLoader(false)
+		}, 1800)
+	}, [])
+
+	return loader ? (
+		<Loader />
+	) : (
 		<div className="App">
 			<NavBar />
 			<Particle />
