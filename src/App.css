@@ -50,6 +50,6 @@ html {
 @media (max-width: 768px) {
 	.containerLoader {
 		width: '100%';
-		margin: '50px auto';
+		margin: '10px auto';
 	}
 }
