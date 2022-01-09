@@ -5,7 +5,14 @@ import Centered from '../Centered'
 
 function Loader() {
 	return (
-		<Centered className="containerLoader">
+		<Centered
+			className="containerLoader"
+			style={{
+				width: '100%',
+				margin: '80px auto',
+				minHeight: '88vh',
+			}}
+		>
 			<img src={Spinner} alt="logo de chargement" style={{ width: '300px' }} />
 		</Centered>
 	)

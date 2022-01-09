@@ -23,8 +23,8 @@ function App() {
 		<Loader />
 	) : (
 		<div className="App">
-			<NavBar />
 			<Particle />
+			<NavBar />
 			<Home id="Home" />
 			<Info id="Info" />
 			<Portfolio id="portefolio" />
