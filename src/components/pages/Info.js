@@ -18,7 +18,6 @@ import '../stylesheet/Info.css'
 
 import PDF from '../../assets/Mamed-Noor-Gohabur-Développeur.pdf'
 import profilePicture from '../../assets/Profile.jpeg'
-import { Tooltip } from 'antd'
 
 function Info() {
 	return (

@@ -9,16 +9,16 @@ const Avatar = styled(Image)`
 	height: 256px;
 	border-radius: 50%;
 	position: relative;
-	top: 5px;
+	top: -20px;
 	z-index: 2;
 	box-shadow: 5px
 		5px
 		5px
 		rgba(
-			166,
-			166,
-			166,
-			0.3
+			0,
+			0,
+			0,
+			0.7
 		);
 
 	@media (max-width: 768px) {
@@ -29,7 +29,7 @@ const Avatar = styled(Image)`
 		height: 256px;
 		border-radius: 50%;
 		position: relative;
-		top: -47px;
+		top: -20px;
 	}
 
 	@media screen and (max-width: 1080px) {
@@ -41,7 +41,7 @@ const Avatar = styled(Image)`
 		height: 256px;
 		border-radius: 50%;
 		position: relative;
-		top: 5px;
+		top: -20px;
 		z-index: 2;
 	}
 `

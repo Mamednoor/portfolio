@@ -1,8 +1,7 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 const ContentBody = styled.div`
 	display: flex;
-
 	padding: 15px;
 	min-height: 500px;
 	width: 100%;
@@ -16,6 +15,6 @@ const ContentBody = styled.div`
 		flex-direction: column;
 		margin-bottom: 20px;
 	}
-`;
+`
 
-export default ContentBody;
+export default ContentBody
