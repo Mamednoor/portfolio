@@ -6,8 +6,8 @@ Pour voir le site veuillez suivre ce lien : [Mamed Noor Gohabur](https://mamedno
 
 ## Details  
 
-Création d'un portfolio avec React.js afin de me présenter et de mettre en avant mes réalisations ainsi que mes expériences.
-Le porte folio est hébergé sur Netlify.com
+Création d'un porte-folio avec React.js afin de me présenter et de mettre en avant mes réalisations ainsi que mes expériences.
+Le porte-folio est hébergé sur Netlify.com
 
 ## Technologies
 
