@@ -11,12 +11,13 @@ Le porte folio est hébergé sur Netlify.com
 
 ## Technologies
 
-- React
-- React-scroll
-- ant design
-- styled-component
-- ityped
-- react-vertical-timeline-component
+- [React](https://fr.reactjs.org/)
+- [React-scroll](https://github.com/fisshy/react-scroll)
+- [Ant Design](https://ant.design/)
+- [Styled-component](https://styled-components.com/)
+- [ityped](https://ityped.surge.sh/)
+- [react-vertical-timeline-component](https://stephane-monnot.github.io/react-vertical-timeline/#/)
+- [Particles](https://particles.js.org/)
 
 ## Arborescence
 
@@ -62,8 +63,6 @@ Le porte folio est hébergé sur Netlify.com
 │   │   ├── Info.js  
 │   │   └── Portfolio.js  
 │   ├── shared  
-│   │   ├── // NavBar.css  
-│   │   ├── // NavBar.js  
 │   │   ├── Stack.css  
 │   │   └── Stack.js  
 │   └── stylesheet  
