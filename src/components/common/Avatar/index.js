@@ -11,15 +11,7 @@ const Avatar = styled(Image)`
 	position: relative;
 	top: -5px;
 	z-index: 2;
-	box-shadow: 5px
-		5px
-		5px
-		rgba(
-			166,
-			166,
-			166,
-			0.4
-		);
+
 
 	@media (max-width: 768px) {
 		display: block;

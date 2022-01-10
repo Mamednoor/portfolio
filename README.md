@@ -47,6 +47,7 @@ Le porte folio est hébergé sur Netlify.com
 │   │   ├── H2  
 │   │   ├── Link  
 │   │   ├── Main  
+│   │   ├── Navbar  
 │   │   ├── P  
 │   │   ├── SchoolLink  
 │   │   ├── Section  
@@ -61,8 +62,8 @@ Le porte folio est hébergé sur Netlify.com
 │   │   ├── Info.js  
 │   │   └── Portfolio.js  
 │   ├── shared  
-│   │   ├── NavBar.css  
-│   │   ├── NavBar.js  
+│   │   ├── // NavBar.css  
+│   │   ├── // NavBar.js  
 │   │   ├── Stack.css  
 │   │   └── Stack.js  
 │   └── stylesheet  

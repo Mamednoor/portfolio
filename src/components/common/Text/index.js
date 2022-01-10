@@ -1,11 +1,10 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 const Text = styled.p`
 	display: flex;
 	justify-content: center;
 	text-align: center;
-	font-family: "Roboto",
-		sans-serif;
+	font-family: 'Roboto', sans-serif;
 	line-height: 25px;
 	font-size: 20px;
 	color: white;
@@ -13,6 +12,6 @@ const Text = styled.p`
 	@media (max-width: 768px) {
 		margin-bottom: 50px;
 	}
-`;
+`
 
-export default Text;
+export default Text
