@@ -1,67 +1,82 @@
-# Hello, Bienvenue sur ma page Github
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4e11f024-5dd3-4cab-b259-d77cd561deef/deploy-status)](https://app.netlify.com/sites/mamednoor/deploys)  
 
-## `Qui suis-je ?`
+## Porte folio
 
-- [Mamed Noor Gohabur](https://mamednoor.netlify.app)
-- Un passionné d'informatique et de développement
-- Développeur Fullstack React, Node.js
-- Développeur Power Apps
-- Consultant Microsoft Dynamics 365
-- En poste chez IBM
+Pour voir le site veuillez suivre ce lien : [Mamed Noor Gohabur](https://mamednoor.netlify.app)  
 
-## `Compétences`
+## Details  
 
-<table>
-  <tr><td valign="top" width="33%">
+Création d'un portfolio avec React.js afin de me présenter et de mettre en avant mes réalisations ainsi que mes expériences.
+Le porte folio est hébergé sur Netlify.com
 
-### Frontend  
+## Technologies
 
-  <div align="center">  
-    <img style="margin: 10px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png" alt="CSS3" height="50" />  
-    <img style="margin: 10px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/768px-HTML5_logo_and_wordmark.svg.png" alt="HTML5" height="50" />  
-    <img style="margin: 10px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/600px-JavaScript-logo.png" alt="JavaScript" height="50" />  
-    <img style="margin: 10px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png" alt="React" height="50" /> 
-    <img style="margin: 10px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/1200px-Angular_full_color_logo.svg.png" alt="Angular" height="50" />  
-    <img style="margin: 10px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/2560px-PHP-logo.svg.png" alt="PHP" height="50" />
-  </div>
+- React
+- React-scroll
+- ant design
+- styled-component
+- ityped
+- react-vertical-timeline-component
 
-  </td>
-  <td valign="top" width="33%">
+## Arborescence
 
-### Backend
-
-  <div align="center">  
-    <img style="margin: 10px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/600px-JavaScript-logo.png" alt="JavaScript" height="50" />  
-    <img style="margin: 10px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png" alt="Node" height="50" />
-    <img style="margin: 10px" src="https://upload.wikimedia.org/wikipedia/fr/thumb/6/62/MySQL.svg/1200px-MySQL.svg.png" alt="MySQL" height="50" />  
-    <img style="margin: 10px" src="https://upload.wikimedia.org/wikipedia/fr/thumb/4/45/MongoDB-Logo.svg/1280px-MongoDB-Logo.svg.png" alt="MongoDB" height="50" />
-        <img style="margin: 10px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/768px-Python-logo-notext.svg.png" alt="Python" height="50" />  
-  </div>
-
-  </td>
-  <td valign="top" width="33%">
-
-### Autres
-
-  <div align="center">  
-    <img style="margin: 10px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/1024px-Git_icon.svg.png" alt="Git" height="50" />
-    <img style="margin: 10px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/NewTux.svg/200px-NewTux.svg.png" alt="Linux" height="50" />
-    <img style="margin: 10px" src="https://dashboard.snapcraft.io/site_media/appmedia/2020/03/512x512_4JGJ8f7.png" alt="Beekeeper Studio" height="50" />
-    <img style="margin: 10px" src="https://1cb23u14ys651rrda9238ivs-wpengine.netdna-ssl.com/wp-content/uploads/2021/02/microsoft-dynamics.jpg" alt="Microsoft Dynamics 365" height="50" />
-    <img style="margin: 10px" src="https://www.inway.de/fileadmin/_processed_/3/c/csm_PowerPlatform_Quer_32fc5b0b88.jpg" alt="Microsoft Power Platform" height="50" />
-  </div>
-
-  </td></tr>
-</table>  
-
-## `Vous egalement me contactez`  
-
-<a href="https://www.linkedin.com/in/mamednoorgohabur/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> <a href="mailto:mamed.gohabur@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
-
-## `Statistiques`
-
-![Stats GitHub](https://github-readme-stats.vercel.app/api?username=Mamednoor&show_icons=true&theme=radical)  
-<img style="margin: 10px" src="https://wakatime.com/share/@MamedNoor/1a1b0c47-6368-4077-aa29-273f266598c9.svg" alt="Coding Language" width="400" />
-
-
-<!-- ![Visitor Count](https://profile-counter.glitch.me/Mamednoor/count.svg) -->
+├── public  
+│   ├── favicon.png  
+│   ├── index.html  
+│   └──robots.txt  
+├── src  
+│   ├──App.css  
+│   ├──App.js  
+│   └──App.test.js  
+├── assets  
+│   ├── img  
+│   ├── Mamed-Gohabur-Developpeur-React-Nodejs.pdf  
+│   └── Profile.jpeg  
+├── components  
+│   ├── common  
+│   │   ├── Animation  
+│   │   ├── Avatar  
+│   │   ├── Bottom  
+│   │   ├── BriefBox  
+│   │   ├── Button  
+│   │   ├── Card  
+│   │   ├── Centered  
+│   │   ├── ContentBody  
+│   │   ├── Flex  
+│   │   ├── H1  
+│   │   ├── H2  
+│   │   ├── Link  
+│   │   ├── Main  
+│   │   ├── Navbar  
+│   │   ├── P  
+│   │   ├── SchoolLink  
+│   │   ├── Section  
+│   │   ├── Text  
+│   │   ├── TimeLine  
+│   │   └── Title  
+│   ├── pages  
+│   │   ├── Cards.js  
+│   │   ├── Experience.js  
+│   │   ├── Follow.js  
+│   │   ├── Home.js  
+│   │   ├── Info.js  
+│   │   └── Portfolio.js  
+│   ├── shared  
+│   │   ├── // NavBar.css  
+│   │   ├── // NavBar.js  
+│   │   ├── Stack.css  
+│   │   └── Stack.js  
+│   └── stylesheet  
+│       ├── Experience.css  
+│       ├── Follow.css  
+│       └── Info.css  
+├── index.css  
+├── index.js  
+├── setupTests.js  
+└── utils  
+│   └── project.js  
+├── .gitignore  
+├── .prettierrc  
+├── package.json  
+├── Readme.md  
+└── yarn.lock
