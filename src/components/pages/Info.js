@@ -44,7 +44,7 @@ function Info() {
 			</Centered>
 
 			<Centered>
-				<Section style={{ zIndex: '1' }}>
+				<Section>
 					<Link
 						href="https://fr.linkedin.com/in/mamednoorgohabur"
 						target="_blank"

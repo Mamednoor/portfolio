@@ -12,6 +12,9 @@ export const Nav = styled.nav`
 	position: fixed;
 	top: 0;
 	z-index: 1000;
+	@media screen and (max-width: 768px) {
+		background: rgb(0, 0, 0, 0.5);
+	}
 `
 
 export const MobileIcon = styled.div`

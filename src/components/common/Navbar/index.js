@@ -28,6 +28,7 @@ function Navbar() {
 				<NavMenu onClick={handleClick} click={click}>
 					<NavLinks
 						to="Home"
+						spy={true}
 						smooth={true}
 						offset={-90}
 						duration={500}
@@ -38,6 +39,7 @@ function Navbar() {
 
 					<NavLinks
 						to="Info"
+						spy={true}
 						smooth={true}
 						offset={-40}
 						duration={500}
@@ -48,6 +50,7 @@ function Navbar() {
 
 					<NavLinks
 						to="Portefolio"
+						spy={true}
 						smooth={true}
 						offset={-90}
 						duration={500}
@@ -58,6 +61,7 @@ function Navbar() {
 
 					<NavLinks
 						to="Experience"
+						spy={true}
 						smooth={true}
 						offset={-180}
 						duration={500}
@@ -68,6 +72,7 @@ function Navbar() {
 
 					<NavLinks
 						to="Follow"
+						spy={true}
 						smooth={true}
 						offset={-90}
 						duration={500}
