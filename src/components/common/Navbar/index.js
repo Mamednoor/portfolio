@@ -38,17 +38,6 @@ function Navbar() {
 					</NavLinks>
 
 					<NavLinks
-						to="Info"
-						spy={true}
-						smooth={true}
-						offset={-40}
-						duration={500}
-						onClick={closeMobileMenu}
-					>
-						Présentation
-					</NavLinks>
-
-					<NavLinks
 						to="Portefolio"
 						spy={true}
 						smooth={true}

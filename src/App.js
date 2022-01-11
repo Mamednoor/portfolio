@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react'
 import Experience from './components/pages/Experience'
 import Follow from './components/pages/Follow'
 import Home from './components/pages/Home'
-import Info from './components/pages/Info'
 import Loader from './components/common/Loader'
 import Navbar from './components/common/Navbar'
 import Particle from './components/common/Particles'
@@ -26,7 +25,6 @@ function App() {
 			<Particle />
 			<Navbar />
 			<Home id="Home" />
-			<Info id="Info" />
 			<Portfolio id="portefolio" />
 			<Experience id="Experience" />
 			<Follow id="Contact" />

@@ -50,23 +50,34 @@ export const NavMenu = styled.div`
 `
 
 export const NavLinks = styled(Link)`
-	display: inline-flex;
+	position: relative;
+	display: inline-block;
 	padding: 13px 30px 13px 30px;
-	color: #efefef;
-	cursor: pointer;
-	text-decoration: underline 0.15em rgba(0, 0, 0);
-	text-underline-offset: 0.2em;
-	transition: text-decoration-color 300ms, text-underline-offset 300ms;
+	text-decoration: none;
+	color: inherit;
+	transition: all 0.2s;
+	&::after {
+		content: '';
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 100%;
+		display: inline-block;
+		height: 1rem;
+		background: #efefef;
+		transition: all 0.25s cubic-bezier(1, 0.68, 0.16, 0.9);
+	}
 	&:hover {
 		color: #cf1406;
-		height: min-content;
-		text-decoration-color: #cf1406;
-		text-underline-offset: 0.8em;
-		font-size: 20px;
+	}
+	&:hover::after {
+		right: 0;
+		height: 2px;
+		background: #cf1406;
 	}
 
 	&:active {
-		color: red;
+		color: #cf1406;
 		height: min-content;
 	}
 

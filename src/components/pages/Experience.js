@@ -23,7 +23,7 @@ function Experience() {
 						}}
 					>
 						<h3 className="vertical-timeline-element-title">
-							Développeur Fullstack React / Node.js - Développeur PowerApps
+							Développeur Fullstack React / Node.js - Développeur Power Apps
 						</h3>
 						<h4 className="vertical-timeline-element-subtitle">
 							Alternance IBM <br /> - Mars 2021
