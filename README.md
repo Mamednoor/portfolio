@@ -62,9 +62,6 @@ Le porte-folio est hébergé sur Netlify.com
 │   │   ├── Home.js  
 │   │   ├── Info.js  
 │   │   └── Portfolio.js  
-│   ├── shared  
-│   │   ├── Stack.css  
-│   │   └── Stack.js  
 │   └── stylesheet  
 │       ├── Experience.css  
 │       ├── Follow.css  
