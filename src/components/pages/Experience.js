@@ -31,7 +31,7 @@ function Experience() {
 						<P>
 							- Modélisation base de données => SQL, NoSQL, SharePoint,
 							Dataverse	<br />
-							- Développement d'application Power Apps <br />
+							- Conception et Développement d'application Power Apps <br />
 							- Développement d'application Power Automate <br />
 							- Test d'intégration <br />
 							- Gestion de projet informatique <br />
