@@ -29,8 +29,8 @@
     "websocket-extensions": "^0.1.4"
   },
   "scripts": {
-    "start": "react-scripts --openssl-legacy-provider start",
-    "build": "CI='' ",
+    "start": "react-scripts start",
+    "build": "CI= false",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
