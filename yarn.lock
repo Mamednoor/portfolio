@@ -10076,7 +10076,7 @@ react-awesome-modal@^2.0.5:
   resolved "https://registry.yarnpkg.com/react-awesome-modal/-/react-awesome-modal-2.0.5.tgz#d19702f7e3bc1f43e734f5a60814c2d1593c693a"
   integrity sha512-H+0xKBhcGJCoDtMww5K+XUzQtK+oRNpXr1VZoN1tbBgu+fzrLrF+ZkdRC1XiPLJ5gpVd9uR90yg8nyPTtYj/OQ==
 
-react-dev-utils@^11.0.3:
+react-dev-utils@11.0.4, react-dev-utils@^11.0.3:
   version "11.0.4"
   resolved "https://registry.yarnpkg.com/react-dev-utils/-/react-dev-utils-11.0.4.tgz#a7ccb60257a1ca2e0efe7a83e38e6700d17aa37a"
   integrity sha512-dx0LvIGHcOPtKbeiSUM4jqpBl3TcY7CDjZdfOIcKeznE7BWr9dg0iPG90G5yfVQ+p/rGNMXdbfStvzQZEVEi4A==
