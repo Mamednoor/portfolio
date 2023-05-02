@@ -26,3 +26,4 @@ package-lock.json
 .eslintcache
 
 .vscode
+node_modules
