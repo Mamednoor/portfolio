@@ -15,6 +15,30 @@ function Experience() {
 			<Title>Expériences</Title>
 			<TimeLine id="Experience">
 				<VerticalTimeline>
+				<VerticalTimelineElement
+						className="vertical-timeline-element--work"
+						iconStyle={{
+							background: 'green',
+							color: '#fff',
+						}}
+					>
+						<h3 className="vertical-timeline-element-title">
+						Consultant Microsoft Dynamics 365 / Développeur PowerPlateform
+						</h3>
+						<h4 className="vertical-timeline-element-subtitle">
+							G2i365 <br />- Mars 2022 - en cours
+						</h4>
+						<P>
+							- Développement et conception d’application PowerApps <br />
+							- Modélisation de base de donnée => SQL, NoSQL, SharePoint, Dataverse <br />
+							- Développement de Flux PowerAutomate <br />
+							- Rédaction de livrable => spécification technique et fonctionnelle <br />
+							- Suivis et gestion de projet <br />
+							- Accompagnement, support et formation d’une équipe sur les services power platform <br /><br />
+							Stacks programmation : Environnement Microsoft <br />
+							Clients : Malakoff Humanis, SNCF, Fonds de dotations du Louvres, Le Bélier
+						</P>
+					</VerticalTimelineElement>
 					<VerticalTimelineElement
 						className="vertical-timeline-element--work"
 						iconStyle={{

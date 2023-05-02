@@ -32,7 +32,7 @@ function Info() {
 
 			<Centered>
 				<Text>
-					Passionné par les nouvelles technologies, l'informatique et la
+				Passionné par les nouvelles technologies, l'informatique et la
 					programmation ce fût avec logique et courage de sauter le pas afin de
 					fusionner passion et travail. Fort de mes expériences dans plusieurs
 					secteurs d'activité, après avoir adapté méthodologie de travail, style
