@@ -11,6 +11,8 @@ import {
 	P,
 } from '../common/Card'
 
+import { FieldTimeOutlined } from '@ant-design/icons'
+
 function Cards() {
 	const [projet] = useState(data)
 
@@ -22,10 +24,26 @@ function Cards() {
 				<CardContainer key={i} className="card-container">
 					<CardBoxed>
 						<CustomImage>
-							<Img
+{/* 							<Img
 								alt="Voici une photo du projet présenté avec sa technologie associée"
 								src={item.image}
-							/>
+							/> */}
+							{item.image != null ? (
+								<Img
+									alt="Voici une photo du projet présenté avec sa technologie associée"
+									src={item.image}
+								/>
+							) : (
+								<>
+									<FieldTimeOutlined
+										style={{
+											fontSize: '70px',
+											color: 'white',
+											marginTop:'100px'
+										}}
+									/>
+								</>
+							)}
 						</CustomImage>
 						<CustomCard>
 							<Link href={item.link} target="_blank" rel="noopener noreferrer">
