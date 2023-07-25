@@ -31,7 +31,7 @@ function Info() {
 			</Centered>
 
 			<Centered>
-				<Text>
+				<Text style={{textAlign:"justify"}}>
 				Passionné par les nouvelles technologies, l'informatique et la
 					programmation ce fût avec logique et courage de sauter le pas afin de
 					fusionner passion et travail. Fort de mes expériences dans plusieurs

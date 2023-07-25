@@ -6,8 +6,6 @@ const Link = styled.a`
   text-align: center;
   width: min-content;
 
-  
-
   :hover {
     color: red;
     cursor:pointer;
