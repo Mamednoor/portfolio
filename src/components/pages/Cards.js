@@ -2,8 +2,6 @@ import React, { useEffect, useState } from 'react'
 
 import { FieldTimeOutlined } from '@ant-design/icons'
 
-import Centered from '../common/Centered'
-
 import data from '../../utils/project'
 import Link from '../common/Link'
 import {
@@ -26,7 +24,7 @@ function Cards() {
 				<CardContainer key={i} className="card-container">
 					<CardBoxed>
 						<CustomImage>
-							{/* <Img
+{/* 							<Img
 								alt="Voici une photo du projet présenté avec sa technologie associée"
 								src={item.image}
 							/> */}
@@ -36,7 +34,7 @@ function Cards() {
 									src={item.image}
 								/>
 							) : (
-								<Centered>
+								<>
 									<FieldTimeOutlined
 										style={{
 											fontSize: '70px',
@@ -44,7 +42,7 @@ function Cards() {
 											marginTop:'100px'
 										}}
 									/>
-								</Centered>
+								</>
 							)}
 						</CustomImage>
 						<CustomCard>

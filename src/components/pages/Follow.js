@@ -21,7 +21,7 @@ function Follow() {
 					href="https://fr.linkedin.com/in/mamednoorgohabur"
 					target="_blank"
 					rel="noopener noreferrer"
-					style={{zIndex:'1'}}
+					style={{ zIndex: '1' }}
 				>
 					<LinkedinOutlined
 						style={{
@@ -35,7 +35,7 @@ function Follow() {
 					href="https://github.com/Mamednoor"
 					target="_blank"
 					rel="noopener noreferrer"
-					style={{zIndex:'1'}}
+					style={{ zIndex: '1' }}
 				>
 					<GithubOutlined
 						style={{
@@ -49,7 +49,7 @@ function Follow() {
 					href="mailto:mamed.gohabur@gmail.com"
 					target="_blank"
 					rel="noopener noreferrer"
-					style={{zIndex:'1'}}
+					style={{ zIndex: '1' }}
 				>
 					<MailOutlined
 						style={{

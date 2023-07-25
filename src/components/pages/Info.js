@@ -31,7 +31,7 @@ function Info() {
 			</Centered>
 
 			<Centered>
-			<Text>
+				<Text style={{textAlign:"justify"}}>
 				Passionné par les nouvelles technologies, l'informatique et la
 					programmation ce fût avec logique et courage de sauter le pas afin de
 					fusionner passion et travail. Fort de mes expériences dans plusieurs
@@ -44,12 +44,12 @@ function Info() {
 			</Centered>
 
 			<Centered>
-				<Section>
+				<Section >
 					<Link
 						href="https://fr.linkedin.com/in/mamednoorgohabur"
 						target="_blank"
 						rel="noopener noreferrer"
-						style={{zIndex:'1'}}
+						style={{ zIndex: '1' }}
 					>
 						<LinkedinOutlined
 							style={{
@@ -61,7 +61,14 @@ function Info() {
 						/>
 					</Link>
 
-					<Link href={PDF} className="a-info">
+					<Link 
+						href={PDF}
+						className="a-info"
+						target="_blank"
+						rel="noopener noreferrer"
+						style={{ zIndex: '1' }}
+					>
+
 						<AuditOutlined
 							style={{
 								fontSize: '70px',
@@ -76,7 +83,7 @@ function Info() {
 						href="https://github.com/Mamednoor"
 						target="_blank"
 						rel="noopener noreferrer"
-						style={{zIndex:'1'}}
+						style={{ zIndex: '1' }}
 					>
 						<GithubOutlined
 							style={{
@@ -88,7 +95,7 @@ function Info() {
 						/>
 					</Link>
 
-					<Link href="mailto:mamed.gohabur@gmail.com" rel="noopener noreferrer" style={{zIndex:'1'}}>
+					<Link href="mailto:mamed.gohabur@gmail.com" rel="noopener noreferrer" style={{ zIndex: '1' }}>
 						<MailOutlined
 							style={{
 								fontSize: '70px',

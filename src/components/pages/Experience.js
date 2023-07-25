@@ -9,6 +9,7 @@ import TimeLine from '../common/TimeLine'
 import 'react-vertical-timeline-component/style.min.css'
 import '../stylesheet/Experience.css'
 
+
 function Experience() {
 	return (
 		<>
@@ -47,7 +48,7 @@ function Experience() {
 						}}
 					>
 						<h3 className="vertical-timeline-element-title">
-							Développeur Fullstack React / Node.js - Développeur Power Apps
+							Développeur Fullstack React / Node.js - Développeur PowerApps
 						</h3>
 						<h4 className="vertical-timeline-element-subtitle">
 							Alternance IBM <br /> - Mars 2021 - Mars 2022
@@ -64,7 +65,7 @@ function Experience() {
 							- Test d'intégration <br />
 							- Gestion de projet informatique <br />
 							- Scrumm <br />
-							- Suivis des backlogs <br /><br />
+							- Suivis des backlogs <br />
 							Stacks programmation : JavaScript, React.js,Node.js avec Express,
 							PHP, Angular,MySQL, Mongodb avec Mongoose
 						</P>
@@ -80,7 +81,7 @@ function Experience() {
 							Consultant Microsoft Dynamics 365 / Développeur PowerPlateform
 						</h3>
 						<h4 className="vertical-timeline-element-subtitle">
-							Alternance IBM - 2021 - 2022<br />
+							Alternance IBM - 2021 <br />
 							Etudiant à la Business Apps (fondée par Microsoft, WebForce3 et
 							Social Builder)
 						</h4>
@@ -96,9 +97,8 @@ function Experience() {
 							- Développement d'applications desktop <br />
 							- Développement d'applications multi-couches
 							<br />
-							- Certification PL900 <br />
 							- Certification PL200 <br />
-							- Certification PL400 <br /><br />
+							- Certification PL400 <br />
 							Stacks programmation : JavaScript, PHP, Angular, MySQL, C#, .NET,
 							CRM Microsoft Dynamics 365
 						</P>
@@ -124,7 +124,6 @@ function Experience() {
 							- Création et modification de endpoint sur API.
 							<br />- Recette -Q&A <br />
 							- Résolution de bug.
-							<br />
 							<br />
 							Stack : React.js, React-Native, Redux, Redux-Saga, Python,
 							PostgreSQL, Docker, YouTrack, GitLab
