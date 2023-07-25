@@ -26,18 +26,17 @@ function Experience() {
 						Consultant Microsoft Dynamics 365 / Développeur PowerPlateform
 						</h3>
 						<h4 className="vertical-timeline-element-subtitle">
-							G2i365 - Mars 2022
+							G2i365 <br />- Mars 2022 - en cours
 						</h4>
 						<P>
-							- Modélisation base de données => SQL, NoSQL, SharePoint,
-							Dataverse	<br />
-							- Conception et Développement d'application Power Apps <br />
-							- Développement d'application Power Automate <br />
-							- Test d'intégration <br />
-							- Gestion de projet informatique <br />
-							- Scrumm <br />
-							- Suivis des backlogs <br /><br />
-							Stacks programmation : Environnement Microsoft
+							- Développement et conception d’application PowerApps <br />
+							- Modélisation de base de donnée => SQL, NoSQL, SharePoint, Dataverse <br />
+							- Développement de Flux PowerAutomate <br />
+							- Rédaction de livrable => spécification technique et fonctionnelle <br />
+							- Suivis et gestion de projet <br />
+							- Accompagnement, support et formation d’une équipe sur les services power platform <br /><br />
+							Stacks programmation : Environnement Microsoft <br />
+							Clients : Malakoff Humanis, SNCF, Fonds de dotations du Louvres, Le Bélier
 						</P>
 					</VerticalTimelineElement>
 					<VerticalTimelineElement
