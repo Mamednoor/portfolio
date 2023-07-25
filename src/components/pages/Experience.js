@@ -43,7 +43,7 @@ function Experience() {
 					<VerticalTimelineElement
 						className="vertical-timeline-element--work"
 						iconStyle={{
-							background: 'green',
+							background: 'rgb(33, 150, 243)',
 							color: '#fff',
 						}}
 					>
@@ -51,7 +51,7 @@ function Experience() {
 							Développeur Fullstack React / Node.js - Développeur PowerApps
 						</h3>
 						<h4 className="vertical-timeline-element-subtitle">
-							Alternance IBM <br /> - Mars 2021
+							Alternance IBM <br /> - Mars 2021 - Mars 2022
 						</h4>
 						<P>
 							- développement d'interface frontend et backend <br />
