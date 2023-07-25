@@ -18,7 +18,7 @@ const Animation = () => {
 			showCursor: false,
 			strings: [
 				'Développeur Fullstack React, Node.js',
-				'Développeur Power Apps',
+				'Développeur Power Platform',
 			],
 		})
 	}, [])
