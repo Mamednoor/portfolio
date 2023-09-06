@@ -16,6 +16,13 @@ function Particle() {
 				interactivity: {
 					detect_on: 'canvas',
 					events: {
+						onClick: {
+							enable: true,
+							mode: 'push',
+						},
+						onHover: {
+							enable: true,
+						},
 						resize: true,
 					},
 				},

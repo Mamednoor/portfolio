@@ -9,6 +9,7 @@ import TimeLine from '../common/TimeLine'
 import 'react-vertical-timeline-component/style.min.css'
 import '../stylesheet/Experience.css'
 
+
 function Experience() {
 	return (
 		<>
@@ -23,10 +24,42 @@ function Experience() {
 						}}
 					>
 						<h3 className="vertical-timeline-element-title">
+						Développeur PowerPlateform / Développeur React.js
+						</h3>
+						<h4 className="vertical-timeline-element-subtitle">
+							Freelance <br /> Juillet 2023 - en cours
+						</h4>
+						<P>
+
+						- Accompagnement, Conception et Développement d'application web<br />
+						- Conception et Développement d'application Power Apps<br />
+						- Développement d'application Power Automate<br />
+						- Modélisation base de données => SQL, NoSQL, SharePoint, Dataverse<br />
+						- Test d'intégration<br />
+						- Suivis et gestion de projet informatique<br />
+						- Suivis des backlogs<br />
+						- Rédaction des livrables<br />
+						- Accompagnement, support et formation d’une équipe sur les services power platform<br /><br />
+
+
+							Stacks programmation : Environnement Microsoft (PowerPlatform, PowerApps, PowerAutomate, PowerBI, SharePoint, Office365), JavaScript, React.js,Node.js avec Express,
+							MySQL<br />
+
+							Clients : Avenir Plus, BM Data Solutions ( Formation PowerPlatform )
+						</P>
+					</VerticalTimelineElement>
+				<VerticalTimelineElement
+						className="vertical-timeline-element--work"
+						iconStyle={{
+							background: 'green',
+							color: '#fff',
+						}}
+					>
+						<h3 className="vertical-timeline-element-title">
 						Consultant Microsoft Dynamics 365 / Développeur PowerPlateform
 						</h3>
 						<h4 className="vertical-timeline-element-subtitle">
-							G2i365 <br />- Mars 2022 - en cours
+							G2i365 <br />Mars 2022 - en cours
 						</h4>
 						<P>
 							- Développement et conception d’application PowerApps <br />
@@ -42,7 +75,7 @@ function Experience() {
 					<VerticalTimelineElement
 						className="vertical-timeline-element--work"
 						iconStyle={{
-							background: 'green',
+							background: 'rgb(33, 150, 243)',
 							color: '#fff',
 						}}
 					>
@@ -50,7 +83,7 @@ function Experience() {
 							Développeur Fullstack React / Node.js - Développeur PowerApps
 						</h3>
 						<h4 className="vertical-timeline-element-subtitle">
-							Alternance IBM <br /> - Mars 2021
+							Alternance IBM <br /> - Mars 2021 - Mars 2022
 						</h4>
 						<P>
 							- développement d'interface frontend et backend <br />

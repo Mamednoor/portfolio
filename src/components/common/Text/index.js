@@ -10,7 +10,7 @@ const Text = styled.p`
 	color: white;
 
 	@media (max-width: 768px) {
-		margin-bottom: 50px;
+		margin-bottom: 40px;
 	}
 `
 

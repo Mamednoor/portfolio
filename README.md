@@ -6,17 +6,18 @@ Pour voir le site veuillez suivre ce lien : [Mamed Noor Gohabur](https://mamedno
 
 ## Details  
 
-Création d'un portfolio avec React.js afin de me présenter et de mettre en avant mes réalisations ainsi que mes expériences.
-Le porte folio est hébergé sur Netlify.com
+Création d'un porte-folio avec React.js afin de me présenter et de mettre en avant mes réalisations ainsi que mes expériences.
+Le porte-folio est hébergé sur Netlify.com
 
 ## Technologies
 
-- React
-- React-scroll
-- ant design
-- styled-component
-- ityped
-- react-vertical-timeline-component
+- [React](https://fr.reactjs.org/)
+- [React-scroll](https://github.com/fisshy/react-scroll)
+- [Ant Design](https://ant.design/)
+- [Styled-component](https://styled-components.com/)
+- [ityped](https://ityped.surge.sh/)
+- [react-vertical-timeline-component](https://stephane-monnot.github.io/react-vertical-timeline/#/)
+- [Particles](https://particles.js.org/)
 
 ## Arborescence
 
@@ -30,7 +31,7 @@ Le porte folio est hébergé sur Netlify.com
 │   └──App.test.js  
 ├── assets  
 │   ├── img  
-│   ├── Mamed-Gohabur-Developpeur-React-Nodejs.pdf  
+│   ├── Mamed-Noor-Gohabur-Développeur.pdf  
 │   └── Profile.jpeg  
 ├── components  
 │   ├── common  
@@ -61,11 +62,6 @@ Le porte folio est hébergé sur Netlify.com
 │   │   ├── Home.js  
 │   │   ├── Info.js  
 │   │   └── Portfolio.js  
-│   ├── shared  
-│   │   ├── // NavBar.css  
-│   │   ├── // NavBar.js  
-│   │   ├── Stack.css  
-│   │   └── Stack.js  
 │   └── stylesheet  
 │       ├── Experience.css  
 │       ├── Follow.css  

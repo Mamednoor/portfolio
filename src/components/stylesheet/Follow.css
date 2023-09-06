@@ -1,42 +1,34 @@
 .p-contact {
-  font-size: 20px;
-  font-family: Calligraffitti;
-  text-align: center;
-  color: whitesmoke;
+	font-size: 20px;
+	font-family: Calligraffitti;
+	text-align: center;
+	color: whitesmoke;
 }
 
 .social_links {
-  display: flex;
-  justify-content: center;
-  list-style: none;
-  padding: 10px;
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	padding: 10px;
 }
 
 .ul-contact {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
 }
 
 .li-contact {
-  text-align: center;
-  display: inline;
-  padding: 20px;
-  font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	display: inline;
+	padding: 20px;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .a-contact {
-  font-size: 30px;
-  font-family: Calligraffitti;
-  text-decoration: none;
-  text-align: center;
-  color: whitesmoke;
-}
-
-#Follow {
-  padding: 20px;
-  background-color: black;
-  width: 100%;
-  color: whitesmoke;
-  z-index: 2;
+	font-size: 30px;
+	font-family: Calligraffitti;
+	text-decoration: none;
+	text-align: center;
+	color: whitesmoke;
 }

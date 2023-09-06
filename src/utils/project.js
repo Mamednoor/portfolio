@@ -5,6 +5,7 @@ import reduxtrain from '../assets/img/redux-train.png'
 import papiercrayon from '../assets/img/papiercrayon.png'
 import workerCo from '../assets/img/Worker&Co.png'
 import portfoliov2 from '../assets/img/portefolio-php.png'
+import avenirplus from '../assets/img/AvenirPlus.png'
 
 const project = [
 	{
@@ -61,11 +62,33 @@ const project = [
 
 	{
 		name: 'Portefolio v2',
-		description: 'Portefolio',
+		description: 'Portefolio réalisé avec PHP',
 		image: `${portfoliov2}`,
 		stack: ' - Stack: HTML, CSS, JavaScript, PHP',
 		link: 'https://mamedgohabur.42web.io/',
 		repo: 'https://github.com/Mamednoor/Portfolio_PHP',
+	},
+/* 	{
+		name: 'Dashboard - Gestion de suivis des demande',
+		description: 'Application de gestion et suivis des demandes utilisateurs.',
+		stack: ' - Stack: HTML, CSS, JavaScript, React',
+		link: 'https://mamednoor.netlify.app/',
+		repo: 'https://github.com/Mamednoor/Dashboard_Ticketing',
+	},
+	{
+		name: 'API REST',
+		description: 'API - Backend Gestion de suivis des demandes',
+		stack: ' - Stack: JavaScript, Node.js avec Express, Nodemailer, MongoDB, Mongoose, NoSQL, Redis, Bcrypt, Joi ',
+		link: 'https://mamednoor.netlify.app/',
+		repo: 'https://github.com/Mamednoor/backend_ticketing',
+	}, */
+	{
+		name: 'Avenir Plus',
+		description: 'Création du site vitrine de la société Avenir Plus',
+		image: `${avenirplus}`,
+		stack: ' - Stack: JavaScript, EmailJS, React.js ',
+		link: 'https://avenirplus.netlify.app/',
+		repo: '',
 	},
 ]
 
