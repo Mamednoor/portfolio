@@ -45,7 +45,7 @@ function Experience() {
 							Stacks programmation : Environnement Microsoft (PowerPlatform, PowerApps, PowerAutomate, PowerBI, SharePoint, Office365), JavaScript, React.js,Node.js avec Express,
 							MySQL<br /><br />
 
-							Clients : Avenir Plus, BM Data Solutions ( Formation PowerPlatform )
+							Clients : Avenir Plus, BM Data Solutions
 						</P>
 					</VerticalTimelineElement>
 				<VerticalTimelineElement
