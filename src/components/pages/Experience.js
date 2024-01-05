@@ -52,7 +52,7 @@ function Experience() {
 				<VerticalTimelineElement
 						className="vertical-timeline-element--work"
 						iconStyle={{
-							background: 'green',
+							background: 'rgb(33, 150, 243)',
 							color: '#fff',
 						}}
 					>
