@@ -27,7 +27,7 @@ function Experience() {
 						Consultant Microsoft Dynamics 365 / Développeur PowerPlateform
 						</h3>
 						<h4 className="vertical-timeline-element-subtitle">
-							G2i365 <br />- Mars 2022 - en cours
+							G2i365 <br />- Mars 2022 - Décembre 2023
 						</h4>
 						<P>
 							- Développement et conception d’application PowerApps <br />
@@ -48,12 +48,13 @@ function Experience() {
 						}}
 					>
 						<h3 className="vertical-timeline-element-title">
-							Développeur Fullstack React / Node.js - Développeur PowerApps
+							Consultant Microsoft Dynamics 365 / Développeur PowerPlateform - Développeur Fullstack React / Node.js
 						</h3>
 						<h4 className="vertical-timeline-element-subtitle">
 							Alternance IBM <br /> - Mars 2021 - Mars 2022
 						</h4>
 						<P>
+							- Organisation et stratégie d'entreprise <br />
 							- développement d'interface frontend et backend <br />
 							- développement d'APIRest <br />
 							- modélisation base de données => SQL, NoSQL, SharePoint,
@@ -64,43 +65,13 @@ function Experience() {
 							- Paramétrage Dynamics 365 Finance & Opération <br />
 							- Test d'intégration <br />
 							- Gestion de projet informatique <br />
-							- Scrumm <br />
-							- Suivis des backlogs <br />
-							Stacks programmation : JavaScript, React.js,Node.js avec Express,
-							PHP, Angular,MySQL, Mongodb avec Mongoose
-						</P>
-					</VerticalTimelineElement>
-					<VerticalTimelineElement
-						className="vertical-timeline-element--work"
-						iconStyle={{
-							background: 'rgb(33, 150, 243)',
-							color: '#fff',
-						}}
-					>
-						<h3 className="vertical-timeline-element-title">
-							Consultant Microsoft Dynamics 365 / Développeur PowerPlateform
-						</h3>
-						<h4 className="vertical-timeline-element-subtitle">
-							Alternance IBM - 2021 <br />
-							Etudiant à la Business Apps (fondée par Microsoft, WebForce3 et
-							Social Builder)
-						</h4>
-						<P>
-							- Organisation et stratégie d'entreprise <br />
-							- Gestion de projet informatique <br />
-							- Microsoft dynamics D365 <br />
-							- Power Plateform <br />
-							- Intégration frontend <br />
-							- Développement backend <br />
-							- Modélisation base de données <br />
-							- DevOps <br />
 							- Développement d'applications desktop <br />
 							- Développement d'applications multi-couches
 							<br />
-							- Certification PL200 <br />
-							- Certification PL400 <br />
-							Stacks programmation : JavaScript, PHP, Angular, MySQL, C#, .NET,
-							CRM Microsoft Dynamics 365
+							- Scrumm <br />
+							- Suivis des backlogs <br />
+							Stacks programmation : JavaScript, React.js,Node.js avec Express,
+							PHP, Angular,MySQL, Mongodb avec Mongoose, Environnement Microsoft (Power Apps, Power Automate, Power BI, SharePoint)
 						</P>
 					</VerticalTimelineElement>
 					<VerticalTimelineElement
