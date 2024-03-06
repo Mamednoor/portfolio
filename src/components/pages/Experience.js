@@ -24,6 +24,26 @@ function Experience() {
 						}}
 					>
 						<h3 className="vertical-timeline-element-title">
+						Ingénieur Power Platform
+						</h3>
+						<h4 className="vertical-timeline-element-subtitle">
+							
+							Devoteam <br /> Janvier 2023 - en cours
+						</h4>
+						<P>
+
+							Stacks programmation : Environnement Microsoft (PowerPlatform, PowerApps, PowerAutomate, PowerBI, SharePoint, Office365)
+
+						</P>
+					</VerticalTimelineElement>
+				<VerticalTimelineElement
+						className="vertical-timeline-element--work"
+						iconStyle={{
+							background: 'green',
+							color: '#fff',
+						}}
+					>
+						<h3 className="vertical-timeline-element-title">
 						Développeur PowerPlateform / Développeur React.js
 						</h3>
 						<h4 className="vertical-timeline-element-subtitle">
