@@ -14,6 +14,7 @@ const ContentBody = styled.div`
 		display: flex;
 		flex-direction: column;
 		margin-bottom: 20px;
+		margin-top: 75px;
 	}
 `
 

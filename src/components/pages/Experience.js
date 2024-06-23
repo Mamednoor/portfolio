@@ -24,6 +24,59 @@ function Experience() {
 						}}
 					>
 						<h3 className="vertical-timeline-element-title">
+						Ingénieur Power Platform
+						</h3>
+						<h4 className="vertical-timeline-element-subtitle">
+							
+							Devoteam <br /> Janvier 2023 - en cours
+						</h4>
+						<P>
+
+							Stacks programmation : Environnement Microsoft (PowerPlatform, PowerApps, PowerAutomate, PowerBI, SharePoint, Office365)
+
+						</P>
+					</VerticalTimelineElement>
+				<VerticalTimelineElement
+						className="vertical-timeline-element--work"
+						iconStyle={{
+							background: 'green',
+							color: '#fff',
+						}}
+					>
+						<h3 className="vertical-timeline-element-title">
+						Développeur PowerPlateform / Développeur React.js
+						</h3>
+						<h4 className="vertical-timeline-element-subtitle">
+							Freelance <br /> Juillet 2023 - en cours
+						</h4>
+						<P>
+						- Accompagnement, Conception et Développement d'application web<br />
+						- Conception et Développement d'application Power Apps<br />
+						- Développement d'application Power Automate<br />
+						- Modélisation base de données => SQL, NoSQL, SharePoint, Dataverse<br />
+						- Test d'intégration<br />
+						- Suivis et gestion de projet informatique<br />
+						- Suivis des backlogs<br />
+						- Rédaction des livrables<br />
+						- Accompagnement, support et formation d’une équipe sur les services power platform<br /><br />
+
+
+							Stacks programmation : Environnement Microsoft (PowerPlatform, PowerApps, PowerAutomate, PowerBI, SharePoint, Office365), JavaScript, React.js,Node.js avec Express,
+							MySQL<br /><br />
+
+							Clients : Avenir Plus, BM Data Solutions
+						</P>
+					</VerticalTimelineElement>
+				
+
+				<VerticalTimelineElement
+						className="vertical-timeline-element--work"
+						iconStyle={{
+							background: 'rgb(33, 150, 243)',
+							color: '#fff',
+						}}
+					>
+						<h3 className="vertical-timeline-element-title">
 						Consultant Microsoft Dynamics 365 / Développeur PowerPlateform
 						</h3>
 						<h4 className="vertical-timeline-element-subtitle">
@@ -74,6 +127,22 @@ function Experience() {
 							PHP, Angular,MySQL, Mongodb avec Mongoose, Environnement Microsoft (Power Apps, Power Automate, Power BI, SharePoint)
 						</P>
 					</VerticalTimelineElement>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 					<VerticalTimelineElement
 						className="vertical-timeline-element--work"
 						iconStyle={{
