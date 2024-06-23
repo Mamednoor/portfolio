@@ -55,6 +55,7 @@ export const NavLinks = styled(Link)`
 	padding: 13px 30px 13px 30px;
 	text-decoration: none;
 	color: inherit;
+	cursor: pointer;
 	transition: all 0.2s;
 	&::after {
 		content: '';

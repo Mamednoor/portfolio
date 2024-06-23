@@ -8,11 +8,16 @@ const Link = styled.a`
 	z-index: 1;
 
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
   :hover {
     color: red;
     cursor:pointer;
     transition: color 0.9s, background 0.9s, border-color 0.9s, box-shadow 0.9s, -webkit-box-shadow 0.9s;
   }
+<<<<<<< HEAD
+=======
 =======
 	&:hover {
 		color: #cf1406;
@@ -21,6 +26,7 @@ const Link = styled.a`
 			-webkit-box-shadow 0.9s;
 	}
 >>>>>>> origin/master
+>>>>>>> master
 `
 
 // const Link = styled.a`

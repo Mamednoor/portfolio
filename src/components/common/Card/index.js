@@ -12,9 +12,6 @@ export const CardContainer = styled.div`
 
 	:hover {
 		transform: scale(1.01);
-		border: 2px solid #cf1406;
-		transition: color 0.9s, background 0.9s, border-color 0.9s, box-shadow 0.9s,
-			-webkit-box-shadow 0.9s;
 	}
 
 	@media (max-width: 768px) {
@@ -25,6 +22,7 @@ export const CardContainer = styled.div`
 `
 
 export const CardBoxed = styled.div`
+	background: black;
 	font-size: 15px;
 	max-width: 350px;
 	height: 468px;

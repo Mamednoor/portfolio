@@ -2,8 +2,6 @@ import React, { useEffect, useState } from 'react'
 
 import { FieldTimeOutlined } from '@ant-design/icons'
 
-import Centered from '../common/Centered'
-
 import data from '../../utils/project'
 import Link from '../common/Link'
 import {
@@ -14,8 +12,6 @@ import {
 	Img,
 	P,
 } from '../common/Card'
-
-import { FieldTimeOutlined } from '@ant-design/icons'
 
 function Cards() {
 	const [projet] = useState(data)
@@ -28,7 +24,11 @@ function Cards() {
 				<CardContainer key={i} className="card-container">
 					<CardBoxed>
 						<CustomImage>
+<<<<<<< HEAD
+{/* 							<Img
+=======
 							{/* <Img
+>>>>>>> master
 								alt="Voici une photo du projet présenté avec sa technologie associée"
 								src={item.image}
 							/> */}
@@ -38,7 +38,11 @@ function Cards() {
 									src={item.image}
 								/>
 							) : (
+<<<<<<< HEAD
+								<>
+=======
 								<Centered>
+>>>>>>> master
 									<FieldTimeOutlined
 										style={{
 											fontSize: '70px',
@@ -46,7 +50,11 @@ function Cards() {
 											marginTop:'100px'
 										}}
 									/>
+<<<<<<< HEAD
+								</>
+=======
 								</Centered>
+>>>>>>> master
 							)}
 						</CustomImage>
 						<CustomCard>
