@@ -30,6 +30,6 @@ function App() {
 			<Follow id="Contact" />
 		</div>
 	)
-}
+} 
 
 export default App
