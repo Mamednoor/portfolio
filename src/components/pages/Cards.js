@@ -15,8 +15,6 @@ import {
 	P,
 } from '../common/Card'
 
-import { FieldTimeOutlined } from '@ant-design/icons'
-
 function Cards() {
 	const [projet] = useState(data)
 

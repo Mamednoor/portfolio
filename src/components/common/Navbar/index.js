@@ -37,7 +37,7 @@ function Navbar() {
 						Accueil
 					</NavLinks>
 
-					<NavLinks
+					{/* <NavLinks
 						to="Portefolio"
 						spy={true}
 						smooth={true}
@@ -46,7 +46,7 @@ function Navbar() {
 						onClick={closeMobileMenu}
 					>
 						Portefolio
-					</NavLinks>
+					</NavLinks> */}
 
 					<NavLinks
 						to="Experience"

@@ -5,7 +5,7 @@ import Home from './components/pages/Home'
 import Loader from './components/common/Loader'
 import Navbar from './components/common/Navbar'
 import Particle from './components/common/Particles'
-import Portfolio from './components/pages/Portfolio'
+// import Portfolio from './components/pages/Portfolio'
 
 import './App.css'
 
@@ -25,7 +25,7 @@ function App() {
 			<Particle />
 			<Navbar />
 			<Home id="Home" />
-			<Portfolio id="portefolio" />
+			{/* <Portfolio id="portefolio" /> */}
 			<Experience id="Experience" />
 			<Follow id="Contact" />
 		</div>
