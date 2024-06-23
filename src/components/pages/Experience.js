@@ -9,14 +9,13 @@ import TimeLine from '../common/TimeLine'
 import 'react-vertical-timeline-component/style.min.css'
 import '../stylesheet/Experience.css'
 
-
 function Experience() {
 	return (
 		<>
 			<Title>Expériences</Title>
 			<TimeLine id="Experience">
 				<VerticalTimeline>
-				<VerticalTimelineElement
+					<VerticalTimelineElement
 						className="vertical-timeline-element--work"
 						iconStyle={{
 							background: 'green',
@@ -24,19 +23,17 @@ function Experience() {
 						}}
 					>
 						<h3 className="vertical-timeline-element-title">
-						Ingénieur Power Platform
+							Ingénieur Power Platform
 						</h3>
 						<h4 className="vertical-timeline-element-subtitle">
-							
 							Devoteam <br /> Janvier 2023 - en cours
 						</h4>
 						<P>
-
-							Stacks programmation : Environnement Microsoft (PowerPlatform, PowerApps, PowerAutomate, PowerBI, SharePoint, Office365)
-
+							Stacks programmation : Environnement Microsoft (PowerPlatform,
+							PowerApps, PowerAutomate, PowerBI, SharePoint, Office365)
 						</P>
 					</VerticalTimelineElement>
-				<VerticalTimelineElement
+					<VerticalTimelineElement
 						className="vertical-timeline-element--work"
 						iconStyle={{
 							background: 'green',
@@ -44,32 +41,43 @@ function Experience() {
 						}}
 					>
 						<h3 className="vertical-timeline-element-title">
-						Développeur PowerPlateform / Développeur React.js
+							Développeur PowerPlateform / Développeur React.js
 						</h3>
 						<h4 className="vertical-timeline-element-subtitle">
 							Freelance <br /> Juillet 2023 - en cours
 						</h4>
 						<P>
-						- Accompagnement, Conception et Développement d'application web<br />
-						- Conception et Développement d'application Power Apps<br />
-						- Développement d'application Power Automate<br />
-						- Modélisation base de données => SQL, NoSQL, SharePoint, Dataverse<br />
-						- Test d'intégration<br />
-						- Suivis et gestion de projet informatique<br />
-						- Suivis des backlogs<br />
-						- Rédaction des livrables<br />
-						- Accompagnement, support et formation d’une équipe sur les services power platform<br /><br />
-
-
-							Stacks programmation : Environnement Microsoft (PowerPlatform, PowerApps, PowerAutomate, PowerBI, SharePoint, Office365), JavaScript, React.js,Node.js avec Express,
-							MySQL<br /><br />
-
+							- Accompagnement, Conception et Développement d'application web
+							<br />
+							- Conception et Développement d'application Power Apps
+							<br />
+							- Développement d'application Power Automate
+							<br />
+							- Modélisation base de données => SQL, NoSQL, SharePoint,
+							Dataverse
+							<br />
+							- Test d'intégration
+							<br />
+							- Suivis et gestion de projet informatique
+							<br />
+							- Suivis des backlogs
+							<br />
+							- Rédaction des livrables
+							<br />
+							- Accompagnement, support et formation d’une équipe sur les
+							services power platform
+							<br />
+							<br />
+							Stacks programmation : Environnement Microsoft (PowerPlatform,
+							PowerApps, PowerAutomate, PowerBI, SharePoint, Office365),
+							JavaScript, React.js,Node.js avec Express, MySQL
+							<br />
+							<br />
 							Clients : Avenir Plus, BM Data Solutions
 						</P>
 					</VerticalTimelineElement>
-				
 
-				<VerticalTimelineElement
+					<VerticalTimelineElement
 						className="vertical-timeline-element--work"
 						iconStyle={{
 							background: 'rgb(33, 150, 243)',
@@ -77,20 +85,25 @@ function Experience() {
 						}}
 					>
 						<h3 className="vertical-timeline-element-title">
-						Consultant Microsoft Dynamics 365 / Développeur PowerPlateform
+							Consultant Microsoft Dynamics 365 / Développeur PowerPlateform
 						</h3>
 						<h4 className="vertical-timeline-element-subtitle">
 							G2i365 <br />- Mars 2022 - Décembre 2023
 						</h4>
 						<P>
 							- Développement et conception d’application PowerApps <br />
-							- Modélisation de base de donnée => SQL, NoSQL, SharePoint, Dataverse <br />
+							- Modélisation de base de donnée => SQL, NoSQL, SharePoint,
+							Dataverse <br />
 							- Développement de Flux PowerAutomate <br />
-							- Rédaction de livrable => spécification technique et fonctionnelle <br />
+							- Rédaction de livrable => spécification technique et
+							fonctionnelle <br />
 							- Suivis et gestion de projet <br />
-							- Accompagnement, support et formation d’une équipe sur les services power platform <br /><br />
+							- Accompagnement, support et formation d’une équipe sur les
+							services power platform <br />
+							<br />
 							Stacks programmation : Environnement Microsoft <br />
-							Clients : Malakoff Humanis, SNCF, Fonds de dotations du Louvres, Le Bélier
+							Clients : Malakoff Humanis, SNCF, Fonds de dotations du Louvres,
+							Le Bélier
 						</P>
 					</VerticalTimelineElement>
 					<VerticalTimelineElement
@@ -101,7 +114,8 @@ function Experience() {
 						}}
 					>
 						<h3 className="vertical-timeline-element-title">
-							Consultant Microsoft Dynamics 365 / Développeur PowerPlateform - Développeur Fullstack React / Node.js
+							Consultant Microsoft Dynamics 365 / Développeur PowerPlateform -
+							Développeur Fullstack React / Node.js
 						</h3>
 						<h4 className="vertical-timeline-element-subtitle">
 							Alternance IBM <br /> - Mars 2021 - Mars 2022
@@ -124,24 +138,10 @@ function Experience() {
 							- Scrumm <br />
 							- Suivis des backlogs <br />
 							Stacks programmation : JavaScript, React.js,Node.js avec Express,
-							PHP, Angular,MySQL, Mongodb avec Mongoose, Environnement Microsoft (Power Apps, Power Automate, Power BI, SharePoint)
+							PHP, Angular,MySQL, Mongodb avec Mongoose, Environnement Microsoft
+							(Power Apps, Power Automate, Power BI, SharePoint)
 						</P>
 					</VerticalTimelineElement>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 					<VerticalTimelineElement
 						className="vertical-timeline-element--work"
