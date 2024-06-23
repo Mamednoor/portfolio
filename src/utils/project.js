@@ -5,6 +5,7 @@ import reduxtrain from '../assets/img/redux-train.png'
 import papiercrayon from '../assets/img/papiercrayon.png'
 import workerCo from '../assets/img/Worker&Co.png'
 import portfoliov2 from '../assets/img/portefolio-php.png'
+import avenirplus from '../assets/img/AvenirPlus.png'
 
 const project = [
 	{
@@ -67,7 +68,11 @@ const project = [
 		link: 'https://mamedgohabur.42web.io/',
 		repo: 'https://github.com/Mamednoor/Portfolio_PHP',
 	},
+<<<<<<< HEAD
 	{
+=======
+/* 	{
+>>>>>>> origin/master
 		name: 'Dashboard - Gestion de suivis des demande',
 		description: 'Application de gestion et suivis des demandes utilisateurs.',
 		stack: ' - Stack: HTML, CSS, JavaScript, React',
@@ -80,6 +85,17 @@ const project = [
 		stack: ' - Stack: JavaScript, Node.js avec Express, Nodemailer, MongoDB, Mongoose, NoSQL, Redis, Bcrypt, Joi ',
 		link: 'https://mamednoor.netlify.app/',
 		repo: 'https://github.com/Mamednoor/backend_ticketing',
+<<<<<<< HEAD
+=======
+	}, */
+	{
+		name: 'Avenir Plus',
+		description: 'Création du site vitrine de la société Avenir Plus',
+		image: `${avenirplus}`,
+		stack: ' - Stack: JavaScript, EmailJS, React.js ',
+		link: 'https://avenirplus.netlify.app/',
+		repo: '',
+>>>>>>> origin/master
 	},
 ]
 

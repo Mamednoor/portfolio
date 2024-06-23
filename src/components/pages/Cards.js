@@ -24,7 +24,11 @@ function Cards() {
 				<CardContainer key={i} className="card-container">
 					<CardBoxed>
 						<CustomImage>
+<<<<<<< HEAD
 {/* 							<Img
+=======
+							{/* <Img
+>>>>>>> master
 								alt="Voici une photo du projet présenté avec sa technologie associée"
 								src={item.image}
 							/> */}
@@ -34,7 +38,11 @@ function Cards() {
 									src={item.image}
 								/>
 							) : (
+<<<<<<< HEAD
 								<>
+=======
+								<Centered>
+>>>>>>> master
 									<FieldTimeOutlined
 										style={{
 											fontSize: '70px',
@@ -42,7 +50,11 @@ function Cards() {
 											marginTop:'100px'
 										}}
 									/>
+<<<<<<< HEAD
 								</>
+=======
+								</Centered>
+>>>>>>> master
 							)}
 						</CustomImage>
 						<CustomCard>
