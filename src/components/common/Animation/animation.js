@@ -9,8 +9,8 @@ const Animation = () => {
 		init(myElement, {
 			showCursor: false,
 			strings: [
+				'Développeur Power Platform',
 				'Développeur Fullstack React, Node.js',
-				'Développeur Power Apps',
 			],
 		})
 	}, [])
