@@ -15,7 +15,7 @@ function Experience() {
 			<Title>Expériences</Title>
 			<TimeLine id="Experience">
 				<VerticalTimeline>
-					<VerticalTimelineElement
+				<VerticalTimelineElement
 						className="vertical-timeline-element--work"
 						iconStyle={{
 							background: 'green',
@@ -23,10 +23,40 @@ function Experience() {
 						}}
 					>
 						<h3 className="vertical-timeline-element-title">
+							Techlead Power Platform
+						</h3>
+						<h4 className="vertical-timeline-element-subtitle">
+							Malakoff Humanis <br /> Mai 2024 - en cours
+						</h4>
+						<P>
+							- Conception et Développement d'application Power Apps
+							<br />
+							- Conception et Développement de flux Power Automate
+							<br />
+							- Modélisation base de données => SQL, NoSQL, SharePoint,
+							Dataverse
+							<br />
+							- Suivis et gestion de projet informatique
+							<br />
+							- Suivis des backlogs
+							<br />
+							- Rédaction des livrables
+							<br />	<br />
+							Stacks programmation : Environnement Microsoft
+						</P>
+					</VerticalTimelineElement>
+					<VerticalTimelineElement
+						className="vertical-timeline-element--work"
+						iconStyle={{
+							background: 'rgb(33, 150, 243)',
+							color: '#fff',
+						}}
+					>
+						<h3 className="vertical-timeline-element-title">
 							Ingénieur Power Platform
 						</h3>
 						<h4 className="vertical-timeline-element-subtitle">
-							Devoteam <br /> Janvier 2023 - en cours
+							Devoteam <br /> Janvier 2024 - Mai 2024
 						</h4>
 						<P>
 							Stacks programmation : Environnement Microsoft (PowerPlatform,
