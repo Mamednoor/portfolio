@@ -23,7 +23,7 @@
     "react-vertical-timeline-component": "^3.0.0",
     "styled-button-component": "^4.0.0",
     "styled-components": "^5.2.1",
-    "webpack": "^5.97.1"
+    "webpack": "^5.105.0"
   },
   "scripts": {
     "start": "react-scripts start",
