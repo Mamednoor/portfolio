@@ -26,10 +26,6 @@ function Cards() {
 				<CardContainer key={i} className="card-container">
 					<CardBoxed>
 						<CustomImage>
-							{/* <Img
-								alt="Voici une photo du projet présenté avec sa technologie associée"
-								src={item.image}
-							/> */}
 							{item.image != null ? (
 								<Img
 									alt="Voici une photo du projet présenté avec sa technologie associée"

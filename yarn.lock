@@ -7627,13 +7627,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"i@npm:^0.3.7":
-  version: 0.3.7
-  resolution: "i@npm:0.3.7"
-  checksum: 10c0/fc591b64987c5fcc96aadf9136d8d58b937abb90e9cd840160b9c99a32140ed8a30a94ee1ab7d9a45170ec4d3f872dda9d15afeb1083f689873da6197c25efc7
-  languageName: node
-  linkType: hard
-
 "iconv-lite@npm:0.4.24":
   version: 0.4.24
   resolution: "iconv-lite@npm:0.4.24"
@@ -8920,13 +8913,6 @@ __metadata:
   bin:
     jiti: bin/jiti.js
   checksum: 10c0/77b61989c758ff32407cdae8ddc77f85e18e1a13fc4977110dbd2e05fc761842f5f71bce684d9a01316e1c4263971315a111385759951080bbfe17cbb5de8f7a
-  languageName: node
-  linkType: hard
-
-"jquery@npm:^3.5.1":
-  version: 3.7.1
-  resolution: "jquery@npm:3.7.1"
-  checksum: 10c0/808cfbfb758438560224bf26e17fcd5afc7419170230c810dd11f5c1792e2263e2970cca8d659eb84fcd9acc301edb6d310096e450277d54be4f57071b0c82d9
   languageName: node
   linkType: hard
 
@@ -10485,9 +10471,7 @@ __metadata:
     "@testing-library/user-event": "npm:^12.0.15"
     antd: "npm:^4.9.4"
     classnames: "npm:^2.2.6"
-    i: "npm:^0.3.7"
     ityped: "npm:^1.0.3"
-    jquery: "npm:^3.5.1"
     react: "npm:^16.13.1"
     react-awesome-modal: "npm:^2.0.5"
     react-dom: "npm:^16.13.1"
@@ -10497,11 +10481,9 @@ __metadata:
     react-scroll: "npm:^1.7.16"
     react-tsparticles: "npm:^1.39.0"
     react-vertical-timeline-component: "npm:^3.0.0"
-    serialize-javascript: "npm:^6.0.2"
     styled-button-component: "npm:^4.0.0"
     styled-components: "npm:^5.2.1"
     webpack: "npm:^5.97.1"
-    websocket-extensions: "npm:^0.1.4"
   languageName: unknown
   linkType: soft
 
@@ -14753,7 +14735,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"websocket-extensions@npm:>=0.1.1, websocket-extensions@npm:^0.1.4":
+"websocket-extensions@npm:>=0.1.1":
   version: 0.1.4
   resolution: "websocket-extensions@npm:0.1.4"
   checksum: 10c0/bbc8c233388a0eb8a40786ee2e30d35935cacbfe26ab188b3e020987e85d519c2009fe07cfc37b7f718b85afdba7e54654c9153e6697301f72561bfe429177e0

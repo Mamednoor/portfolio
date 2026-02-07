@@ -68,20 +68,6 @@ const project = [
 		link: 'https://mamedgohabur.42web.io/',
 		repo: 'https://github.com/Mamednoor/Portfolio_PHP',
 	},
-/* 	{
-		name: 'Dashboard - Gestion de suivis des demande',
-		description: 'Application de gestion et suivis des demandes utilisateurs.',
-		stack: ' - Stack: HTML, CSS, JavaScript, React',
-		link: 'https://mamednoor.netlify.app/',
-		repo: 'https://github.com/Mamednoor/Dashboard_Ticketing',
-	},
-	{
-		name: 'API REST',
-		description: 'API - Backend Gestion de suivis des demandes',
-		stack: ' - Stack: JavaScript, Node.js avec Express, Nodemailer, MongoDB, Mongoose, NoSQL, Redis, Bcrypt, Joi ',
-		link: 'https://mamednoor.netlify.app/',
-		repo: 'https://github.com/Mamednoor/backend_ticketing',
-	}, */
 	{
 		name: 'Avenir Plus',
 		description: 'Création du site vitrine de la société Avenir Plus',
