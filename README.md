@@ -24,53 +24,54 @@ Le porte-folio est hébergé sur Netlify.com
 ├── public  
 │   ├── favicon.png  
 │   ├── index.html  
-│   └──robots.txt  
+│   └── robots.txt
 ├── src  
-│   ├──App.css  
-│   ├──App.js  
-│   └──App.test.js  
-├── assets  
-│   ├── img  
-│   ├── Mamed-Noor-Gohabur-Développeur.pdf  
-│   └── Profile.jpeg  
-├── components  
-│   ├── common  
-│   │   ├── Animation  
-│   │   ├── Avatar  
-│   │   ├── Bottom  
-│   │   ├── BriefBox  
-│   │   ├── Button  
-│   │   ├── Card  
-│   │   ├── Centered  
-│   │   ├── ContentBody  
-│   │   ├── Flex  
-│   │   ├── H1  
-│   │   ├── H2  
-│   │   ├── Link  
-│   │   ├── Main  
-│   │   ├── Navbar  
-│   │   ├── P  
-│   │   ├── SchoolLink  
-│   │   ├── Section  
-│   │   ├── Text  
-│   │   ├── TimeLine  
-│   │   └── Title  
-│   ├── pages  
-│   │   ├── Cards.js  
-│   │   ├── Experience.js  
-│   │   ├── Follow.js  
-│   │   ├── Home.js  
-│   │   ├── Info.js  
-│   │   └── Portfolio.js  
-│   └── stylesheet  
-│       ├── Experience.css  
-│       ├── Follow.css  
-│       └── Info.css  
-├── index.css  
-├── index.js  
-├── setupTests.js  
-└── utils  
-│   └── project.js  
+│   ├── assets
+│   │   ├── img
+│   │   ├── Mamed-Noor-Gohabur-Développeur.pdf
+│   │   └── Profile.jpeg
+│   ├── components
+│   │   ├── common
+│   │   │   ├── Animation
+│   │   │   ├── Avatar
+│   │   │   ├── Bottom
+│   │   │   ├── BriefBox
+│   │   │   ├── Button
+│   │   │   ├── Card
+│   │   │   ├── Centered
+│   │   │   ├── ContentBody
+│   │   │   ├── Flex
+│   │   │   ├── H1
+│   │   │   ├── H2
+│   │   │   ├── Link
+│   │   │   ├── Main
+│   │   │   ├── Navbar
+│   │   │   ├── P
+│   │   │   ├── SchoolLink
+│   │   │   ├── Section
+│   │   │   ├── Text
+│   │   │   ├── TimeLine
+│   │   │   └── Title
+│   │   ├── pages
+│   │   │   ├── Cards.js
+│   │   │   ├── Experience.js
+│   │   │   ├── Follow.js
+│   │   │   ├── Home.js
+│   │   │   ├── Info.js
+│   │   │   └── Portfolio.js
+│   │   └── stylesheet
+│   │       ├── Experience.css
+│   │       ├── Follow.css
+│   │       └── Info.css
+│   ├── utils
+│   │   ├── experiences.js
+│   │   └── project.js
+│   ├── App.css
+│   ├── App.js
+│   ├── App.test.js
+│   ├── index.css
+│   ├── index.js
+│   └── setupTests.js
 ├── .gitignore  
 ├── .prettierrc  
 ├── package.json  

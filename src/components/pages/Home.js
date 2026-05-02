@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Animation from '../common/Animation/animation'
+import Animation from '../common/Animation/Animation'
 import H1 from '../common/H1'
 import BriefBox from '../common/BriefBox'
 import Main from '../common/Main'

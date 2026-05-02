@@ -1,12 +1,13 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useRef } from 'react'
 import { init } from 'ityped'
 
 import H2 from '../H2'
 
 const Animation = () => {
+	const textRef = useRef()
+
 	useEffect(() => {
-		const myElement = document.querySelector('#myElement')
-		init(myElement, {
+		init(textRef.current, {
 			showCursor: false,
 			strings: [
 				'Développeur Power Platform',
@@ -17,7 +18,7 @@ const Animation = () => {
 
 	return (
 		<H2>
-			<div id="myElement"></div>
+			<div ref={textRef}></div>
 		</H2>
 	)
 }
