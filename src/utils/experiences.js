@@ -6,7 +6,7 @@ const experiences = [
 		description: [
 			"Conception et Développement d'application Power Apps",
 			"Conception et Développement de flux Power Automate",
-			'Modélisation base de données => SQL, NoSQL, SharePoint, Dataverse',
+			'Modélisation base de données => SharePoint, Dataverse',
 			'Suivis et gestion de projet informatique',
 			'Suivis des backlogs',
 			'Rédaction des livrables',
