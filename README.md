@@ -1,13 +1,13 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/4e11f024-5dd3-4cab-b259-d77cd561deef/deploy-status)](https://app.netlify.com/sites/mamednoor/deploys)  
 
-## Porte folio
+## Portfolio
 
-Pour voir le site veuillez suivre ce lien : [Mamed Noor Gohabur](https://mamednoor.netlify.app)  
+Pour voir le site, veuillez suivre ce lien : [Mamed Noor Gohabur](https://mamednoor.netlify.app)
 
-## Details  
+## Détails
 
-Création d'un porte-folio avec React.js afin de me présenter et de mettre en avant mes réalisations ainsi que mes expériences.
-Le porte-folio est hébergé sur Netlify.com
+Création d'un portfolio avec React.js afin de me présenter et de mettre en avant mes réalisations ainsi que mes expériences.
+Le portfolio est hébergé sur Netlify.com.
 
 ## Technologies
 

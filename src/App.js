@@ -12,9 +12,21 @@ function App() {
 	const [loader, setLoader] = useState(true)
 
 	useEffect(() => {
-		setTimeout(() => {
+		const handleLoad = () => {
 			setLoader(false)
-		}, 1800)
+		}
+
+		if (document.readyState === 'complete') {
+			setLoader(false)
+		} else {
+			window.addEventListener('load', handleLoad)
+			// Sécurité : au cas où l'événement load met trop de temps
+			const timer = setTimeout(handleLoad, 3000)
+			return () => {
+				window.removeEventListener('load', handleLoad)
+				clearTimeout(timer)
+			}
+		}
 	}, [])
 
 	return loader ? (
