@@ -1,5 +1,5 @@
 import React from 'react'
-
+import styled from 'styled-components'
 import {
 	MailOutlined,
 	LinkedinOutlined,
@@ -19,7 +19,41 @@ import '../stylesheet/Info.css'
 import PDF from '../../assets/Mamed-Noor-Gohabur-Développeur.pdf'
 import profilePicture from '../../assets/Profile.jpeg'
 
+const JustifiedText = styled(Text)`
+	text-align: justify;
+`
+
+const IconLink = styled(Link)`
+	z-index: 1;
+`
+
 function Info() {
+	const iconStyle = {
+		fontSize: '70px',
+		color: 'white',
+		margin: '7px',
+	}
+
+	const socialLinks = [
+		{
+			href: 'https://fr.linkedin.com/in/mamednoorgohabur',
+			icon: <LinkedinOutlined style={iconStyle} className="icons" />,
+		},
+		{
+			href: PDF,
+			icon: <AuditOutlined style={iconStyle} className="icons" />,
+			className: 'a-info',
+		},
+		{
+			href: 'https://github.com/Mamednoor',
+			icon: <GithubOutlined style={iconStyle} className="icons" />,
+		},
+		{
+			href: 'mailto:mamed.gohabur@gmail.com',
+			icon: <MailOutlined style={iconStyle} className="icons" />,
+		},
+	]
+
 	return (
 		<ContentBody id="Info">
 			<Centered>
@@ -31,80 +65,29 @@ function Info() {
 			</Centered>
 
 			<Centered>
-				<Text style={{textAlign:"justify"}}>
-				Passionné par les nouvelles technologies, l'informatique et la
-					programmation ce fût avec logique et courage de sauter le pas afin de
-					fusionner passion et travail. Fort de mes expériences dans plusieurs
-					secteurs d'activité, après avoir adapté méthodologie de travail, style
-					de management dans des métiers fonctionnels et opérationnels. J'ai
-					décidé de compléter mon expertise dans le développement web et mobile
-					tout en me spécialisant dans les outils Microsoft D365 ainsi que le
-					développement d'application PowerPlateform.
-				</Text>
+				<JustifiedText>
+					Passionné par les nouvelles technologies et la programmation, j'ai
+					choisi de transformer cette vocation en carrière professionnelle. Fort
+					d'un parcours diversifié en gestion opérationnelle et management, j'ai
+					développé une solide capacité d'adaptation. J'allie aujourd'hui cette
+					expertise métier à des compétences avancées en développement Web,
+					Mobile et solutions Microsoft Dynamics 365 / Power Platform.
+				</JustifiedText>
 			</Centered>
 
 			<Centered>
-				<Section >
-					<Link
-						href="https://fr.linkedin.com/in/mamednoorgohabur"
-						target="_blank"
-						rel="noopener noreferrer"
-						style={{ zIndex: '1' }}
-					>
-						<LinkedinOutlined
-							style={{
-								fontSize: '70px',
-								color: 'white',
-								margin: '7px',
-							}}
-							className="icons"
-						/>
-					</Link>
-
-					<Link 
-						href={PDF}
-						className="a-info"
-						target="_blank"
-						rel="noopener noreferrer"
-						style={{ zIndex: '1' }}
-					>
-
-						<AuditOutlined
-							style={{
-								fontSize: '70px',
-								color: 'white',
-								margin: '7px',
-							}}
-							className="icons"
-						/>
-					</Link>
-
-					<Link
-						href="https://github.com/Mamednoor"
-						target="_blank"
-						rel="noopener noreferrer"
-						style={{ zIndex: '1' }}
-					>
-						<GithubOutlined
-							style={{
-								fontSize: '70px',
-								color: 'white',
-								margin: '7px',
-							}}
-							className="icons"
-						/>
-					</Link>
-
-					<Link href="mailto:mamed.gohabur@gmail.com" rel="noopener noreferrer" style={{ zIndex: '1' }}>
-						<MailOutlined
-							style={{
-								fontSize: '70px',
-								color: 'white',
-								margin: '7px',
-							}}
-							className="icons"
-						/>
-					</Link>
+				<Section>
+					{socialLinks.map((link, index) => (
+						<IconLink
+							key={index}
+							href={link.href}
+							target={link.href.startsWith('mailto') ? undefined : '_blank'}
+							rel="noopener noreferrer"
+							className={link.className}
+						>
+							{link.icon}
+						</IconLink>
+					))}
 				</Section>
 			</Centered>
 		</ContentBody>
